@@ -4,7 +4,7 @@ plugins=(git nyan rails bundler command-not-found pip)
 source $ZSH/oh-my-zsh.sh
 
 # Prompt
-PROMPT='%{$fg_bold[magenta]%}%m%{$reset_color%}:%{$fg_bold[yellow]%}%c%{$reset_color%}%# '
+PROMPT='%{$fg_bold[magenta]%}%m%{$reset_color%}:%{$fg_bold[yellow]%}%~%{$reset_color%}%# '
 RPROMPT='%{$fg_bold[green]%}$(git_prompt_info)%{$reset_color%}% '
 ZSH_THEME_GIT_PROMPT_PREFIX="<%{$fg[red]%}"
 ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
