@@ -1,8 +1,6 @@
 # Start tmux
 if [[ -z "$TMUX" ]]; then
-  tmux att 
-else
-  ./.tmuxstart
+  tmux new-session -d '~/.tmuxrc; zsh' \; attach
 fi
 
 # ZSH Settings
