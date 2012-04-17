@@ -1,0 +1,17 @@
+#!/bin/zsh
+autoload colors ; colors
+
+# 1337 Geek
+clear
+toilet --metal "1337 GEEK"
+
+# System Details
+if [ -e ".sysdet" ]
+then
+  ~/.sysdet
+fi
+
+# Calendar
+print "$fg[red]Today in history$fg[yellow]"
+egrep -h "$(date +"%m/%d|%b* %d")" /usr/share/calendar/*
+echo ""
