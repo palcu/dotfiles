@@ -23,8 +23,7 @@ alias remove="sudo apt-get remove"
 alias off="sudo shutdown -h now"
 alias reload="source ~/.zshrc"
 
-# Fix shit
-export TERM=xterm
+# Exports
 export PYTHONSTARTUP=/home/alex/.pythonrc.py
 export EDITOR="vim"
 export PAGER="most"
