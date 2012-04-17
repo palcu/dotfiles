@@ -1,3 +1,10 @@
+# Start tmux
+if [[ -z "$TMUX" ]]; then
+  tmux att 
+else
+  ./.tmuxstart
+fi
+
 # ZSH Settings
 ZSH=$HOME/.oh-my-zsh
 plugins=(git nyan rails bundler command-not-found pip)
