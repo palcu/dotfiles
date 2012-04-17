@@ -19,7 +19,9 @@ alias df='df -H'
 alias kernel="watch 'dmesg|tail'"
 alias update="sudo apt-get update && sudo apt-get upgrade"
 alias install="sudo apt-get install"
+alias remove="sudo apt-get remove"
 alias off="sudo shutdown -h now"
+alias reload="source ~/.zshrc"
 
 # Fix shit
 export TERM=xterm
