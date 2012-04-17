@@ -8,10 +8,11 @@ toilet --metal "1337 GEEK"
 # System Details
 if [ -e ".sysdet" ]
 then
+  print "$fg[red]System Details$fg[yellow]"
   ~/.sysdet
 fi
 
 # Calendar
-print "$fg[red]Today in history$fg[yellow]"
+print "$fg[red]Today in history"
 egrep -h "$(date +"%m/%d|%b* %d")" /usr/share/calendar/*
 echo ""
