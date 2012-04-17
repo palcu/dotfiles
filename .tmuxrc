@@ -13,6 +13,6 @@ then
 fi
 
 # Calendar
-print "$fg[red]Today in history"
+print "$fg[red]Today in history$fg[yellow]"
 egrep -h "$(date +"%m/%d|%b* %d")" /usr/share/calendar/*
 echo ""
