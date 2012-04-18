@@ -15,4 +15,11 @@ fi
 # Calendar
 print "$fg[red]Today in history$fg[yellow]"
 egrep -h "$(date +"%m/%d|%b* %d")" /usr/share/calendar/*
+
+# Random quote
+if [ -e '.quotes.txt' ]
+then
+  print "$fg_bold[blue]"
+  shuf -n 1 .quotes.txt
+fi
 echo ""
