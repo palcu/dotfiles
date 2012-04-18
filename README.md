@@ -1,7 +1,9 @@
-*Dotfiles*
+# Dotfiles
+
 testing VCS for config files
 
-**TO DO**
+## TO DO
+
 * add sense testing
 * add a proper readme
 * add informatioan about author of bootstrap
