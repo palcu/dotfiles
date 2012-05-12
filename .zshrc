@@ -28,6 +28,7 @@ alias remove="sudo apt-get remove"
 alias off="sudo shutdown -h now"
 alias reload="source ~/.zshrc"
 alias quote="shuf -n 1 ~/.quotes.txt"
+alias netest="mtr 8.8.8.8"
 
 # Exports
 export PYTHONSTARTUP=/home/alex/.pythonrc.py
