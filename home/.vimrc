@@ -30,16 +30,17 @@ set autoindent
 set cindent
 set cinoptions=:s,ps,ts,cs
 set cinwords=if,else,while,do,for,switch,case
+set wildignore+=*.pyc
 
 
 "=== Shortcuts
 set pastetoggle=<F3>
+map <F4> :source ~/.vimrc<CR>
 cmap w!! w !sudo tee % >/dev/null
 
 " \s for seeing tabs spaces
 set listchars=tab:>-,trail:·,eol:$
 nmap <silent> <leader>s :set nolist!<CR>
-
 
 "=== Vundle
 filetype off                   " required!
@@ -66,8 +67,7 @@ Bundle 'matchit.zip'
 Bundle 'nginx.vim'
 au BufRead,BufNewFile /etc/nginx/* set ft=nginx 
 
-Bundle 'git://git.wincent.com/command-t.git'
-nmap <silent> <Leader>r :CommandTFlush<CR>
+Bundle 'ctrlp.vim.git'
 
 Bundle 'Lokaltog/vim-powerline'
 set laststatus=2   " Always show the statusline
@@ -75,5 +75,13 @@ set encoding=utf-8 " Necessary to show unicode glyphs
 set t_Co=256 " Terminal colors
 
 Bundle 'scrooloose/syntastic'
+
+" Working with Django
+Bundle 'django.vim'
+Bundle 'pyflakes.vim'
+Bundle 'pydoc.vim'
+
+" Pysmell Autocompletion for Python
+autocmd FileType python setlocal omnifunc=pysmell#Complete
 
 filetype plugin indent on
