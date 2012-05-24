@@ -37,3 +37,5 @@ export PAGER="most"
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
 export PATH=${PATH}:~/Tools/android-sdk-linux/tools:~/Tools/android-sdk-linux/tools::~/Tools/google_appengine
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
