@@ -67,7 +67,7 @@ Bundle 'matchit.zip'
 Bundle 'nginx.vim'
 au BufRead,BufNewFile /etc/nginx/* set ft=nginx 
 
-Bundle 'ctrlp.vim.git'
+Bundle 'kien/ctrlp.vim'
 
 Bundle 'Lokaltog/vim-powerline'
 set laststatus=2   " Always show the statusline
