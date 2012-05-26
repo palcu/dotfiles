@@ -61,6 +61,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-markdown' 
 Bundle 'henrik/vim-markdown-preview'
+Bundle 'kchmck/vim-coffee-script'
 Bundle 'bufexplorer.zip'
 Bundle 'matchit.zip'
 
