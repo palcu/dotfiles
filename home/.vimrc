@@ -61,6 +61,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-markdown' 
 Bundle 'henrik/vim-markdown-preview'
+Bundle 'kchmck/vim-coffee-script'
 Bundle 'bufexplorer.zip'
 Bundle 'matchit.zip'
 Bundle 'kchmck/vim-coffee-script'
@@ -68,7 +69,7 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'nginx.vim'
 au BufRead,BufNewFile /etc/nginx/* set ft=nginx 
 
-Bundle 'ctrlp.vim.git'
+Bundle 'kien/ctrlp.vim'
 
 Bundle 'Lokaltog/vim-powerline'
 set laststatus=2   " Always show the statusline

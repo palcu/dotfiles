@@ -48,8 +48,13 @@ export PAGER="most"
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
 export PATH=${PATH}:~/Tools/android-sdk-linux/tools:~/Tools/android-sdk-linux/tools::~/Tools/google_appengine
+<<<<<<< HEAD
 export HISTSIZE=1000000
 
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+=======
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" 
+>>>>>>> 2a76e63fd3ac9b38a0a11d485627acf826a1cc9b
