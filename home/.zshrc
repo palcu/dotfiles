@@ -38,6 +38,7 @@ alias vimrc="vim ~/.vimrc"
 
 # Shorthands
 alias v="vim"
+alias e="exit"
 alias py="python"
 alias go='gnome-open'
 
