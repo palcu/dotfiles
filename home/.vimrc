@@ -62,6 +62,8 @@ Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-markdown' 
 Bundle 'henrik/vim-markdown-preview'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'nono/vim-handlebars'
+au BufRead,BufNewFile *.handlebars,*.hbs,*.hjs set ft=handlebars
 Bundle 'bufexplorer.zip'
 Bundle 'matchit.zip'
 
