@@ -41,6 +41,9 @@ cl()
    fi
 }
 
+alias zshrc="vim ~/.zshrc"
+alias vimrc="vim ~/.vimrc"
+
 # Exports
 export PYTHONSTARTUP=/home/alex/.pythonrc.py
 export EDITOR="vim"
