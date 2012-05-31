@@ -21,16 +21,16 @@ nmap <silent> <leader>n :silent :nohlsearch<CR>
 
 
 "=== Smart indenting
-set tabstop=2    " Set the default tabstop
-set softtabstop=2
-set shiftwidth=2 " Set the default shift width for indents
+set tabstop=4    " Set the default tabstop
+set softtabstop=4
+set shiftwidth=4 " Set the default shift width for indents
 set expandtab   " Make tabs into spaces (set by tabstop)
 set smarttab " Smarter tab levels
 set autoindent
 set cindent
 set cinoptions=:s,ps,ts,cs
 set cinwords=if,else,while,do,for,switch,case
-set wildignore+=*.pyc
+set wildignore+=*.pyc,*/venv/*,*/s/*
 
 
 "=== Shortcuts
@@ -63,6 +63,7 @@ Bundle 'tpope/vim-markdown'
 Bundle 'henrik/vim-markdown-preview'
 Bundle 'bufexplorer.zip'
 Bundle 'matchit.zip'
+Bundle 'kchmck/vim-coffee-script'
 
 Bundle 'nginx.vim'
 au BufRead,BufNewFile /etc/nginx/* set ft=nginx 
@@ -75,10 +76,10 @@ set encoding=utf-8 " Necessary to show unicode glyphs
 set t_Co=256 " Terminal colors
 
 Bundle 'scrooloose/syntastic'
+map <F9> :SyntasticToggleMode<CR>
 
 " Working with Django
 Bundle 'django.vim'
-Bundle 'pyflakes.vim'
 Bundle 'pydoc.vim'
 
 " Pysmell Autocompletion for Python

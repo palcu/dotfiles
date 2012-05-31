@@ -1,3 +1,6 @@
+# RVM
+alias rvm-prompt=$HOME/.rvm/bin/rvm-prompt
+
 # Start tmux
 if [[ -z "$TMUX" ]]; then
   tmux new-session -d '~/.tmuxrc; zsh' \; attach
@@ -30,6 +33,14 @@ alias reload="source ~/.zshrc"
 alias quote="shuf -n 1 ~/.quotes.txt"
 alias netest="mtr 8.8.8.8"
 
+cl()
+{
+   if [ -d "$1" ]; then
+      cd "$1"
+      l
+   fi
+}
+
 # Exports
 export PYTHONSTARTUP=/home/alex/.pythonrc.py
 export EDITOR="vim"
@@ -37,3 +48,8 @@ export PAGER="most"
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
 export PATH=${PATH}:~/Tools/android-sdk-linux/tools:~/Tools/android-sdk-linux/tools::~/Tools/google_appengine
+export HISTSIZE=1000000
+
+
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
