@@ -75,7 +75,7 @@ export PATH=${PATH}:~/Tools/android-sdk-linux/platform-tools:~/Tools/android-sdk
 export HISTSIZE=1000000
 
 # Remove annoying messages
-alias sudo='nocorrect sudo'
+unsetopt correctall
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
