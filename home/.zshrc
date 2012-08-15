@@ -71,8 +71,11 @@ export EDITOR="vim"
 export PAGER="most"
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
-export PATH=${PATH}:~/Tools/android-sdk-linux/tools:~/Tools/android-sdk-linux/tools:~/Tools/google_appengine
+export PATH=${PATH}:~/Tools/android-sdk-linux/platform-tools:~/Tools/android-sdk-linux/tools:~/Tools/google_appengine
 export HISTSIZE=1000000
+
+# Remove annoying messages
+alias sudo='nocorrect sudo'
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
