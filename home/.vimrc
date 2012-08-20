@@ -45,20 +45,23 @@ nmap <silent> <leader>s :set nolist!<CR>
 "=== Vundle
 filetype off                   " required!
 set rtp+=~/.vim/bundle/vundle/
-
 call vundle#rc()
 Bundle 'gmarik/vundle'
+
+" Rails
+Bundle 'tpope/vim-rails.git'
+Bundle 'tpope/vim-bundler.git'
+Bundle 'tpope/vim-endwise'
+
 Bundle 'tpope/vim-fugitive'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
-Bundle 'tpope/vim-rails.git'
 
 Bundle 'scrooloose/nerdtree.git'
 map <F2> :NERDTreeToggle<CR>
 " close when no other windows
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif 
 
-Bundle 'tpope/vim-endwise'
 Bundle 'tpope/vim-markdown' 
 Bundle 'henrik/vim-markdown-preview'
 Bundle 'kchmck/vim-coffee-script'
