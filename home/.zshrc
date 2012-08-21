@@ -33,8 +33,11 @@ alias off="sudo shutdown -h now"
 alias reload="source ~/.zshrc"
 alias quote="shuf -n 1 ~/.quotes.txt"
 alias netest="ping 8.8.8.8"
+
+# Important files
 alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
+alias syslog="vim /var/log/syslog"
 
 # Shorthands
 alias v="vim"
