@@ -28,6 +28,8 @@ alias df='df -H'
 alias kernel="watch 'dmesg|tail'"
 alias update="sudo apt-get update; sudo apt-get upgrade"
 alias install="sudo apt-get install"
+alias ports='netstat -tulanp'
+alias header='curl -I'
 alias remove="sudo apt-get remove"
 alias off="sudo shutdown -h now"
 alias reload="source ~/.zshrc"
@@ -35,12 +37,15 @@ alias quote="shuf -n 1 ~/.quotes.txt"
 alias netest="ping 8.8.8.8"
 alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
+alias lastvim="vim -c \"normal '0\""
 
 # Shorthands
 alias v="vim"
 alias e="exit"
 alias py="python"
 alias go='gnome-open'
+alias h='history'
+alias j='jobs -l'
 
 # cd & ls
 alias lc="cl"
@@ -79,3 +84,6 @@ alias sudo='nocorrect sudo'
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
