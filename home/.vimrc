@@ -10,6 +10,7 @@ set ruler
 set shortmess=atI
 set backspace=indent,eol,start " better backspace
 set scrolloff=5
+set mouse=a
 
 "=== Search
 set hlsearch
@@ -36,6 +37,7 @@ set wildignore+=*.pyc,*/venv/*,*/s/*
 "=== Shortcuts
 set pastetoggle=<F3>
 map <F4> :source ~/.vimrc<CR>
+map <F5> :edit ~/.vimrc<CR>
 cmap w!! w !sudo tee % >/dev/null
 
 " \s for seeing tabs spaces
@@ -65,6 +67,7 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 Bundle 'tpope/vim-markdown' 
 Bundle 'henrik/vim-markdown-preview'
 Bundle 'kchmck/vim-coffee-script'
+Bundle 'groenewege/vim-less'
 Bundle 'nono/vim-handlebars'
 au BufRead,BufNewFile *.handlebars,*.hbs,*.hjs set ft=handlebars
 Bundle 'bufexplorer.zip'
