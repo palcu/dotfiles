@@ -2,9 +2,9 @@
 alias rvm-prompt=$HOME/.rvm/bin/rvm-prompt
 
 # Start tmux
-if [[ -z "$TMUX" ]]; then
-  tmux new-session -d '~/.tmuxrc; zsh' \; attach
-fi
+# if [[ -z "$TMUX" ]]; then
+#   tmux new-session -d '~/.tmuxrc; zsh' \; attach
+# fi
 
 # ZSH Settings
 ZSH=$HOME/.oh-my-zsh
@@ -20,7 +20,6 @@ ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[green]%} %{$fg[yellow]%}✗%{$fg[green]%}>%{$r
 ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[green]%}>"
 
 # Aliases
-alias ls='ls --color=auto'
 alias l="ls -F"
 alias ll="ls -AGlFt"
 alias grep='grep --color=auto'
@@ -74,7 +73,6 @@ analyze_commands(){
 }
 
 # Exports
-export PYTHONSTARTUP=/home/alex/.pythonrc.py
 export EDITOR="vim"
 export PAGER="most"
 export LC_ALL="en_US.UTF-8"
@@ -90,3 +88,8 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
+
+### Pip exports
+export PATH=/usr/local/share/python:$PATH
+
