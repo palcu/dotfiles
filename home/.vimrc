@@ -66,7 +66,6 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 
 Bundle 'tpope/vim-markdown' 
 Bundle 'henrik/vim-markdown-preview'
-Bundle 'kchmck/vim-coffee-script'
 Bundle 'groenewege/vim-less'
 Bundle 'nono/vim-handlebars'
 au BufRead,BufNewFile *.handlebars,*.hbs,*.hjs set ft=handlebars
@@ -89,6 +88,10 @@ map <F9> :SyntasticToggleMode<CR>
 " Working with Django
 Bundle 'django.vim'
 Bundle 'pydoc.vim'
+
+" Coffeescript
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'mintplant/vim-literate-coffeescript'
 
 " Pysmell Autocompletion for Python
 autocmd FileType python setlocal omnifunc=pysmell#Complete
