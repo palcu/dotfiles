@@ -72,7 +72,6 @@ Bundle 'nono/vim-handlebars'
 au BufRead,BufNewFile *.handlebars,*.hbs,*.hjs set ft=handlebars
 Bundle 'bufexplorer.zip'
 Bundle 'matchit.zip'
-Bundle 'kchmck/vim-coffee-script'
 
 Bundle 'nginx.vim'
 au BufRead,BufNewFile /etc/nginx/* set ft=nginx 
