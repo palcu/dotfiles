@@ -34,6 +34,7 @@ alias off="sudo shutdown -h now"
 alias reload="source ~/.zshrc"
 alias quote="shuf -n 1 ~/.quotes.txt"
 alias netest="ping 8.8.8.8"
+alias simple="python -m SimpleHTTPServer"
 
 # Important files
 alias zshrc="vim ~/.zshrc"
@@ -77,7 +78,7 @@ export EDITOR="vim"
 export PAGER="most"
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
-export PATH=${PATH}:~/Tools/android-sdk-linux/platform-tools:~/Tools/android-sdk-linux/tools:~/Tools/google_appengine
+export PATH=${PATH}:~/Tools/android-sdk-linux/platform-tools:~/Tools/android-sdk-linux/tools:~/Tools/google_appengine:/usr/local/lib/python2.7/site-packages:~/bin
 export HISTSIZE=1000000
 
 # Remove annoying messages
