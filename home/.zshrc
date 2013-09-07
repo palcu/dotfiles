@@ -43,7 +43,6 @@ alias lastvim="vim -c \"normal '0\""
 alias syslog="vim /var/log/syslog"
 
 # Shorthands
-alias v="vim"
 alias e="exit"
 alias py="python"
 alias go='gnome-open'
@@ -94,3 +93,4 @@ export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
 ### Pip exports
 export PATH=/usr/local/share/python:$PATH
 
+eval "$(fasd --init auto)"

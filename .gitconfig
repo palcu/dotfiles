@@ -1,0 +1,27 @@
+[user]
+	name = Alex Palcuie
+	email = alex.palcuie@ubervu.com
+[core]
+    editor = vim
+	excludesfile = /Users/alex/.gitignore
+[web]
+    browser = google-chrome
+[merge]
+    tool = vimdiff
+[color]
+    ui = auto
+    interactive = auto
+[credential]
+	helper = osxkeychain
+[push]
+	default = matching
+[alias]
+    co = checkout
+    s = status
+    amend = commit --amend -a
+    graph = log --graph
+[log]
+    abbrevCommit = true
+    decorate = true
+[format]
+    pretty = %C(yellow)%h%C(auto)%d%Creset %s %C(cyan)(%cr) %C(bold blue)<%an>%Creset
