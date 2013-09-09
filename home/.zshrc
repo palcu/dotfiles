@@ -1,10 +1,20 @@
+platform='unknown'
+unamestr=`uname`
+if [[ "$unamestr" == 'Linux' ]]; then
+   platform='linux'
+elif [[ "$unamestr" == 'Darwin' ]]; then
+   platform='mac'
+fi
+
 # RVM
 alias rvm-prompt=$HOME/.rvm/bin/rvm-prompt
 
 # Start tmux
-# if [[ -z "$TMUX" ]]; then
-#   tmux new-session -d '~/.tmuxrc; zsh' \; attach
-# fi
+if [[ "$platform" == "linux" ]]; then
+    if [[ -z "$TMUX" ]]; then
+      tmux new-session -d '~/.tmuxrc; zsh' \; attach
+    fi
+fi
 
 # ZSH Settings
 ZSH=$HOME/.oh-my-zsh
@@ -13,11 +23,13 @@ source $ZSH/oh-my-zsh.sh
 
 # Prompt
 PROMPT='%{$fg_bold[magenta]%}%m%{$reset_color%}:%{$fg_bold[yellow]%}%~%{$reset_color%}%# '
-RPROMPT='%{$fg_bold[green]%}$(git_prompt_info) %{$reset_color%}!%!'
-ZSH_THEME_GIT_PROMPT_PREFIX="<%{$fg[red]%}"
-ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[green]%} %{$fg[yellow]%}✗%{$fg[green]%}>%{$reset_color%}"
-ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[green]%}>"
+if [[ "$platform" == "mac" ]]; then
+    RPROMPT='%{$fg_bold[green]%}$(git_prompt_info) %{$reset_color%}!%!'
+    ZSH_THEME_GIT_PROMPT_PREFIX="<%{$fg[red]%}"
+    ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
+    ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[green]%} %{$fg[yellow]%}✗%{$fg[green]%}>%{$reset_color%}"
+    ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[green]%}>"
+fi
 
 # Aliases
 alias l="ls -F"
