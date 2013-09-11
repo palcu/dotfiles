@@ -60,6 +60,7 @@ alias py="python"
 alias go='gnome-open'
 alias h='history'
 alias j='jobs -l'
+alias push_testing='./Users/alex/uberVU/thehole/uvscripts/push_in_testing.sh'
 
 # cd & ls
 alias lc="cl"
