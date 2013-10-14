@@ -10,11 +10,11 @@ fi
 alias rvm-prompt=$HOME/.rvm/bin/rvm-prompt
 
 # Start tmux
-if [[ "$platform" == "linux" ]]; then
-    if [[ -z "$TMUX" ]]; then
-      tmux new-session -d '~/.tmuxrc; zsh' \; attach
-    fi
-fi
+# if [[ "$platform" == "linux" ]]; then
+#     if [[ -z "$TMUX" ]]; then
+#       tmux new-session -d '~/.tmuxrc; zsh' \; attach
+#     fi
+# fi
 
 # ZSH Settings
 ZSH=$HOME/.oh-my-zsh
@@ -60,7 +60,6 @@ alias py="python"
 alias go='gnome-open'
 alias h='history'
 alias j='jobs -l'
-alias push_testing='./Users/alex/uberVU/thehole/uvscripts/push_in_testing.sh'
 
 # cd & ls
 alias lc="cl"
@@ -107,3 +106,10 @@ export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
 export PATH=/usr/local/share/python:$PATH
 
 eval "$(fasd --init auto)"
+
+
+bindkey -e
+bindkey '^[[1;9C' forward-word
+bindkey '^[[1;9D' backward-word
+
+source $HOME/.ubervu.zsh
