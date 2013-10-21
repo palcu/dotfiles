@@ -20,6 +20,9 @@
     s = status
     amend = commit --amend -a
     graph = log --graph
+    ignore = update-index --assume-unchanged
+    unignore = update-index --no-assume-unchanged
+    ignored = !git ls-files -v | grep "^[[:lower:]]"
 [log]
     abbrevCommit = true
     decorate = true
