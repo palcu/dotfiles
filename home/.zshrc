@@ -98,16 +98,17 @@ unsetopt correctall
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
-### Added by the Heroku Toolbelt
+# Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
 
-### Pip exports
+# Pip exports
 export PATH=/usr/local/share/python:$PATH
 
+# FASD for faster switching between directories
 eval "$(fasd --init auto)"
 
-
+# alt-left and alt-right for switching words in terminal
 bindkey -e
 bindkey '^[[1;9C' forward-word
 bindkey '^[[1;9D' backward-word
