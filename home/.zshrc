@@ -18,7 +18,7 @@ alias rvm-prompt=$HOME/.rvm/bin/rvm-prompt
 
 # ZSH Settings
 ZSH=$HOME/.oh-my-zsh
-plugins=(git nyan rails bundler command-not-found pip hub django brew cake coffee fabric fasd osx npm rvm)
+plugins=(git nyan rails command-not-found pip hub django brew cake coffee fabric fasd osx npm rvm)
 source $ZSH/oh-my-zsh.sh
 
 # Prompt
