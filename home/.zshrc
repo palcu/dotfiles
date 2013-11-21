@@ -104,6 +104,7 @@ export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
 
 # Pip exports
 export PATH=/usr/local/share/python:$PATH
+export PATH=/usr/local/lib/python2.7/site-packages/:$PATH
 
 # FASD for faster switching between directories
 eval "$(fasd --init auto)"

@@ -18,6 +18,7 @@
 [alias]
     co = checkout
     s = status
+    hard = reset --hard HEAD
     amend = commit --amend -a
     graph = log --graph
     ignore = update-index --assume-unchanged
