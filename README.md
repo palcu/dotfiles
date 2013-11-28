@@ -1,16 +1,10 @@
 # Dotfiles
 
-testing VCS for config files
+Hacking like a geek:
+* ZSH w/ oh_my_zsh
+* tmux if you want (I don't want now on OSX, but it's good for remote dev)
+* VIM w/ Vundle
 
-## TO DO
+# Setup
 
-* add sense testing
-* add a proper readme
-* add informatioan about author of bootstrap
-* configure .sysdet file
-* info about random quotes
-* merge dotvim repos
-
-A simple [setup](https://gist.github.com/palcu/7008821) is to run:
-
-```curl -L https://gist.github.com/palcu/7008821/raw/66a8dfd8f228a26b8f2dc191dfdee2ed064e6edc/setup.sh | sh```
+Run run run https://gist.github.com/palcu/7008821
