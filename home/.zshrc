@@ -6,9 +6,6 @@ elif [[ "$unamestr" == 'Darwin' ]]; then
    platform='mac'
 fi
 
-# RVM
-alias rvm-prompt=$HOME/.rvm/bin/rvm-prompt
-
 # Start tmux
 # if [[ "$platform" == "linux" ]]; then
 #     if [[ -z "$TMUX" ]]; then
@@ -18,7 +15,7 @@ alias rvm-prompt=$HOME/.rvm/bin/rvm-prompt
 
 # ZSH Settings
 ZSH=$HOME/.oh-my-zsh
-plugins=(git nyan rails command-not-found pip hub django brew cake coffee fabric fasd osx npm rvm)
+plugins=(git nyan rails command-not-found pip hub django brew cake coffee fabric fasd osx npm)
 source $ZSH/oh-my-zsh.sh
 
 # Prompt
@@ -95,9 +92,6 @@ export HISTSIZE=1000000
 # Remove annoying messages
 unsetopt correctall
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
-
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
@@ -113,5 +107,13 @@ eval "$(fasd --init auto)"
 bindkey -e
 bindkey '^[[1;9C' forward-word
 bindkey '^[[1;9D' backward-word
+
+# update stuff
+update() {
+    local brew="brew update; brew upgrade;"
+    local gem="gem update;"
+    local pip="pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs pip install -U -q;"
+    sh -c $brew$gem$pip
+}
 
 source $HOME/.ubervu.sh

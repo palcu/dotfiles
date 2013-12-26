@@ -96,4 +96,8 @@ Bundle 'mintplant/vim-literate-coffeescript'
 " Pysmell Autocompletion for Python
 autocmd FileType python setlocal omnifunc=pysmell#Complete
 
+" C++ compile and run
+Bundle 'xuhdev/SingleCompile'
+map <silent> <F9> :SCCompileRun <CR>
+
 filetype plugin indent on
