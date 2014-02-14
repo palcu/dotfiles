@@ -19,5 +19,5 @@ end repeat
 -- run other scripts from folder
 set scriptList to {"halt_vagrant"}
 repeat with i in scriptList
-	run script current_path & i & ".scpt"
+	run script current_path & i & ".applescript"
 end repeat

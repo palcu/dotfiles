@@ -17,5 +17,5 @@ end repeat
 -- run other scripts from folder
 set scriptList to {"connect_tunnelblick", "open_vagrant", "open_chrome_tabs"}
 repeat with i in scriptList
-	run script current_path & i & ".scpt"
+	run script current_path & i & ".applescript"
 end repeat
