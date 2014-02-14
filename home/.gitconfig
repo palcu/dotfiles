@@ -30,3 +30,6 @@
     decorate = true
 [format]
     pretty = %C(yellow)%h%C(auto)%d%Creset %s %C(cyan)(%cr) %C(bold blue)<%an>%Creset
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
