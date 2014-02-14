@@ -108,12 +108,4 @@ bindkey -e
 bindkey '^[[1;9C' forward-word
 bindkey '^[[1;9D' backward-word
 
-# update stuff
-update() {
-    local brew="brew update; brew upgrade;"
-    local gem="gem update;"
-    local pip="pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs pip install -U -q;"
-    sh -c $brew$gem$pip
-}
-
 source $HOME/.ubervu.sh
