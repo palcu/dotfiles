@@ -4,3 +4,4 @@ Adium
 Sublime Text 2
 Sequel Pro
 Tunnelblick
+Skitch
