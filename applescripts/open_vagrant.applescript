@@ -1,4 +1,5 @@
 set open_vagrant to "z puppet; vagrant up;"
+set update_master to "/Users/alex/.homesick/repos/palcu/dotfiles/scripts/update_master.sh;"
 
 tell application "iTerm"
 	activate
@@ -13,6 +14,7 @@ tell application "iTerm"
 	end try
 	
 	tell mysession
+        write text update_master
 		write text open_vagrant
 	end tell
 end tell
