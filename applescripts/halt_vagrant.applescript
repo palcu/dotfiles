@@ -8,11 +8,11 @@ tell application "iTerm"
 		launch session "Default"
 		set mysession to current session
 	end tell
-	
+
 	tell mysession
 		write text close_vagrant
 	end tell
-	
+
 	delay 5
 end tell
 
