@@ -3,6 +3,7 @@
 repos=("thehole" "deploy" "puppet" "uberbot")
 repo_path="/Users/alex/uberVU/"
 exists=`git show-ref refs/heads/master`
+no_stash_save="No local changes to save"
 
 for repo in ${repos[*]}
 do
@@ -13,11 +14,13 @@ do
     if [ "$current_branch" == "master" ]; then
         git pull
     else
-        git stash
+        stash_message=$(git stash)
         git checkout master
         git pull
         git checkout $current_branch
-        git stash pop
+        if [ "$stash_message" != "$no_stash_save" ]; then
+            git stash pop
+        fi
     fi
 done
 
