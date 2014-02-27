@@ -24,7 +24,7 @@
     ignore = update-index --assume-unchanged
     unignore = update-index --no-assume-unchanged
     ignored = !git ls-files -v | grep "^[[:lower:]]"
-    sweep = !git fsck && git gc && git remote update --prune && git stash list
+    sweep = !git fsck && git gc && git remote update --prune && git stash clear
 [log]
     abbrevCommit = true
     decorate = true
