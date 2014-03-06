@@ -1,7 +1,7 @@
 GitHub
 Propane
 Adium
-Sublime Text 2
+Sublime Text
 Sequel Pro
 Tunnelblick
 Skitch
