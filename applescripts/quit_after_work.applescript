@@ -17,7 +17,7 @@ repeat with i in appList
 end repeat
 
 -- run other scripts from folder
-set scriptList to {"clean_repos", "halt_vagrant"}
+set scriptList to {"halt_vagrant"}
 repeat with i in scriptList
 	run script current_path & i & ".applescript"
 end repeat
