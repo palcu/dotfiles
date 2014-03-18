@@ -86,19 +86,11 @@ export EDITOR="vim"
 export PAGER="most"
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
-export PATH=${PATH}:~/Tools/android-sdk-linux/platform-tools:~/Tools/android-sdk-linux/tools:~/Tools/google_appengine:/usr/local/lib/python2.7/site-packages:~/bin
+export PATH=${PATH}:~/Tools/android-sdk-linux/platform-tools:~/Tools/android-sdk-linux/tools:~/Tools/google_appengine:~/bin
 export HISTSIZE=1000000
 
 # Remove annoying messages
 unsetopt correctall
-
-# Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-export PYTHONPATH="/usr/local/lib/python2.7/site-packages:$PYTHONPATH"
-
-# Pip exports
-export PATH=/usr/local/share/python:$PATH
-export PATH=/usr/local/lib/python2.7/site-packages/:$PATH
 
 # FASD for faster switching between directories
 eval "$(fasd --init auto)"
