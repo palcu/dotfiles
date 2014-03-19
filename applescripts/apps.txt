@@ -4,3 +4,4 @@ Sequel Pro
 Tunnelblick
 Skitch
 Atom
+Trailer
