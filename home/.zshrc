@@ -86,7 +86,7 @@ export EDITOR="vim"
 export PAGER="most"
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
-export PATH=${PATH}:~/Tools/android-sdk-linux/platform-tools:~/Tools/android-sdk-linux/tools:~/Tools/google_appengine:~/bin
+export PATH=${PATH}:~/Tools/android-sdk-linux/platform-tools:~/Tools/android-sdk-linux/tools:~/Tools/google_appengine:~/bin:/usr/local/sbin
 export HISTSIZE=1000000
 
 # Remove annoying messages
