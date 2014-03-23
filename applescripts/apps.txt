@@ -3,5 +3,5 @@ Propane
 Sequel Pro
 Tunnelblick
 Skitch
-Atom
+Sublime Text
 Trailer
