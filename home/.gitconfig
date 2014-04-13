@@ -17,7 +17,8 @@
 	default = matching
 [alias]
     co = checkout
-    s = status
+    cm = commit
+    st = status -sb
     hard = reset --hard HEAD
     amend = commit --amend -a
     graph = log --graph
@@ -35,3 +36,5 @@
 	smudge = git-media-smudge %f
 [diff]
 	algorithm = patience
+[help]
+	autocorrect = 1
