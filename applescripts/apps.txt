@@ -1,7 +1,8 @@
 GitHub
-Propane
+HipChat
 Sequel Pro
 Tunnelblick
 Skitch
 Sublime Text
 Trailer
+Adium
