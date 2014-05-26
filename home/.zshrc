@@ -102,3 +102,5 @@ bindkey '^[[1;9D' backward-word
 
 source $HOME/.ubervu.sh
 source /usr/local/bin/virtualenvwrapper.sh
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
