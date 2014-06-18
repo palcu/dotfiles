@@ -2,7 +2,7 @@ set current_path to POSIX path of ((path to me as text) & "::")
 
 -- get work apps
 set appList to {}
-set myApps to paragraphs of (read current_path & "apps.txt")
+set myApps to paragraphs of (read current_path & "open_before_work.txt")
 repeat with nextLine in myApps
 	if length of nextLine is greater than 0 then
 		copy (nextLine as string) to the end of appList

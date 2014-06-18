@@ -1,8 +1,6 @@
+Tunnelblick
 GitHub
 HipChat
-Sequel Pro
-Tunnelblick
-Skitch
 Sublime Text
 Trailer
-Adium
+Nagstamon
