@@ -1,10 +1,13 @@
-# Dotfiles
+# Dotfiles by Alex Palcuie
 
 Hacking like a geek:
-* ZSH w/ oh_my_zsh
-* tmux if you want (I don't want now on OSX, but it's good for remote dev)
-* VIM w/ Vundle
 
-# Setup
+* My main machine is a Mac. But the configurations also work on a Linux remote machine
+* ZSH shell with oh_my_zsh and custom stuff
+* VIM provisioned with Vundle
+* AppleScripts that automate my work
 
-Run run run https://gist.github.com/palcu/7008821
+# Setup for new Mac
+
+1. Update the computer to the last version
+2. Install XCode and `xcode-select --install`
