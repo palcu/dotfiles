@@ -1,6 +1,5 @@
 install ack
 install bash
-install brew-cask
 install curl
 install fasd
 install figlet
@@ -20,8 +19,8 @@ install wget
 install zsh
 
 # casks
+tap caskroom/cask
 install brew-cask
-tap phinze/cask
 cask install dropbox
 cask install evernote
 cask install google-chrome
