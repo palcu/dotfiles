@@ -30,7 +30,6 @@ cask install hipchat
 cask install viber
 cask install github
 cask install spotify
-cask install twitter
 cask install macpass
 cask install virtualbox
 cask install trailer
