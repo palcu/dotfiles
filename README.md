@@ -52,6 +52,8 @@ Hacking like a geek:
   vim +BundleInstall
   ```
 
+10. Install the 3rd party packages in the packages folder
+
 # Setup for new Ubuntu machine
 
 1. Install just the usefull stuff for a remote machine
@@ -62,4 +64,4 @@ Hacking like a geek:
     apt-get -y install vim zsh ruby rubygems curl fasd ack git
   ```
 
-2. Do steps 6-9 from Mac
+2. Do steps 6-10 from Mac
