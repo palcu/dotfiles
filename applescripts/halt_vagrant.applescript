@@ -1,4 +1,4 @@
-set close_vagrant to "z puppet; vagrant halt -f;"
+set close_vagrant to "z puppet; git pull; vagrant halt -f;"
 
 -- close vagrant
 tell application "iTerm"
