@@ -24,7 +24,7 @@ install brew-cask
 cask install dropbox
 cask install evernote
 cask install google-chrome
-cask install iterm
+cask install iterm2
 cask install sublime-text
 cask install hipchat
 cask install viber
