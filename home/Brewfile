@@ -15,6 +15,29 @@ install rename
 install ssh-copy-id
 install tmux
 install toilet
+install vim
 install watch
 install wget
 install zsh
+
+# casks
+install brew-cask
+tap phinze/cask
+cask install dropbox
+cask install evernote
+cask install google-chrome
+cask install iterm
+cask install sublime-text
+cask install hipchat
+cask install viber
+cask install github
+cask install spotify
+cask install twitter
+cask install macpass
+cask install virtualbox
+cask install trailer
+cask install spotifree
+cask install skitch
+cask install flux
+cask install tunnelblick
+cask install sequel-pro
