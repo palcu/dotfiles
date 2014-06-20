@@ -37,7 +37,7 @@ Hacking like a geek:
   gem install homesick
   homesick clone palcu/dotfiles
   homesick symlink dotfiles
-  ```bash
+  ```
 
 8. Make ZSH the default shell
 
