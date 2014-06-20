@@ -1,18 +1,3 @@
-platform='unknown'
-unamestr=`uname`
-if [[ "$unamestr" == 'Linux' ]]; then
-   platform='linux'
-elif [[ "$unamestr" == 'Darwin' ]]; then
-   platform='mac'
-fi
-
-# Start tmux
-# if [[ "$platform" == "linux" ]]; then
-#     if [[ -z "$TMUX" ]]; then
-#       tmux new-session -d '~/.tmuxrc; zsh' \; attach
-#     fi
-# fi
-
 # ZSH Settings
 ZSH=$HOME/.oh-my-zsh
 plugins=(git nyan rails command-not-found pip hub django brew cake coffee fabric fasd osx npm)
@@ -20,28 +5,18 @@ source $ZSH/oh-my-zsh.sh
 
 # Prompt
 PROMPT='%{$fg_bold[magenta]%}%m%{$reset_color%}:%{$fg_bold[yellow]%}%~%{$reset_color%}%# '
-if [[ "$platform" == "mac" ]]; then
-    RPROMPT='%{$fg_bold[green]%}$(git_prompt_info) %{$reset_color%}!%!'
-    ZSH_THEME_GIT_PROMPT_PREFIX="<%{$fg[red]%}"
-    ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
-    ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[green]%} %{$fg[yellow]%}✗%{$fg[green]%}>%{$reset_color%}"
-    ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[green]%}>"
-fi
+RPROMPT='%{$fg_bold[green]%}$(git_prompt_info) %{$reset_color%}!%!'
+ZSH_THEME_GIT_PROMPT_PREFIX="<%{$fg[red]%}"
+ZSH_THEME_GIT_PROMPT_SUFFIX="%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_DIRTY="%{$fg[green]%} %{$fg[yellow]%}✗%{$fg[green]%}>%{$reset_color%}"
+ZSH_THEME_GIT_PROMPT_CLEAN="%{$fg[green]%}>"
 
 # Aliases
 alias l="ls -F"
 alias ll="ls -AGlFt"
 alias grep='grep --color=auto'
 alias df='df -H'
-alias kernel="watch 'dmesg|tail'"
-alias update="sudo apt-get update; sudo apt-get upgrade"
-alias install="sudo apt-get install"
-alias ports='netstat -tulanp'
-alias header='curl -I'
-alias remove="sudo apt-get remove"
-alias off="sudo shutdown -h now"
 alias reload="source ~/.zshrc"
-alias quote="shuf -n 1 ~/.quotes.txt"
 alias netest="ping 8.8.8.8"
 alias simple="python -m SimpleHTTPServer"
 
@@ -56,7 +31,6 @@ alias e="exit"
 alias py="python"
 alias go='gnome-open'
 alias h='history'
-alias j='jobs -l'
 
 # cd & ls
 alias lc="cl"
@@ -74,7 +48,7 @@ mc() {
 }
 
 # Analyze history data
-analyze_history(){ 
+analyze_history(){
     cut -f2 -d";" ~/.zsh_history | sort | uniq -c | sort -nr | head -n 30
 }
 analyze_commands(){
@@ -86,6 +60,7 @@ export EDITOR="vim"
 export PAGER="most"
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 export PATH=${PATH}:~/Tools/android-sdk-linux/platform-tools:~/Tools/android-sdk-linux/tools:~/Tools/google_appengine:~/bin:/usr/local/sbin
 export HISTSIZE=1000000
 
@@ -102,5 +77,3 @@ bindkey '^[[1;9D' backward-word
 
 source $HOME/.ubervu.sh
 source /usr/local/bin/virtualenvwrapper.sh
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
