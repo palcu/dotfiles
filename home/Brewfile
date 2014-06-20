@@ -38,3 +38,4 @@ cask install skitch
 cask install flux
 cask install tunnelblick
 cask install sequel-pro
+cask install vagrant
