@@ -13,7 +13,6 @@ install python3
 install readline
 install rename
 install ssh-copy-id
-install tmux
 install toilet
 install vim
 install watch
