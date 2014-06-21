@@ -1,4 +1,9 @@
 ---
+- name: Add a crontab that runs the tasks daily
+  cron: name="run ansible" special_time=daily state=present
+        user={{ ansible_ssh_user }}
+        job="cd ~/dotfiles; git pull; ansible-playbook -i inventory vagrant.yml"
+
 - name: Add APT repo for fasd
   apt_repository: repo='ppa:fcwu-tw/ppa' state=present
 

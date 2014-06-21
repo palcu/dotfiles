@@ -1,4 +1,9 @@
 ---
+- name: Add a crontab that runs the tasks daily
+  cron: name="run ansible" special_time=daily state=present
+        user={{ ansible_ssh_user }}
+        job="cd ~/dotfiles; git pull; ansible-playbook -i inventory macosx.yml"
+
 - name: Update Homebrew
   homebrew: update_homebrew=yes
 
