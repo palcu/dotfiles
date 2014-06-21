@@ -2,13 +2,15 @@
 
 Hacking like a geek:
 
-* My main machine is a Mac
-* The configurations also work on an Ubuntu remote machine
-* ZSH shell with oh_my_zsh and custom stuff
+* the `playbooks` folder contains Ansible that provisions a machine with apps and configs
+* my main machine is a Mac, and I have another Mac at my office, so I keep them in sync
+* there is also a playbook for Ubuntu
+* ZSH shell with oh_my_zsh and my .zshrc
 * VIM provisioned with Vundle
-* AppleScripts that automate my work
+* AppleScripts that automate [mundane tasks](http://palcu.blogspot.com/2014/02/automate-everything-even-opening-your.html)
+* the `configs` folder is for other apps like Sublime Text or iTerm2
 
-# Setup for new Mac
+## Setup for new Mac machine
 
 1. Update the computer to the last version
 2. Install XCode and `xcode-select --install`
@@ -18,50 +20,35 @@ Hacking like a geek:
   ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
   ```
 
-4. Install Brew stuff using `brew bundle`
-5. Install [RVM](rvm.io) with the latest version of Ruby
+4. Install Ansible using Brew `brew install ansible`
+5. As a convention `~/dotfiles` should be this repo
 
   ```bash
-  curl -sSL https://get.rvm.io | bash -s stable --ruby
+  git clone https://github.com/palcu/dotfiles.git ~/dotfiles
   ```
 
-6. Install [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh/)
+6. Run the Ansible playbook for Mac
 
   ```bash
-  curl -L https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh | sh
+  ansible-playbook -i inventory macosx.yml
   ```
 
-7. Install [Homesick](https://github.com/technicalpickles/homesick) with the dotfiles
+### Problems
 
-  ```bash
-  gem install homesick
-  homesick clone palcu/dotfiles
-  homesick symlink dotfiles
-  ```
+I did not manage to change the shell for OSX. Do this once.
 
-8. Make ZSH the default shell
+```bash
+chsh -s /bin/zsh
+```
 
-  ```bash
-  chsh -s /bin/zsh
-  ```
+Also for OSX, add the command to a `crontab` if you want to run it periodically.
 
-9. Install the VIM plugins with [Vundle](https://github.com/gmarik/Vundle.vim)
+## Setup for new Ubuntu machine
 
-  ```bash
-  git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-  vim +BundleInstall
-  ```
-
-10. Install the 3rd party packages in the packages folder
-
-# Setup for new Ubuntu machine
-
-1. Install just the usefull stuff for a remote machine
-
-  ```bash
-    add-apt-repository -y ppa:fcwu-tw/ppa
-    apt-get update
-    apt-get -y install vim zsh ruby rubygems curl fasd ack git
-  ```
-
-2. Do steps 6-10 from Mac
+```bash
+sudo apt-get update
+sudo apt-get install ansible
+git clone https://github.com/palcu/dotfiles.git ~/dotfiles
+cd ~/dotfiles/playbooks
+ansible-playbook -i inventory vagrant.yml
+```
