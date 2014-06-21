@@ -47,7 +47,7 @@ nmap <silent> <leader>s :set nolist!<CR>
 filetype off                   " required!
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-Plugin 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 
 " Rails
 Plugin 'tpope/vim-rails.git'
