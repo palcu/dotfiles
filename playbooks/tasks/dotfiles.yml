@@ -2,9 +2,6 @@
 - name: Install oh-my-zsh
   git: repo=https://github.com/robbyrussell/oh-my-zsh.git dest=~/.oh-my-zsh
 
-- name: Clone my dotfiles
-  git: repo=https://github.com/palcu/dotfiles.git dest=~/dotfiles
-
 - name: Symlink my dotfiles
   file: src=~/dotfiles/home/{{ item }}
         dest=~/{{ item }}

@@ -1,6 +1,7 @@
 - hosts: targets
   tasks:
+    - include: tasks/playbooks.yml
     - include: tasks/mac.yml
     - include: tasks/dotfiles.yml
     - include: tasks/pip.yml
-    - include: tasks/update_repos.yml
+    - include: tasks/update_ubervu_repos.yml

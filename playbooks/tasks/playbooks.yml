@@ -1,0 +1,3 @@
+---
+- name: Clone/update my dotfiles with the playbooks
+  git: repo=https://github.com/palcu/dotfiles.git dest=~/dotfiles
