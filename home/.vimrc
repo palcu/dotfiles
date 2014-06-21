@@ -41,7 +41,6 @@ map <F5> :edit ~/.vimrc<CR>
 cmap w!! w !sudo tee % >/dev/null
 
 " \s for seeing tabs spaces
-set listchars=tab:>-,trail:·,eol:$
 nmap <silent> <leader>s :set nolist!<CR>
 
 "=== Vundle
