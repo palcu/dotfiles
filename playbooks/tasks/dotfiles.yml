@@ -21,3 +21,5 @@
 
 - name: Install VIM plugins
   command: vim +PluginInstall! +qall
+
+- debug: msg="Just testing to see if the repo auto-updates itself"
