@@ -12,22 +12,21 @@ Hacking like a geek:
 
 ## Setup for new Mac machine
 
-1. Update the computer to the last version
-2. Install XCode and `xcode-select --install`
-3. Install [Brew](http://brew.sh/)
+1. Install XCode tools using `xcode-select --install`
+2. Install [Brew](http://brew.sh/)
 
   ```bash
   ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
   ```
 
-4. Install Ansible using Brew `brew install ansible`
-5. As a convention `~/dotfiles` should be this repo
+3. Install Ansible using Brew `brew install ansible`
+4. As a convention `~/dotfiles` should be this repo
 
   ```bash
   git clone https://github.com/palcu/dotfiles.git ~/dotfiles
   ```
 
-6. Run the Ansible playbook for Mac
+5. Run the Ansible playbook for Mac
 
   ```bash
   ansible-playbook -i inventory macosx.yml
