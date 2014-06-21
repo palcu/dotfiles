@@ -1,0 +1,6 @@
+- hosts: targets
+  tasks:
+    - include: tasks/mac.yml
+    - include: tasks/dotfiles.yml
+    - include: tasks/pip.yml
+    - include: tasks/update_repos.yml

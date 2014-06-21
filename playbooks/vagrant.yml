@@ -1,0 +1,4 @@
+- hosts: targets
+  tasks:
+    - include: tasks/ubuntu.yml
+    - include: tasks/dotfiles.yml
