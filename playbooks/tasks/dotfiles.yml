@@ -20,4 +20,4 @@
   git: repo=https://github.com/gmarik/Vundle.vim.git dest=~/.vim/bundle/Vundle.vim
 
 - name: Install VIM plugins
-  command: vim +PluginInstall +qall
+  command: vim +PluginInstall! +qall
