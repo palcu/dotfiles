@@ -23,7 +23,7 @@ alias simple="python -m SimpleHTTPServer"
 # Important files
 alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
-alias lastvim="vim -c \"normal '0\""
+alias vimlast="vim -c \"normal '0\""
 alias syslog="vim /var/log/syslog"
 
 # Shorthands
@@ -60,8 +60,8 @@ export EDITOR="vim"
 export PAGER="most"
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-export PATH=${PATH}:~/Tools/android-sdk-linux/platform-tools:~/Tools/android-sdk-linux/tools:~/Tools/google_appengine:~/bin:/usr/local/sbin
+export PATH=/usr/local/bin:$PATH # Brew path
+export PATH="$PATH:$HOME/.rvm/bin" # RVM path
 export HISTSIZE=1000000
 
 # Remove annoying messages
