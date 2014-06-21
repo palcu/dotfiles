@@ -46,58 +46,59 @@ nmap <silent> <leader>s :set nolist!<CR>
 
 "=== Vundle
 filetype off                   " required!
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
-Bundle 'gmarik/vundle'
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'gmarik/vundle'
 
 " Rails
-Bundle 'tpope/vim-rails.git'
-Bundle 'tpope/vim-bundler.git'
-Bundle 'tpope/vim-endwise'
+Plugin 'tpope/vim-rails.git'
+Plugin 'tpope/vim-bundler.git'
+Plugin 'tpope/vim-endwise'
 
-Bundle 'tpope/vim-fugitive'
-Bundle 'Lokaltog/vim-easymotion'
-Bundle 'rstacruz/sparkup', {'rtp': 'vim/'}
+Plugin 'tpope/vim-fugitive'
+Plugin 'Lokaltog/vim-easymotion'
+Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 
-Bundle 'scrooloose/nerdtree.git'
+Plugin 'scrooloose/nerdtree.git'
 map <F2> :NERDTreeToggle<CR>
 " close when no other windows
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif 
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
-Bundle 'tpope/vim-markdown' 
-Bundle 'henrik/vim-markdown-preview'
-Bundle 'groenewege/vim-less'
-Bundle 'nono/vim-handlebars'
+Plugin 'tpope/vim-markdown'
+Plugin 'henrik/vim-markdown-preview'
+Plugin 'groenewege/vim-less'
+Plugin 'nono/vim-handlebars'
 au BufRead,BufNewFile *.handlebars,*.hbs,*.hjs set ft=handlebars
-Bundle 'bufexplorer.zip'
-Bundle 'matchit.zip'
+Plugin 'bufexplorer.zip'
+Plugin 'matchit.zip'
 
-Bundle 'nginx.vim'
-au BufRead,BufNewFile /etc/nginx/* set ft=nginx 
+Plugin 'nginx.vim'
+au BufRead,BufNewFile /etc/nginx/* set ft=nginx
 
-Bundle 'kien/ctrlp.vim'
+Plugin 'kien/ctrlp.vim'
 
-Bundle 'Lokaltog/vim-powerline'
+Plugin 'Lokaltog/vim-powerline'
 set laststatus=2   " Always show the statusline
 set encoding=utf-8 " Necessary to show unicode glyphs
 set t_Co=256 " Terminal colors
 
-Bundle 'scrooloose/syntastic'
+Plugin 'scrooloose/syntastic'
 map <F9> :SyntasticToggleMode<CR>
 
 " Working with Django
-Bundle 'django.vim'
-Bundle 'pydoc.vim'
+Plugin 'django.vim'
+Plugin 'pydoc.vim'
 
 " Coffeescript
-Bundle 'kchmck/vim-coffee-script'
-Bundle 'mintplant/vim-literate-coffeescript'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'mintplant/vim-literate-coffeescript'
 
 " Pysmell Autocompletion for Python
 autocmd FileType python setlocal omnifunc=pysmell#Complete
 
 " C++ compile and run
-Bundle 'xuhdev/SingleCompile'
+Plugin 'xuhdev/SingleCompile'
 map <silent> <F9> :SCCompileRun <CR>
 
+call vundle#end()
 filetype plugin indent on
