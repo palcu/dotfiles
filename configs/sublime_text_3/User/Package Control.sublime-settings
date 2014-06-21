@@ -1,0 +1,30 @@
+{
+	"installed_packages":
+	[
+		"All Autocomplete",
+		"Better CoffeeScript",
+		"DashDoc",
+		"Emmet",
+		"Gherkin (Cucumber) Formatter",
+		"Git",
+		"GitGutter",
+		"Handlebars",
+		"HTML-CSS-JS Prettify",
+		"Jedi - Python autocompletion",
+		"Origami",
+		"Path Tools",
+		"Pretty JSON",
+		"Puppet",
+		"SideBarEnhancements",
+		"sublime-github",
+		"SublimeCodeIntel",
+		"SublimeERB",
+		"SublimeLinter",
+		"SublimeLinter-coffeelint",
+		"SublimeLinter-contrib-jslint",
+		"SublimeLinter-cpplint",
+		"SublimeLinter-csslint",
+		"SublimeLinter-flake8",
+		"SublimeLinter-pylint"
+	]
+}

@@ -1,0 +1,55 @@
+{
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/Monokai (SL).tmTheme",
+	"detect_indentation": true,
+	"ensure_newline_at_eof_on_save": true,
+	"file_exclude_patterns":
+	[
+		".DS_Store",
+		"._*",
+		"*.pyc",
+		"*.tar.gz"
+	],
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".sass-cache",
+		".codeintel",
+		"venv"
+	],
+	"font_size": 10.0,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"SublimeLinter-pylint",
+		"Vintage",
+		"Jedi - Python autocompletion"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"indent_to_bracket": true,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"match_brackets": true,
+	"match_brackets_angle": true,
+	"match_brackets_braces": true,
+	"match_brackets_content": true,
+	"match_brackets_square": true,
+	"new_window_settings":
+	{
+		"show_minimap": false
+	},
+	"rulers":
+	[
+		80
+	],
+	"show_full_path": true,
+	"tab_size": 2,
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
+}

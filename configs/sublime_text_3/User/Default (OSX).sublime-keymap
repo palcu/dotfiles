@@ -1,0 +1,9 @@
+[
+    { "keys": ["alt+down"], "command": "git_gutter_next_change" },
+    { "keys": ["alt+up"], "command": "git_gutter_prev_change" },
+        { "keys": ["ctrl+shift+."], "command": "erb", "context":
+      [
+        { "key": "selector", "operator": "equal", "operand": "text.html.ruby, text.haml, source.yaml, source.css, source.scss, source.js, source.coffee" }
+      ]
+    }
+]

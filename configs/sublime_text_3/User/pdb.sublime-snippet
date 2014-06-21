@@ -1,0 +1,5 @@
+<snippet>
+    <content>import ipdb; ipdb.set_trace()</content>
+    <tabTrigger>pdb</tabTrigger>
+    <scope>source.python</scope>
+</snippet>
