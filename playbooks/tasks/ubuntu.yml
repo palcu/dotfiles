@@ -1,0 +1,27 @@
+---
+- name: Add APT repo for fasd
+  apt_repository: repo='ppa:fcwu-tw/ppa' state=present
+
+- name: Update APT cache
+  apt: update_cache=yes
+
+- name: Install libraries using APT
+  apt: name={{ item }} state=latest
+  with_items:
+    - ack
+    - bash
+    - curl
+    - fasd
+    - git
+    - nmap
+    - node
+    - most
+    - python
+    - python-pip
+    - python3
+    - vim
+    - wget
+    - zsh
+
+- name: Change shell to ZSH
+  user: shell=/bin/zsh name={{ ansible_ssh_user }}

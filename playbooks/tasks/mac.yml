@@ -1,0 +1,53 @@
+---
+- name: Update Homebrew
+  homebrew: update_homebrew=yes
+
+- name: Install libraries with Homebrew
+  homebrew: name={{ item }} state=latest
+  with_items:
+    - ack
+    - bash
+    - curl
+    - fasd
+    - git
+    - hub
+    - nmap
+    - node
+    - python
+    - python3
+    - readline
+    - rename
+    - ssh-copy-id
+    - vim
+    - watch
+    - wget
+    - zsh
+
+- name: Tap into the Homebrew Cask Beta apps
+  homebrew_tap: tap=caskroom/versions state=present
+
+- name: Install libraries with Homebrew Cask
+  homebrew_cask: name={{ item }} state=present
+  with_items:
+    - dropbox
+    - evernote
+    - google-chrome
+    - iterm2
+    - sublime-text3
+    - hipchat
+    - viber
+    - github
+    - spotify
+    - macpass
+    - virtualbox
+    - trailer
+    - spotifree
+    - skitch
+    - flux
+    - tunnelblick
+    - sequel-pro
+    - vagrant
+
+# TODO: Find a way to make this work without requiring a password
+# - name: Change shell to ZSH
+#   command: chsh -s /bin/zsh

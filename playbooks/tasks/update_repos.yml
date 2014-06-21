@@ -1,0 +1,7 @@
+---
+- git: repo='git@github.com:uberVU/thehole.git'
+       dest=~/uberVU/thehole
+- git: repo='git@github.com:uberVU/deploy.git'
+       dest=~/uberVU/deploy
+- git: repo='git@github.com:uberVU/puppet.git'
+       dest=~/uberVU/puppet
