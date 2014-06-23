@@ -5,5 +5,5 @@ alias ubvu_pushtesting='/Users/alex/uberVU/thehole/uvscripts/github/push_in_test
 alias ubvu_harvest='python /home/django/web/frontend/ubervu/run_harvest.py'
 
 alias sup='supervisorctl'
-alias open_before_work='osascript /Users/alex/.homesick/repos/palcu/dotfiles/applescripts/open_before_work.applescript'
-alias quit_after_work='osascript /Users/alex/.homesick/repos/palcu/dotfiles/applescripts/quit_after_work.applescript'
+alias open_before_work='osascript /Users/alex/dotfiles/applescripts/open_before_work.applescript'
+alias quit_after_work='osascript /Users/alex/dotfiles/applescripts/quit_after_work.applescript'
