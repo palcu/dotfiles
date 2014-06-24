@@ -1,0 +1,1617 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"time_",
+				"time_predicted	statement"
+			],
+			[
+				"date",
+				"datetime"
+			],
+			[
+				"cell",
+				"cell_list"
+			],
+			[
+				"goo",
+				"google_data"
+			],
+			[
+				"time",
+				"timedelta  (class)"
+			],
+			[
+				"esti",
+				"estimate"
+			],
+			[
+				"estimate",
+				"estimate"
+			],
+			[
+				"estima",
+				"estimates"
+			],
+			[
+				"get",
+				"get_today_taskseries  (function)"
+			],
+			[
+				"quack",
+				"quackBehavior"
+			],
+			[
+				"qua",
+				"QuackBehavior"
+			],
+			[
+				"fly",
+				"flyBehavior"
+			],
+			[
+				"view",
+				"view_mode"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"max",
+				"max_items_top"
+			],
+			[
+				"Repo",
+				"ReportsConstants"
+			],
+			[
+				"mn",
+				"min-height"
+			],
+			[
+				"stas",
+				"stash_message"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/alex/Projects/rsoc/2014/results/index.html",
+			"settings":
+			{
+				"buffer_size": 3545,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 269.0,
+		"selected_items":
+		[
+			[
+				"compi",
+				"Coffee: Compile File"
+			],
+			[
+				"comp",
+				"Coffee: Compile File"
+			],
+			[
+				"com",
+				"Coffee: Compile File"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"lintersave",
+				"SublimeLinter: Don’t Show Errors on Save"
+			],
+			[
+				"choose",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"prefslinter",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"destro",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"watch",
+				"Coffee: Toggle Watch Mode"
+			],
+			[
+				"coffeec",
+				"Coffee: Compile File"
+			],
+			[
+				"preslinteruser",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"prefslint",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"browse",
+				"Preferences: Browse Packages"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"prefs",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"prefslinterdefa",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"packe list",
+				"Package Control: List Packages"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"installp",
+				"Package Control: Install Package"
+			],
+			[
+				"enable",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"enable li",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"removepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"removep",
+				"Package Control: Remove Package"
+			],
+			[
+				"disable",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"enablelint",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"linters",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"show all",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"linterto",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"LIST ERROR",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"LINT",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"linte",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"prefssbu",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"enable p",
+				"Package Control: Enable Package"
+			],
+			[
+				"errors",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"prefssubl",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"prefssub",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"toggl li",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"toggle linte",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"prefss",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"linter debu",
+				"SublimeLinter: Enable Debug Mode"
+			],
+			[
+				"coffee",
+				"Coffee: Lint"
+			],
+			[
+				"coffee li",
+				"Coffee: Lint"
+			],
+			[
+				"coffe",
+				"Coffee: Quick Run Bar"
+			],
+			[
+				"run sele",
+				"Coffee: Run Script / Selection"
+			],
+			[
+				"co",
+				"Coffee: Check Syntax"
+			],
+			[
+				"quick",
+				"Git: Quick Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"commit",
+				"Git: Quick Commit"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add Current File"
+			],
+			[
+				"amme",
+				"Git: Amend Commit"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"cofeescript",
+				"Coffee: Run Script / Selection"
+			],
+			[
+				"cofee",
+				"Coffee: Run Cake Task"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"packages l",
+				"Package Control: List Packages"
+			],
+			[
+				"git file",
+				"Git: Diff Current File"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"git histor",
+				"Git: Commit history"
+			],
+			[
+				"github histo",
+				"GitHub: History"
+			],
+			[
+				"git history",
+				"GitHub: History"
+			],
+			[
+				"git histo",
+				"GitHub: History"
+			],
+			[
+				"git commit",
+				"Git: Commit history"
+			],
+			[
+				"git com",
+				"Git: Commit history"
+			],
+			[
+				"git branch",
+				"Git: Change Branch"
+			],
+			[
+				"package remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"github blam",
+				"GitHub: Blame"
+			],
+			[
+				"githubina",
+				"GitHubinator Blame"
+			],
+			[
+				"github",
+				"GitHub: Switch Accounts"
+			],
+			[
+				"github open",
+				"GitHub: Open Gist in Browser"
+			],
+			[
+				"gitgutter",
+				"GitGutter: Show Comparing Against"
+			],
+			[
+				"git sta",
+				"Git: Diff Staged"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"origami destro",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"origamileft",
+				"Origami: Create Pane on the Left"
+			],
+			[
+				"github bla",
+				"GitHub: Blame"
+			],
+			[
+				"githuv",
+				"GitHub: View"
+			],
+			[
+				"search",
+				"File: Search Files"
+			],
+			[
+				"gher",
+				"Gherkin/Cucumber: Format"
+			],
+			[
+				"gherkin",
+				"Gherkin/Cucumber: Format"
+			],
+			[
+				"githu",
+				"GitHub: View"
+			],
+			[
+				"blam",
+				"GitHub: Blame"
+			],
+			[
+				"github view",
+				"GitHub: View"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 430.0,
+		"history":
+		[
+			"__main__",
+			"__name__",
+			"print PATH",
+			"PATH",
+			"ls",
+			"which python",
+			"2 + 3",
+			"python",
+			"pip --version",
+			"pip list",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/alex/Projects/rsoc/2014/ui/stylesheets/screen.css",
+		"/Users/alex/Projects/rsoc/2014/index.html",
+		"/Users/alex/Projects/rsoc/2013/ui/stylesheets/screen.css~",
+		"/Users/alex/Projects/rsoc/2013/ui/stylesheets/screen.scss",
+		"/Users/alex/Projects/rsoc/2014/ui/stylesheets/reset.css",
+		"/Users/alex/Projects/rsoc/2013/ui/stylesheets/screen.css",
+		"/Users/alex/Projects/rsoc/2013/ui/stylesheets/reset.css",
+		"/Users/alex/Projects/rsoc/2013/calendar/index.html",
+		"/Users/alex/Projects/rsoc/2013/index.html",
+		"/Users/alex/Projects/rsoc/index.php",
+		"/Users/alex/Projects/rsoc/2014/results/index.html",
+		"/Users/alex/Projects/rsoc/2013/results/index.html",
+		"/Users/alex/Projects/rsoc/README.md",
+		"/Users/alex/Projects/rsoc/2014/apply/index.html",
+		"/Users/alex/Projects/dashpalcu/.gitignore",
+		"/Users/alex/Projects/dashpalcu/static/script.coffee",
+		"/Users/alex/Projects/dashpalcu/static/script.js",
+		"/Users/alex/Projects/dashpalcu/credentials.example.yaml",
+		"/Users/alex/Projects/dashpalcu/README.md",
+		"/Users/alex/Projects/dashpalcu/credentials.yaml",
+		"/Users/alex/Projects/dashpalcu/google_client.py",
+		"/Users/alex/Projects/dashpalcu/toggl_client.py",
+		"/Users/alex/Projects/dashpalcu/static/style.css",
+		"/Users/alex/Projects/dashpalcu/templates/index.html",
+		"/Users/alex/Projects/dashpalcu/templates/layout.html",
+		"/Users/alex/Projects/dashpalcu/server.py",
+		"/Users/alex/Projects/dashpalcu/rtm_client.py",
+		"/Users/alex/Projects/dashpalcu/requirements.txt",
+		"/Users/alex/Projects/dashpalcu/settings.py",
+		"/Users/alex/Projects/gdata-python-client/samples/spreadsheets/spreadsheetExample.py",
+		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/Users/alex/Projects/dashpalcu/tests/test_settings.py",
+		"/Users/alex/Projects/dashpalcu/helpers.py",
+		"/var/folders/1t/sb94x1m56fdf2n1bxz9nwsqc0000gn/T/script.js",
+		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/Better CoffeeScript/CoffeeScript.sublime-settings",
+		"/Users/alex/Projects/sublime_projects/dashpalcu.sublime-project",
+		"/Users/alex/Projects/dashpalcu/.codeintel/config",
+		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/pdb.sublime-snippet",
+		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/Users/alex/Projects/dashpalcu/venv/lib/python2.7/site-packages/flask/__init__.py",
+		"/Users/alex/Projects/dashpalcu/venv/lib/python2.7/site-packages/flask/json.py",
+		"/usr/local/Cellar/python/2.7.6/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urlparse.py",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/json/__init__.py",
+		"/Users/alex/Projects/dashpalcu/.codeintel/co",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/base64.py",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urlparse.py",
+		"/System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/urllib.py",
+		"/Users/alex/Projects/sublime_projects/thehole.sublime-project",
+		"/Users/alex/uberVU/thehole/app/modules/models/report_widget.coffee",
+		"/Users/alex/uberVU/thehole/models/report_widget/report_widget.py",
+		"/Users/alex/uberVU/thehole/models/base.py",
+		"/Users/alex/uberVU/thehole/ubervu/frontend/features/reporting/reports.py",
+		"/Users/alex/uberVU/thehole/ubervu/frontend/features/__init__.py",
+		"/Users/alex/uberVU/thehole/ubervu/frontend/features/reporting/base_reporting_steps.py",
+		"/Users/alex/uberVU/thehole/app/docs/features.md",
+		"/Users/alex/uberVU/thehole/facebook_accounts/config/facebook_estimates.prod.yml",
+		"/Users/alex/uberVU/thehole/api/fabfile.py",
+		"/Users/alex/uberVU/thehole/models/report/report.py",
+		"/Users/alex/uberVU/thehole/core/constants/reports.py",
+		"/Users/alex/uberVU/thehole/requirements.txt",
+		"/Users/alex/uberVU/thehole/core/vendor/PyYAML-3.08.tar.gz",
+		"/Users/alex/uberVU/thehole/app/core/pubsub.coffee",
+		"/Users/alex/uberVU/thehole/app/patches/0005-backbone-forms.js-changed-email-validator.patch",
+		"/Users/alex/uberVU/thehole/uvscripts/search/create_aliases_for_each_view.py",
+		"/Users/alex/uberVU/thehole/grunt/tasks/create-env.coffee",
+		"/Users/alex/uberVU/thehole/githubscripts/client.py",
+		"/Users/alex/uberVU/thehole/models/fields.py",
+		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/Jedi - Python autocompletion/sublime_jedi.sublime-settings",
+		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/sublime-github/GitHub.sublime-settings",
+		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/SideBarEnhancements/Side Bar.sublime-settings",
+		"/Users/alex/Desktop/alex.py",
+		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/Git/Git.sublime-settings",
+		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/GitGutter/GitGutter.sublime-settings",
+		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/User/GitGutter.sublime-settings",
+		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/User/CoffeeScript.sublime-settings",
+		"/Users/alex/uberVU/thehole/app/modules/models/report.coffee",
+		"/Users/alex/uberVU/thehole/app/constants/reports.coffee",
+		"/usr/local/lib/python2.7/site-packages/lettuce/registry.py",
+		"/Users/alex/uberVU/thehole/ubervu/frontend/features/reporting/reports.feature",
+		"/Users/alex/uberVU/thehole/email_alerts/test/fixtures/export_report_email.py",
+		"/Users/alex/uberVU/thehole/app/tests/factories/report.coffee",
+		"/Users/alex/Desktop/test.py",
+		"/Users/alex/uberVU/thehole/app/tests/factories/report_widgets_data.coffee",
+		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/SublimeLinter/Default (OSX).sublime-keymap",
+		"/Users/alex/uberVU/thehole/uvscripts/cleanup/set_business_plans_to_default_limit.py",
+		"/Users/alex/uberVU/thehole/app/templates/settings/subscription.hjs",
+		"/Users/alex/uberVU/thehole/cyclops/autoscaling/scale_up.py",
+		"/Users/alex/uberVU/thehole/sync_mozaic.py",
+		"/Users/alex/uberVU/thehole/docs/how_to/python/install_dependencies_local.md",
+		"/Users/alex/uberVU/thehole/app/templates/mention/signals/influence_spread_node.hjs",
+		"/Users/alex/uberVU/thehole/app/includes.js",
+		"/Users/alex/uberVU/thehole/ubervu/api/tests/logged_in_test_case.py",
+		"/Users/alex/uberVU/thehole/app/templates/menus/linkedin-action-nav.hjs",
+		"/Users/alex/uberVU/thehole/app/login.js",
+		"/Users/alex/uberVU/thehole/ubervu/templates/registration/password_reset_form.html",
+		"/Users/alex/uberVU/thehole/ubervu/templates/registration/password_reset_email.html",
+		"/Users/alex/uberVU/thehole/ubervu/middleware/put_request.py",
+		"/Users/alex/uberVU/thehole/ubervu/frontend/permissions/report_widget.py",
+		"/Users/alex/uberVU/thehole/ubervu/frontend/permissions/report.py",
+		"/Users/alex/uberVU/thehole/grunt/tasks/prepend_aliases.coffee",
+		"/Users/alex/uberVU/thehole/.gitignore",
+		"/Users/alex/uberVU/thehole/app/modules/editors/social_profile_editor.coffee",
+		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/alex/uberVU/thehole/app/css/reports.css",
+		"/Users/alex/uberVU/thehole/utils/snowflake.py",
+		"/Users/alex/uberVU/thehole/data_acquisition/scripts/find_rate_limits_facebook_app.py",
+		"/Users/alex/uberVU/thehole/core/test/fixtures_loader.py",
+		"/Users/alex/uberVU/thehole/public_website/templates/contact-thank-you.html",
+		"/Users/alex/uberVU/thehole/api/start.pyc",
+		"/Users/alex/uberVU/thehole/monitor_deploy.pyc",
+		"/Users/alex/uberVU/thehole/uvrun.pyc",
+		"/Users/alex/uberVU/thehole/data_acquisition/scripts/language_agnostic_twitter.py",
+		"/Users/alex/.linters/coffeelint.json",
+		"/var/folders/1t/sb94x1m56fdf2n1bxz9nwsqc0000gn/T/report_widget.js",
+		"/Users/alex/uberVU/thehole/docs/reporting/overview.md",
+		"/Users/alex/uberVU/thehole/app/templates/menus/reports-action-nav.hjs",
+		"/Users/alex/uberVU/thehole/app/tests/modules/dashboard/controller/canvas_private_beta_tests.coffee",
+		"/Users/alex/uberVU/thehole/public_website/templates/backend-engineer.html",
+		"/Users/alex/uberVU/thehole/app/modules/backbone_editors.coffee",
+		"/Users/alex/uberVU/thehole/app/core/base_collection.coffee",
+		"/Users/alex/uberVU/thehole/docs/puppet/how_to_test.md",
+		"/Users/alex/uberVU/thehole/app/templates/filters/hourly_filter.hjs",
+		"/Users/alex/uberVU/thehole/app/modules/handlebars_helpers.coffee",
+		"/Users/alex/uberVU/thehole/ubervu/frontend/features/support/constants.py",
+		"/usr/local/lib/python2.7/site-packages/lettuce/decorators.py"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"",
+			"*.py",
+			"",
+			"unleashed-new.css",
+			"*.css",
+			"*.hjs",
+			"*.coffee",
+			"*.coffe",
+			"*.css",
+			"*.coffee",
+			"*.hjs",
+			"",
+			"*.md",
+			"*.coffee, *.js",
+			"*.coffee",
+			"",
+			"*.coffee",
+			"*.hjs",
+			"",
+			"unleashed-new.css",
+			"",
+			"*.hjs",
+			"*.css",
+			"",
+			"unleashed-new.css",
+			"unleashed.css",
+			"",
+			"*.hjs",
+			"*.css",
+			"*.coffee",
+			"*.css",
+			"*.coffee",
+			"*.hjs",
+			"*.coffee",
+			"*.css",
+			"*.coffee",
+			"*.py",
+			"*.coffee",
+			"*.py",
+			"*.coffee",
+			"*.py",
+			"*.feature",
+			"*.py",
+			"",
+			"*.feature",
+			"*.py",
+			"*.coffee",
+			"*.hjs",
+			"*.coffee",
+			"*.css",
+			"*.coffee",
+			"*.py",
+			"*.md",
+			"*.coffee",
+			"*.py",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"students",
+			"results",
+			"Applications are now over. Results will be published on May 9th.",
+			"Application period",
+			"_get_date",
+			"RotatingFileHandler",
+			"Formatter",
+			"user_agent",
+			"cell",
+			"getcells",
+			"_PromptForCellsAction",
+			"get",
+			"_get",
+			"_Get",
+			"_PrintFeed",
+			"_ListGetAction",
+			"curr_wksht_id",
+			"col",
+			"_CellsGetAction",
+			"_printfeed",
+			"_PromptForSpreadsheet",
+			"ProgrammaticLogin",
+			"TOGGL_USER_AGENT",
+			"style",
+			"pdb",
+			"4 hours",
+			"paths",
+			"def wait_by_alias",
+			"alex",
+			"pdb",
+			"supervi",
+			"self.widgets",
+			"widgets",
+			"github",
+			"get_dirty_fields",
+			"tinymce",
+			"boto",
+			"language",
+			"django-superbulk",
+			"top_menu_container",
+			"top_menu_action_widgets",
+			"top_menu_container",
+			"top-menu-widget",
+			"decorated-widget-actions",
+			"DASH",
+			"selected-tab",
+			"dashboard-tab",
+			"selected-tab",
+			"hideMainMenu",
+			"current",
+			"tab",
+			"active",
+			"s_activ",
+			"selected-tab",
+			"inbox-tab",
+			"reports-tab",
+			"isAdmin",
+			"main-nav",
+			"timeline-content-tweak",
+			"additional-timestamp",
+			"page.js",
+			"bundle_vagrant",
+			"debugger",
+			"debugge",
+			"debugger",
+			"filter_values",
+			"createChannels",
+			"initializeDefaultChannels",
+			"initializeDefaultChannels\ninitializeDefaultChannels\ninitializeDefaultChannels",
+			"initializeDefaultChannels\ninitializeDefaultChannels",
+			"initializeDefaultChannels",
+			"action",
+			"get_filters_from_url",
+			"debugger",
+			"Backbone.sync",
+			"Backbone.syn",
+			"sync",
+			"streams",
+			"action",
+			"debugger",
+			"ajax",
+			"debugger",
+			"new_controller:",
+			"new_controller",
+			"debugger",
+			"is_not_on_boards",
+			"reports-page",
+			"reports-page.hjs",
+			"controller_config",
+			"allowed_get_params",
+			"Create a board from template",
+			" Create a board from template",
+			"filter",
+			":after",
+			":before",
+			"::before",
+			".pin_widget-container",
+			"::before",
+			"border-bo",
+			"update_form",
+			".widget-update_form",
+			".widget-update",
+			".update_form",
+			".inline-form",
+			".update_form",
+			".inline-form",
+			"widget-update_form",
+			"min-width",
+			"search-field-container",
+			"width",
+			".widget-pin_board_widget_form",
+			".widget-update_form",
+			"pin_widget-container",
+			".widget-update_form",
+			"pin_widget-container",
+			"width",
+			"pin_widget",
+			"report_widget_wrapper",
+			"view_mode",
+			"get_report_widgets_and_streams",
+			"get_repo",
+			"get_report_widgets_and_streams",
+			"rows",
+			"get_reports",
+			"shouldRender",
+			"skip_rendering_on_model_changed_attributes",
+			"get_ag",
+			"inline-notification"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"decorated-widget-board-actions",
+			".inline-form",
+			".widget-pin_board_widget_form"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/alex/Projects/rsoc/2014/results/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3545,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1821,
+								1821
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": false,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": false,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 169.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"output.git":
+	{
+		"height": 91.0
+	},
+	"project": "rsoc.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"results",
+				"2014/results/index.html"
+			],
+			[
+				"css",
+				"2014/ui/stylesheets/screen.css"
+			],
+			[
+				"index",
+				"2014/index.html"
+			],
+			[
+				"2014inde",
+				"2014/index.html"
+			],
+			[
+				"goog",
+				"google_client.py"
+			],
+			[
+				"togg",
+				"toggl_client.py"
+			],
+			[
+				".cof",
+				"static/script.coffee"
+			],
+			[
+				"layout",
+				"templates/layout.html"
+			],
+			[
+				"google",
+				"google_client.py"
+			],
+			[
+				"styl",
+				"static/style.css"
+			],
+			[
+				"lao",
+				"templates/layout.html"
+			],
+			[
+				"scrip",
+				"static/script.coffee"
+			],
+			[
+				"index.",
+				"templates/index.html"
+			],
+			[
+				"script",
+				"static/script.coffee"
+			],
+			[
+				"git",
+				".gitignore"
+			],
+			[
+				"rtm",
+				"rtm_client.py"
+			],
+			[
+				"ser",
+				"server.py"
+			],
+			[
+				".git",
+				".gitignore"
+			],
+			[
+				"tog",
+				"toggl_client.py"
+			],
+			[
+				"rtmc",
+				"rtm_client.py"
+			],
+			[
+				"test_",
+				"tests/test_settings.py"
+			],
+			[
+				"test_se",
+				"tests/test_settings.py"
+			],
+			[
+				".gi",
+				".gitignore"
+			],
+			[
+				"html",
+				"templates/layout.html"
+			],
+			[
+				"serve",
+				"server.py"
+			],
+			[
+				"toggl",
+				"toggl_client.py"
+			],
+			[
+				"features/report.py",
+				"ubervu/frontend/features/reporting/reports.py"
+			],
+			[
+				"report_widget.",
+				"models/report_widget/report_widget.py"
+			],
+			[
+				"report_",
+				"app/modules/models/report_widget.coffee"
+			],
+			[
+				"report",
+				"models/report/report.py"
+			],
+			[
+				"report.co",
+				"app/modules/models/report.coffee"
+			],
+			[
+				"featuresreportpy",
+				"ubervu/frontend/features/reporting/reports.py"
+			],
+			[
+				"report_wid",
+				"models/report_widget/report_widget.py"
+			],
+			[
+				"report_w",
+				"models/report_widget/report_widget.py"
+			],
+			[
+				"report_widget",
+				"models/report_widget/report_widget.py"
+			],
+			[
+				"preport_w",
+				"ubervu/frontend/permissions/report_widget.py"
+			],
+			[
+				"reports.",
+				"core/constants/reports.py"
+			],
+			[
+				"report_widge.",
+				"models/report_widget/report_widget.py"
+			],
+			[
+				"report_widget.p",
+				"models/report_widget/report_widget.py"
+			],
+			[
+				"repor",
+				"core/constants/reports.py"
+			],
+			[
+				"reports",
+				"core/constants/reports.py"
+			],
+			[
+				"report_widget.co",
+				"app/modules/models/report_widget.coffee"
+			],
+			[
+				"reportwidget.cof",
+				"app/modules/models/report_widget.coffee"
+			],
+			[
+				"howtoins",
+				"docs/how_to/python/install_dependencies_local.md"
+			],
+			[
+				"features/report",
+				"ubervu/frontend/features/reporting/reports.py"
+			],
+			[
+				"config",
+				".codeintel/config"
+			],
+			[
+				"how_toinstall",
+				"docs/how_to/python/install_dependencies_local.md"
+			],
+			[
+				"features/report.p",
+				"ubervu/frontend/features/reporting/reports.py"
+			],
+			[
+				".code",
+				".codeintel/config"
+			],
+			[
+				"reports_contr",
+				"app/modules/reports/controller/reports_controller.coffee"
+			],
+			[
+				"urls.py",
+				"ubervu/urls.py"
+			],
+			[
+				"featuresreposts",
+				"ubervu/frontend/features/reporting/base_reporting_steps.py"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"require",
+				"requirements.txt"
+			],
+			[
+				"install",
+				"docs/how_to/python/install_dependencies_local.md"
+			],
+			[
+				"",
+				".gitmodules"
+			],
+			[
+				"widget/report_widget.cof",
+				"app/modules/reports/widget/report_widget_form.coffee"
+			],
+			[
+				"how_to/local",
+				"docs/how_to/python/install_dependencies_local.md"
+			],
+			[
+				"reports.co",
+				"app/constants/reports.coffee"
+			],
+			[
+				"report.py",
+				"models/report/report.py"
+			],
+			[
+				"diff",
+				"difflint.sh"
+			],
+			[
+				".giti",
+				".gitignore"
+			],
+			[
+				"report.",
+				"models/report/report.py"
+			],
+			[
+				"widgetreport.co",
+				"app/modules/reports/widget/report.coffee"
+			],
+			[
+				"duck",
+				"src/Duck.java"
+			],
+			[
+				"widget_actio",
+				"app/modules/base/widgets/actions/widget_action.coffee"
+			],
+			[
+				"new_item_action",
+				"app/modules/base/widgets/actions/new_item_action.coffee"
+			],
+			[
+				"new_itm",
+				"app/templates/base/new_item_action.hjs"
+			],
+			[
+				"new_item_ac",
+				"app/templates/base/new_item_action.hjs"
+			],
+			[
+				"top_menu",
+				"app/templates/top_menu/top_menu.hjs"
+			],
+			[
+				"reports_deco",
+				"app/modules/reports/widget/reports_decorator.coffee"
+			],
+			[
+				"top",
+				"app/modules/top_menu/widget/top_menu.coffee"
+			],
+			[
+				"widget-re",
+				"app/templates/base/widget-decorator.hjs"
+			],
+			[
+				"report_list_state",
+				"app/templates/reports/state_managers/reports_list_state_manager.hjs"
+			],
+			[
+				"reports_widgets_state_manager",
+				"app/modules/reports/widget/reports_widgets_state_manager.coffee"
+			],
+			[
+				"taskscontro",
+				"app/modules/tasks/controller/tasks_controller.coffee"
+			],
+			[
+				"main-nav",
+				"app/templates/menus/main-nav.hjs"
+			],
+			[
+				"main-men",
+				"app/templates/action-menu.hjs"
+			],
+			[
+				"widgetmention.coffe",
+				"app/modules/mentions/widget/mention.coffee"
+			],
+			[
+				"general",
+				"app/conf/general.user.js"
+			],
+			[
+				"reportcontro",
+				"app/modules/reports/controller/reports_controller.coffee"
+			],
+			[
+				"mention.",
+				"app/templates/mention/mention.hjs"
+			],
+			[
+				"handle",
+				"app/modules/handlebars_helpers.coffee"
+			],
+			[
+				"handlebar_he",
+				"app/modules/handlebars_helpers.coffee"
+			],
+			[
+				"genera",
+				"app/conf/general.user.js"
+			],
+			[
+				"pgeneral.use",
+				"app/conf/general.user.js"
+			],
+			[
+				"gruntge",
+				"grunt/tasks/create-general-user-js.coffee"
+			],
+			[
+				"general.user.",
+				"app/conf/general.user.js"
+			],
+			[
+				"backbone",
+				"app/core/libs/backbone/backbone-0.9.1.patched.js"
+			],
+			[
+				"search_stream_c",
+				"app/modules/mentions/controller/search_stream_controller.coffee"
+			],
+			[
+				"search_analy",
+				"app/modules/analytics/controller/search_analytics_controller.coffee"
+			],
+			[
+				"ubvu_appl",
+				"app/modules/ubvu_application_controller.coffee"
+			],
+			[
+				"backbone-pat",
+				"app/core/libs/backbone/backbone-0.9.1.patched.js"
+			],
+			[
+				"controller.",
+				"app/core/controller.coffee"
+			],
+			[
+				"streamcontro",
+				"app/modules/mentions/controller/stream_controller.coffee"
+			],
+			[
+				"module",
+				"app/core/module.coffee"
+			],
+			[
+				"backbone-patc",
+				"app/core/libs/backbone/backbone-0.9.1.patched.js"
+			],
+			[
+				"pubsub",
+				"app/core/pubsub.coffee"
+			],
+			[
+				"report.coffe",
+				"app/modules/models/report.coffee"
+			],
+			[
+				"appcontrol",
+				"app/core/application_controller.coffee"
+			],
+			[
+				"router.",
+				"app/core/router.coffee"
+			],
+			[
+				"uberstra",
+				"app/css/uberstrap.css"
+			],
+			[
+				"mention.hjs",
+				"app/templates/mention/mention.hjs"
+			],
+			[
+				"router",
+				"app/core/router.coffee"
+			],
+			[
+				"utils.coffee",
+				"app/core/utils.coffee"
+			],
+			[
+				"reporstcontroller",
+				"app/modules/reports/controller/reports_controller.coffee"
+			],
+			[
+				"top_men",
+				"app/modules/top_menu/widget/top_menu.coffee"
+			],
+			[
+				"unlease",
+				"app/css/unleashed-new.css"
+			],
+			[
+				"update_",
+				"app/templates/update_form.hjs"
+			],
+			[
+				"pnning.",
+				"app/modules/reports/lib/pinning.coffee"
+			],
+			[
+				"pinna",
+				"app/modules/mixins/pinnable_widget.coffee"
+			],
+			[
+				"unleas",
+				"app/css/unleashed-new.css"
+			],
+			[
+				"pinnable",
+				"app/modules/mixins/pinnable_widget.coffee"
+			],
+			[
+				"update_form",
+				"app/core/base_widgets/update_form.coffee"
+			],
+			[
+				"update_f",
+				"app/templates/update_form.hjs"
+			],
+			[
+				"updateform",
+				"app/templates/update_form.hjs"
+			],
+			[
+				"unle",
+				"app/css/unleashed-new.css"
+			],
+			[
+				"pinnable_widget",
+				"app/templates/reports/stream_pinnable_widget_proxy.hjs"
+			],
+			[
+				"pinnabl",
+				"app/modules/mixins/pinnable_widget.coffee"
+			],
+			[
+				"reportinfo.co",
+				"app/modules/base/widgets/report_info.coffee"
+			],
+			[
+				"report_header",
+				"app/modules/reports/widget/report_widget_header.coffee"
+			],
+			[
+				"utils.co",
+				"app/core/utils.coffee"
+			],
+			[
+				"constantsrepor",
+				"app/constants/reports.coffee"
+			],
+			[
+				"modelreport.co",
+				"app/modules/models/report.coffee"
+			],
+			[
+				"modelreportwidgecoffe",
+				"app/modules/models/report_widget.coffee"
+			],
+			[
+				"report_widget_wrap",
+				"app/modules/reports/widget/report_widget_wrapper.coffee"
+			],
+			[
+				"widgetdecorat",
+				"app/templates/base/widget-decorator.hjs"
+			],
+			[
+				"widgetdecor",
+				"app/core/base_widgets/widget_decorator.coffee"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"hole",
+				"~/Projects/sublime_projects/thehole.sublime-project"
+			],
+			[
+				"pupp",
+				"~/Projects/sublime_projects/puppet.sublime-project"
+			],
+			[
+				"",
+				"~/Projects/sublime_projects/design_patterns.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 239.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

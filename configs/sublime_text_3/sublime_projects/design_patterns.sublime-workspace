@@ -1,0 +1,2415 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"beve",
+				"beverage2"
+			],
+			[
+				"H",
+				"HouseBlend"
+			],
+			[
+				"C",
+				"CondimentDecorator"
+			],
+			[
+				"ab",
+				"abstract"
+			],
+			[
+				"get",
+				"getPressure"
+			],
+			[
+				"ob",
+				"observable"
+			],
+			[
+				"obser",
+				"Observable"
+			],
+			[
+				"Obse",
+				"Observable"
+			],
+			[
+				"fore",
+				"ForecastDisplay"
+			],
+			[
+				"obse",
+				"Observable"
+			],
+			[
+				"Obser",
+				"Observable"
+			],
+			[
+				"o",
+				"observers"
+			],
+			[
+				"we",
+				"weatherData"
+			],
+			[
+				"cu",
+				"CurrentConditionDisplay"
+			],
+			[
+				"Cur",
+				"CurrentConditionDisplay"
+			],
+			[
+				"We",
+				"WeatherData"
+			],
+			[
+				"re",
+				"registerObserver"
+			],
+			[
+				"will",
+				"will_be_killed"
+			],
+			[
+				"list",
+				"list_extra_params"
+			],
+			[
+				"filte",
+				"filtered_reports"
+			],
+			[
+				"reports",
+				"reports_params"
+			],
+			[
+				"dump",
+				"dumps	function"
+			],
+			[
+				"Group",
+				"GroupFactory"
+			],
+			[
+				"home",
+				"HOME_BOARD	import"
+			],
+			[
+				"grou",
+				"group_id"
+			],
+			[
+				"display",
+				"display_group_id"
+			],
+			[
+				"Gro",
+				"GroupFactory	import"
+			],
+			[
+				"displa",
+				"display_group_id	param"
+			],
+			[
+				"page",
+				"PAGE_WIDTH	import"
+			],
+			[
+				"_",
+				"_get_report_data	function"
+			],
+			[
+				"resour",
+				"resource_url	function"
+			],
+			[
+				"subsc",
+				"subscriptable"
+			],
+			[
+				"readli",
+				"readlines	function"
+			],
+			[
+				"migr",
+				"migration_number	forflow"
+			],
+			[
+				"report",
+				"report_factory	import"
+			],
+			[
+				"key",
+				"keyword_team	import"
+			],
+			[
+				"Ke",
+				"KeywordTeamFactory	class"
+			],
+			[
+				"Rep",
+				"ReportTemplateFactory	class"
+			],
+			[
+				"cre",
+				"create_report_template_with_sources_meta	import"
+			],
+			[
+				"Repo",
+				"ReportTemplateFactory"
+			],
+			[
+				"vei",
+				"ViewModes"
+			],
+			[
+				"vi",
+				"ViewModes"
+			],
+			[
+				"emai",
+				"EmailSubscriptionFactory"
+			],
+			[
+				"Email",
+				"EmailSubscriptionFactory"
+			],
+			[
+				"Emai",
+				"EmailSubscription"
+			],
+			[
+				"laz",
+				"LazyAttribute"
+			],
+			[
+				"EmailS",
+				"EmailSubscriptionFactory"
+			],
+			[
+				"t",
+				"type"
+			],
+			[
+				"quack",
+				"quackBehavior"
+			],
+			[
+				"qua",
+				"QuackBehavior"
+			],
+			[
+				"fly",
+				"flyBehavior"
+			],
+			[
+				"view",
+				"view_mode"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"max",
+				"max_items_top"
+			],
+			[
+				"mn",
+				"min-height"
+			],
+			[
+				"stas",
+				"stash_message"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/alex/Projects/head_first_design_patterns/src/ch3/Mocha.java",
+			"settings":
+			{
+				"buffer_size": 314,
+				"line_ending": "Unix",
+				"name": "Mocha"
+			}
+		},
+		{
+			"contents": "package headfirst.factory.pizzas;\n\npublic class SimplePizzaFactory {\n\n	public Pizza createPizza(String type) {\n		Pizza pizza = null;\n\n		if (type.equals(\"cheese\")) {\n			pizza = new CheesePizza();\n		} else if (type.equals(\"pepperoni\")) {\n			pizza = new PepperoniPizza();\n		} else if (type.equals(\"clam\")) {\n			pizza = new ClamPizza();\n		} else if (type.equals(\"veggie\")) {\n			pizza = new VeggiePizza();\n		}\n		return pizza;\n	}\n}\n",
+			"file": "/Users/alex/Projects/head_first_design_patterns/src/ch4/SimplePizzaFactory.java",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 426,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "package headfirst.factory.pizzas;\n\npublic class CheesePizza extends Pizza {\n	public CheesePizza() {\n		name = \"Cheese Pizza\";\n		dough = \"Regular Crust\";\n		sauce = \"Marinara Pizza Sauce\";\n		toppings.add(\"Fresh Mozzarella\");\n		toppings.add(\"Parmesan\");\n	}\n}\n",
+			"file": "/Users/alex/Projects/head_first_design_patterns/src/ch4/CheesePizza.java",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 255,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/alex/Projects/head_first_design_patterns/src/ch3/Soy.java",
+			"settings":
+			{
+				"buffer_size": 308,
+				"line_ending": "Unix",
+				"name": "Soy"
+			}
+		},
+		{
+			"file": "/Users/alex/Projects/head_first_design_patterns/src/ch3/Whip.java",
+			"settings":
+			{
+				"buffer_size": 311,
+				"line_ending": "Unix",
+				"name": "Whip"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 269.0,
+		"selected_items":
+		[
+			[
+				"coffee",
+				"Coffee: Display JavaScript"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"lint mode",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"view",
+				"GitHub: View"
+			],
+			[
+				"github",
+				"GitHub: View"
+			],
+			[
+				"installp",
+				"Package Control: Install Package"
+			],
+			[
+				"bla",
+				"Git: Blame"
+			],
+			[
+				"view ",
+				"GitHub: View"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"show er",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"lint",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"githu",
+				"GitHub: View"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add Current File"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"lint this",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"lint view",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"lintv",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"lintview",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"prefs",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"choose",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"prefslinterdefa",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"prefslinter",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"packe list",
+				"Package Control: List Packages"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"enable",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"enable li",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"removepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"removep",
+				"Package Control: Remove Package"
+			],
+			[
+				"disable",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"enablelint",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"prefslint",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"linters",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"show all",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"linterto",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"LIST ERROR",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"LINT",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"linte",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"prefssbu",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"enable p",
+				"Package Control: Enable Package"
+			],
+			[
+				"errors",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"prefssubl",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"prefssub",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"toggl li",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"toggle linte",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"prefss",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"linter debu",
+				"SublimeLinter: Enable Debug Mode"
+			],
+			[
+				"coffee li",
+				"Coffee: Lint"
+			],
+			[
+				"watch",
+				"Coffee: Toggle Watch Mode"
+			],
+			[
+				"destro",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"coffe",
+				"Coffee: Quick Run Bar"
+			],
+			[
+				"run sele",
+				"Coffee: Run Script / Selection"
+			],
+			[
+				"co",
+				"Coffee: Check Syntax"
+			],
+			[
+				"quick",
+				"Git: Quick Commit"
+			],
+			[
+				"commit",
+				"Git: Quick Commit"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"amme",
+				"Git: Amend Commit"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"cofeescript",
+				"Coffee: Run Script / Selection"
+			],
+			[
+				"cofee",
+				"Coffee: Run Cake Task"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"packages l",
+				"Package Control: List Packages"
+			],
+			[
+				"git file",
+				"Git: Diff Current File"
+			],
+			[
+				"git histor",
+				"Git: Commit history"
+			],
+			[
+				"github histo",
+				"GitHub: History"
+			],
+			[
+				"git history",
+				"GitHub: History"
+			],
+			[
+				"git histo",
+				"GitHub: History"
+			],
+			[
+				"git commit",
+				"Git: Commit history"
+			],
+			[
+				"git branch",
+				"Git: Change Branch"
+			],
+			[
+				"package remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"github blam",
+				"GitHub: Blame"
+			],
+			[
+				"githubina",
+				"GitHubinator Blame"
+			],
+			[
+				"github open",
+				"GitHub: Open Gist in Browser"
+			],
+			[
+				"gitgutter",
+				"GitGutter: Show Comparing Against"
+			],
+			[
+				"git sta",
+				"Git: Diff Staged"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"origami destro",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"origamileft",
+				"Origami: Create Pane on the Left"
+			],
+			[
+				"github bla",
+				"GitHub: Blame"
+			],
+			[
+				"githuv",
+				"GitHub: View"
+			],
+			[
+				"search",
+				"File: Search Files"
+			],
+			[
+				"gher",
+				"Gherkin/Cucumber: Format"
+			],
+			[
+				"gherkin",
+				"Gherkin/Cucumber: Format"
+			],
+			[
+				"blam",
+				"GitHub: Blame"
+			],
+			[
+				"github view",
+				"GitHub: View"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 430.0,
+		"history":
+		[
+			"import django",
+			"random.randint(0,2)",
+			"import random",
+			"random.randint(0,2)",
+			"__main__",
+			"__name__",
+			"print PATH",
+			"PATH",
+			"ls",
+			"which python",
+			"2 + 3",
+			"python",
+			"pip --version",
+			"pip list",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/alex/Projects/head_first_design_patterns/src/ch3/Beverage.java",
+		"/Users/alex/Projects/head_first_design_patterns/src/ch3/StarbuzzCoffee.java",
+		"/Users/alex/Projects/head_first_design_patterns/src/ch3/CondimentDecorator.java",
+		"/Users/alex/Projects/head_first_design_patterns/src/ch3/Expresso.java",
+		"/Users/alex/Projects/head_first_design_patterns/src/ch3/HouseBlend.java",
+		"/Users/alex/Projects/head_first_design_patterns/src/ch2/WeatherData.java",
+		"/Users/alex/Projects/head_first_design_patterns/build.xml",
+		"/Users/alex/Projects/head_first_design_patterns/src/ch2/Observer.java",
+		"/Users/alex/Projects/head_first_design_patterns/src/ch2/DisplayElement.java",
+		"/Users/alex/Projects/head_first_design_patterns/src/ch2/WeatherStation.java",
+		"/Users/alex/Projects/head_first_design_patterns/src/ch2/CurrentConditionDisplay.java",
+		"/Users/alex/Projects/head_first_design_patterns/src/ch2/Subject.java",
+		"/Users/alex/Projects/head_first_design_patterns/src/ch2/ForecastDisplay.java",
+		"/Users/alex/Projects/sublime_projects/design_patterns.sublime-project",
+		"/Users/alex/Projects/head_first_design_patterns/classes/Observer.class",
+		"/Users/alex/uberVU/thehole/models/group/group_factory.py",
+		"/Users/alex/uberVU/thehole/app/core/datasource/gc.coffee",
+		"/Users/alex/uberVU/thehole/app/templates/modals/popup.hjs",
+		"/Users/alex/uberVU/thehole/app/templates/page.hjs",
+		"/Users/alex/uberVU/thehole/app/templates/custom_sources/list.hjs",
+		"/Users/alex/uberVU/thehole/app/templates/list.hjs",
+		"/Users/alex/uberVU/thehole/app/templates/streams/linkedin_stream.hjs",
+		"/Users/alex/uberVU/thehole/ubervu/api/tests/logged_in_test_case.py",
+		"/Users/alex/uberVU/thehole/app/core/loading_animation.coffee",
+		"/Users/alex/uberVU/thehole/app/templates/base/widget-decorator.hjs",
+		"/Users/alex/uberVU/thehole/app/core/widget/widget.coffee",
+		"/Users/alex/uberVU/thehole/app/core/application_controller.coffee",
+		"/Users/alex/uberVU/thehole/ubervu/templates/activate.html",
+		"/Users/alex/uberVU/thehole/uvscripts/cleanup/update_annotables_cached_tags.py",
+		"/Users/alex/uberVU/thehole/clients/apikeys.py",
+		"/Users/alex/uberVU/thehole/app/libs/jquery.caret.js",
+		"/Users/alex/uberVU/thehole/app/libs/jquery-autosuggest.js",
+		"/Users/alex/uberVU/thehole/cyclops/alerts/check_job_queue_size",
+		"/Users/alex/uberVU/thehole/jobs/job.py",
+		"/Users/alex/uberVU/thehole/app/core/libs/jquery/jquery.gridList.js",
+		"/Users/alex/uberVU/thehole/app/templates/settings/group_item.hjs",
+		"/Users/alex/uberVU/thehole/app/modules/base/widgets/actions/duplicate_action.coffee",
+		"/Users/alex/uberVU/thehole/app/modules/base/widgets/pin_board_widget_form.coffee",
+		"/Users/alex/uberVU/thehole/app/core/base_widgets/update_form.coffee",
+		"/Users/alex/uberVU/thehole/app/modules/reports/lib/pinning.coffee",
+		"/Users/alex/uberVU/thehole/app/modules/mixins/pinnable_widget.coffee",
+		"/Users/alex/uberVU/thehole/app/templates/base/duplicate_action.hjs",
+		"/Users/alex/uberVU/thehole/app/core/datasource/datasource.coffee",
+		"/Users/alex/uberVU/thehole/ubervu/frontend/management/commands/duplicate_txt_widgets.py",
+		"/Users/alex/uberVU/thehole/facebook_accounts/scripts/remove_duplicated_posts.py",
+		"/Users/alex/uberVU/thehole/docs/deploy/forking.md",
+		"/Users/alex/uberVU/thehole/app/templates/form.hjs",
+		"/Users/alex/uberVU/thehole/app/conf/forms.js",
+		"/Users/alex/uberVU/thehole/app/fonts/FontAwesome.otf",
+		"/Users/alex/uberVU/thehole/api/fabfile.py",
+		"/Users/alex/uberVU/thehole/app/templates/update_form.hjs",
+		"/Users/alex/uberVU/thehole/core/ubvu-production.yml",
+		"/Users/alex/uberVU/thehole/core/ubvu-development.yml",
+		"/Users/alex/uberVU/thehole/public_website/templates/inbound-sales-manager.html",
+		"/Users/alex/uberVU/thehole/ubervu/frontend/features/reporting/pin_widgets_boards.feature",
+		"/Users/alex/uberVU/thehole/mentions/lib/helpers/duplicates_remover.py",
+		"/Users/alex/uberVU/thehole/legacy/lib/database_uploader.py",
+		"/Users/alex/uberVU/thehole/uvscripts/github/push_in_testing.sh",
+		"/Users/alex/uberVU/thehole/app/modules/reports/widget/reports_widgets_state_manager.coffee",
+		"/Users/alex/uberVU/thehole/app/modules/reports/widget/reports_list_state_manager.coffee",
+		"/Users/alex/uberVU/thehole/app/modules/reports/widget/instant_new_report_action.coffee",
+		"/Users/alex/uberVU/thehole/app/templates/reports/state_managers/reports_list_state_manager.hjs",
+		"/Users/alex/uberVU/thehole/app/modules/reports/widget/change_view_mode_action.coffee",
+		"/Users/alex/uberVU/thehole/app/templates/reports/state_managers/reports_widgets_state_manager.hjs",
+		"/Users/alex/uberVU/thehole/app/modules/reports/controller/reports_controller.coffee",
+		"/Users/alex/uberVU/thehole/app/modules/reports/widget/reports_decorator.coffee",
+		"/Users/alex/uberVU/thehole/app/templates/reports/reports_decorator.hjs",
+		"/Users/alex/uberVU/thehole/models/report/report.py",
+		"/Users/alex/uberVU/thehole/email_alerts/scripts/render_email.py",
+		"/Users/alex/uberVU/thehole/README.md",
+		"/Users/alex/uberVU/thehole/models/report_widget/report_widget_signals.py",
+		"/Users/alex/uberVU/thehole/models/report_widget/report_widget_factory.py",
+		"/Users/alex/uberVU/thehole/models/report_widget/report_widget.py",
+		"/Users/alex/uberVU/thehole/app/templates/report_list.hjs",
+		"/Users/alex/uberVU/thehole/app/templates/reports/instant_new_report_action.hjs",
+		"/Users/alex/uberVU/thehole/app/tests/modules/reports/controller/edit_report_controller.coffee",
+		"/Users/alex/uberVU/thehole/app/modules/reports/controller/print_report_controller.coffee",
+		"/Users/alex/uberVU/thehole/app/modules/reports/controller/organize_report_controller.coffee",
+		"/Users/alex/uberVU/thehole/app/modules/reports/controller/edit_report_controller.coffee",
+		"/Users/alex/uberVU/thehole/models/report/report_template_factory.py",
+		"/Users/alex/uberVU/thehole/app/modules/collections/report_collection.coffee",
+		"/Users/alex/uberVU/thehole/app/index.html",
+		"/Users/alex/uberVU/thehole/docs/infrastructure/instances.md",
+		"/Users/alex/uberVU/thehole/core/test/decorators/test_instrument_task.py",
+		"/Users/alex/uberVU/thehole/app/css/font.css",
+		"/Users/alex/uberVU/thehole/app/fonts/fontawesome-webfont.otf",
+		"/Users/alex/uberVU/thehole/uvscripts/lib/fix_keywords_with_wrong_operator.py",
+		"/Users/alex/uberVU/thehole/app/templates/reports/report_widget_list.hjs",
+		"/Users/alex/uberVU/thehole/app/core/widget_starter.coffee",
+		"/Users/alex/uberVU/thehole/app/core/base_widgets/coman.coffee",
+		"/Users/alex/uberVU/thehole/app/core/utils.coffee",
+		"/Users/alex/uberVU/thehole/app/core/base_widgets/notifications.coffee",
+		"/Users/alex/uberVU/thehole/app/modules/home/controller/home_controller.coffee",
+		"/Users/alex/uberVU/thehole/app/templates/notification_bar.hjs",
+		"/Users/alex/uberVU/thehole/data_acquisition/scripts/add_platform.py",
+		"/Users/alex/uberVU/thehole/app/modules/base/widgets/main_menu.coffee",
+		"/Users/alex/uberVU/thehole/controllers/data_acquisition.py",
+		"/Users/alex/uberVU/thehole/aggregator/lib/dynamo_analytics_aggregator.py",
+		"/Users/alex/uberVU/thehole/app/templates/settings/notifications.hjs",
+		"/Users/alex/uberVU/thehole/app/modules/settings/controller/notifications_controller.coffee",
+		"/Users/alex/uberVU/thehole/ubervu/nosetests.xml",
+		"/Users/alex/uberVU/thehole/controllers/utils.py",
+		"/Users/alex/uberVU/thehole/uv-test",
+		"/Users/alex/uberVU/thehole/app/core/module.coffee",
+		"/Users/alex/uberVU/thehole/app/conf/modules.js",
+		"/Users/alex/uberVU/thehole/ubervu/migrations_gen.py",
+		"/Users/alex/uberVU/thehole/ubervu/frontend/features/reporting/widgets.feature",
+		"/Users/alex/uberVU/thehole/grunt/tasks/prepend_aliases.coffee",
+		"/Users/alex/uberVU/thehole/app/modules/base/modals/popup.coffee",
+		"/Users/alex/uberVU/thehole/app/modules/streams/widget/social_profile_stream_form.coffee",
+		"/Users/alex/uberVU/thehole/app/core/core_modules.js",
+		"/Users/alex/uberVU/thehole/app/core/base_widgets/item_count.coffee",
+		"/Users/alex/uberVU/thehole/app/core/datasource/scheduler.coffee",
+		"/Users/alex/uberVU/thehole/app/order.js",
+		"/Users/alex/uberVU/thehole/app/css/loading.css",
+		"/Users/alex/uberVU/thehole/app/core/loader.coffee",
+		"/Users/alex/uberVU/thehole/api/scripts/log_analyzer.py",
+		"/Users/alex/uberVU/thehole/app/login.js",
+		"/Users/alex/uberVU/thehole/app/tests/factories/helpers.coffee",
+		"/Users/alex/uberVU/thehole/app/core/base_widgets/coman.js",
+		"/Users/alex/uberVU/thehole/twitter_accounts/scripts/purge_twitter_mentions.py",
+		"/Users/alex/uberVU/thehole/cyclops/test/test_kestrel_ops_monitor.py",
+		"/Users/alex/uberVU/thehole/data_acquisition/test/test_daq_omgili_processor.py",
+		"/Users/alex/uberVU/thehole/clients/test/omgili/test_omgili_client.py",
+		"/Users/alex/uberVU/thehole/monitor_deploy.py",
+		"/Users/alex/uberVU/thehole/facebook_accounts/scripts/move_analytics_one_day_left.py",
+		"/Users/alex/uberVU/thehole/docs/how_to/migrations.md",
+		"/Users/alex/uberVU/thehole/app/modules/ubvu_application_controller.coffee"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"Whip.java",
+			"*.coffee, *.hjs, *.js, *.css",
+			"*.coffee, *.hjs, *.js",
+			"*.coffee, *.hjs",
+			"*.coffee",
+			"*.py",
+			"*.coffee, *.hjs",
+			"*.coffee",
+			"*.py",
+			"test_current_resource.py",
+			"*.py",
+			"test_current_resource.py",
+			"*.py",
+			"*.css",
+			"*.py, *.coffee",
+			"*.py",
+			"00*.py",
+			"*.md",
+			"*.py",
+			"*.coffee",
+			"*.py",
+			"",
+			"*.py",
+			"test_report_resource.py",
+			"*.py",
+			"*.md",
+			"*.py",
+			"*.coffee, *.hjs, *.css",
+			"",
+			"*.coffee, *.hjs",
+			"*.coffee",
+			"",
+			"*.md",
+			"*.coffee, *.css, *.hjs",
+			"*.coffee, *.css, *.hjs, *.js",
+			"*.coffee, *.css, *.hjs",
+			"*.coffee",
+			"*.md",
+			"*.coffee, *.js, *css, *.hjs",
+			"*.coffee, *.js, *css",
+			"*.coffee, *.js",
+			"*.py",
+			"*.coffee, *.js",
+			"*.coffee",
+			"*.md",
+			"",
+			"*.coffee",
+			"*.py",
+			"",
+			"unleashed-new.css",
+			"*.css",
+			"*.hjs",
+			"*.coffee",
+			"*.coffe",
+			"*.css",
+			"*.coffee",
+			"*.hjs",
+			"",
+			"*.md",
+			"*.coffee, *.js",
+			"*.coffee",
+			"",
+			"*.coffee",
+			"*.hjs",
+			"",
+			"unleashed-new.css",
+			"",
+			"*.hjs",
+			"*.css",
+			"",
+			"unleashed-new.css",
+			"unleashed.css",
+			"",
+			"*.hjs",
+			"*.css",
+			"*.coffee",
+			"*.css",
+			"*.coffee",
+			"*.hjs",
+			"*.coffee",
+			"*.css",
+			"*.coffee",
+			"*.py",
+			"*.coffee",
+			"*.py",
+			"*.coffee",
+			"*.py",
+			"*.feature",
+			"*.py",
+			"",
+			"*.feature",
+			"*.py",
+			"*.coffee",
+			"*.hjs",
+			"*.coffee",
+			"*.css",
+			"*.coffee",
+			"*.py",
+			"*.md",
+			"*.coffee",
+			"*.py",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"Soy",
+			"item_element",
+			"<li",
+			"rowsMax",
+			"_resizeGrid",
+			"onRowAdd",
+			"hide()",
+			"hide",
+			"current_view_mode",
+			"getBoardUsecase",
+			"ReportsDecorator",
+			"InstantNewReportAction",
+			"icon-search",
+			"controller",
+			"/reports",
+			"def notify",
+			".view",
+			"debugger",
+			"WidgetStarter",
+			"initialize",
+			"setTimeout",
+			"while true",
+			"setTimeout",
+			"Utils.notify",
+			"coman",
+			"base_form",
+			"widget_decorator",
+			"editable_field",
+			"/url",
+			"widget_editor",
+			"item_count",
+			"base_form",
+			"debugger",
+			"search-form-container",
+			"injectControllerCallback",
+			"waitForWidgetsToRender",
+			"template",
+			"main_menu",
+			"MainMenuWidget",
+			"StatsClient",
+			"statsd",
+			"def enqueue",
+			"graphite",
+			"addmetric",
+			"controller",
+			"GraphitePeriodicReporter",
+			"statsd",
+			"instrument_task",
+			"BOARD_VIEW_MODE_NAMES",
+			"BOARD_VIEW_MODE",
+			"view_mode",
+			"viewmode",
+			"ViewMode",
+			"board",
+			"report",
+			"reports",
+			"scroll",
+			"enable_scroll",
+			"report_list",
+			"allStatesEmpty",
+			"= 'empty'",
+			"isChannelDataEmpty",
+			"empty",
+			"loadingStates",
+			"empty",
+			"state = 'empty'",
+			"list_extra_params",
+			"setupSubscribedChannels",
+			"subscribed_channels",
+			"loading_channels",
+			"filter_by",
+			"getStateTemplateVars",
+			"list_extra_params",
+			"get_reports_and_report_widgets",
+			"ReportsDecorator",
+			"state",
+			"ReportsStateManagerWidget",
+			"empty",
+			"Empty",
+			"Empty Report",
+			"change title",
+			"CONVERT_WARNING",
+			"Convert",
+			"convert",
+			"olark",
+			"Olark",
+			"OlarkWidget",
+			"stream_count",
+			"permission_level",
+			"update_permission",
+			"account_customizations",
+			"check_home_board",
+			"get_misc",
+			"check_home_board",
+			"def get_misc",
+			"get_misc",
+			"pdb",
+			"def get_display_group",
+			"account_extra_fields",
+			"check_home_board",
+			"self.params",
+			"VALID_URL_EXAMPLE",
+			"DEFAULT_PARAMS",
+			"_get_current_url",
+			"ubervu.frontend.models",
+			"import Report",
+			"pdb",
+			"display: none",
+			"map",
+			"zoom",
+			"set_misc",
+			"self.account.set_misc(HOME_BOARD, report.id))",
+			"set_misc",
+			"update_misc",
+			"report",
+			"import ReportFactory",
+			"_get_current_url",
+			"pdb",
+			"GroupFactory(",
+			"import GroupFactory",
+			"_get_current_url",
+			"pdb",
+			"debugger",
+			"check_home_board",
+			"pdb",
+			"home_board_id",
+			"check_home_board",
+			"view"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Whip",
+			"self.params",
+			"resource_url",
+			"",
+			"decorated-widget-board-actions",
+			".inline-form",
+			".widget-pin_board_widget_form"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/alex/Projects/head_first_design_patterns/src/ch3/Mocha.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 314,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								167,
+								167
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Mocha",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": false,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": false,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/alex/Projects/head_first_design_patterns/src/ch4/SimplePizzaFactory.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 426,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								426,
+								426
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": false,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": false,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/alex/Projects/head_first_design_patterns/src/ch4/CheesePizza.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 255,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								255,
+								255
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": false,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": false,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/alex/Projects/head_first_design_patterns/src/ch3/Soy.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 308,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								163,
+								163
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Soy",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": false,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": false,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/alex/Projects/head_first_design_patterns/src/ch3/Whip.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 311,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								165,
+								165
+							]
+						],
+						"settings":
+						{
+							"auto_name": "Whip",
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": false,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": false,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"editorconfig": true,
+							"ensure_newline_at_eof_on_save": true,
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Java/Java.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"trim_trailing_white_space_on_save": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"output.git":
+	{
+		"height": 91.0
+	},
+	"project": "design_patterns.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"wh",
+				"src/ch3/Whip.java"
+			],
+			[
+				"so",
+				"src/ch3/Soy.java"
+			],
+			[
+				"be",
+				"src/ch3/Beverage.java"
+			],
+			[
+				"curre",
+				"src/ch2/CurrentConditionDisplay.java"
+			],
+			[
+				"weaht",
+				"src/ch2/WeatherData.java"
+			],
+			[
+				"ob",
+				"src/ch2/Observer.java"
+			],
+			[
+				"grunt",
+				"Gruntfile.coffee"
+			],
+			[
+				"popup.co",
+				"app/modules/base/modals/popup.coffee"
+			],
+			[
+				"list.hjs",
+				"app/templates/activity_list.hjs"
+			],
+			[
+				"list.coffe",
+				"app/core/base_widgets/list/list.coffee"
+			],
+			[
+				"activity",
+				"app/templates/activity_list.hjs"
+			],
+			[
+				"jquery.grid",
+				"app/core/libs/jquery/jquery.gridList.js"
+			],
+			[
+				"gridli",
+				"app/core/base_widgets/drag_and_drop_grid_list.coffee"
+			],
+			[
+				"updateform",
+				"app/core/base_widgets/update_form.coffee"
+			],
+			[
+				"pinboard",
+				"app/modules/base/widgets/pin_board_widget_form.coffee"
+			],
+			[
+				"duplicate",
+				"app/modules/base/widgets/actions/duplicate_action.coffee"
+			],
+			[
+				"pinning",
+				"app/modules/reports/lib/pinning.coffee"
+			],
+			[
+				"pinnable",
+				"app/modules/mixins/pinnable_widget.coffee"
+			],
+			[
+				"reports_widgets_state_manager.coffee",
+				"app/modules/reports/widget/reports_widgets_state_manager.coffee"
+			],
+			[
+				"reports_list_state_manager.coffee",
+				"app/modules/reports/widget/reports_list_state_manager.coffee"
+			],
+			[
+				"reports_widgets",
+				"app/modules/reports/widget/reports_widgets_state_manager.coffee"
+			],
+			[
+				"report_widget_state",
+				"app/templates/reports/state_managers/reports_widgets_state_manager.hjs"
+			],
+			[
+				"report_controller",
+				"app/modules/reports/controller/reports_controller.coffee"
+			],
+			[
+				"report_contro",
+				"app/modules/reports/controller/organize_report_controller.coffee"
+			],
+			[
+				"report_list_state",
+				"app/modules/reports/widget/reports_list_state_manager.coffee"
+			],
+			[
+				"reports_deco",
+				"app/templates/reports/reports_decorator.hjs"
+			],
+			[
+				"instant",
+				"app/templates/reports/instant_new_report_action.hjs"
+			],
+			[
+				"instante_",
+				"app/modules/reports/widget/instant_new_report_action.coffee"
+			],
+			[
+				"font",
+				"app/fonts/FontAwesome.otf"
+			],
+			[
+				"report_list_sta",
+				"app/templates/reports/state_managers/reports_list_state_manager.hjs"
+			],
+			[
+				"applica",
+				"app/core/application_controller.coffee"
+			],
+			[
+				"dataso",
+				"app/core/datasource/datasource.coffee"
+			],
+			[
+				"notification_bar",
+				"app/templates/notification_bar.hjs"
+			],
+			[
+				"notifications",
+				"app/templates/settings/notifications.hjs"
+			],
+			[
+				"notificatio",
+				"app/core/base_widgets/notifications.coffee"
+			],
+			[
+				"utils.coff",
+				"app/core/utils.coffee"
+			],
+			[
+				"module.co",
+				"app/core/module.coffee"
+			],
+			[
+				"widgetstart",
+				"app/core/widget_starter.coffee"
+			],
+			[
+				"page.",
+				"app/templates/page.hjs"
+			],
+			[
+				"loading_a",
+				"app/core/loading_animation.coffee"
+			],
+			[
+				"popup.cof",
+				"app/modules/base/modals/popup.coffee"
+			],
+			[
+				"modules.",
+				"app/conf/modules.js"
+			],
+			[
+				"applicatio",
+				"app/core/application_controller.coffee"
+			],
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"mainme",
+				"app/modules/base/widgets/main_menu.coffee"
+			],
+			[
+				"widget",
+				"app/core/widget/widget.coffee"
+			],
+			[
+				"widget.",
+				"app/core/widget/widget.coffee"
+			],
+			[
+				"datasour",
+				"app/core/datasource/datasource.coffee"
+			],
+			[
+				"gc.cof",
+				"app/core/datasource/gc.coffee"
+			],
+			[
+				"ubvu-de",
+				"core/ubvu-development.yml"
+			],
+			[
+				"ubvu-stag",
+				"core/ubvu-staging.yml"
+			],
+			[
+				"heavywe",
+				"mentions/lib/heavyweight.py"
+			],
+			[
+				"facebookcontr",
+				"api/app/controllers/facebook/facebook_accounts_controller.py"
+			],
+			[
+				"hackernews",
+				"data_acquisition/lib/hackernews_fetcher.py"
+			],
+			[
+				"graphiteperiodicreporter",
+				"core/lib/graphite/periodicreporter.py"
+			],
+			[
+				"instrument_task",
+				"core/test/decorators/test_instrument_task.py"
+			],
+			[
+				"stats",
+				"docs/infrastructure/stats.md"
+			],
+			[
+				"handleba",
+				"app/modules/handlebars_helpers.coffee"
+			],
+			[
+				"report_list",
+				"app/templates/report_list.hjs"
+			],
+			[
+				"widget.co",
+				"app/core/widget/widget.coffee"
+			],
+			[
+				"reportcontrol",
+				"app/modules/reports/controller/reports_controller.coffee"
+			],
+			[
+				"editreportcontro",
+				"app/modules/reports/controller/edit_report_controller.coffee"
+			],
+			[
+				"reports_list_state_manager.hjs",
+				"app/templates/reports/state_managers/reports_list_state_manager.hjs"
+			],
+			[
+				"reports_list_",
+				"app/modules/reports/widget/reports_list_state_manager.coffee"
+			],
+			[
+				"report_state_manager",
+				"app/modules/reports/widget/reports_state_manager_widget.coffee"
+			],
+			[
+				"reports_state",
+				"app/modules/reports/widget/reports_state_manager_widget.coffee"
+			],
+			[
+				"reports",
+				"app/modules/reports/widget/reports_widgets_state_manager.coffee"
+			],
+			[
+				"reports-page.hjs",
+				"app/templates/reports/reports-page.hjs"
+			],
+			[
+				"edit_report_controller.coffee",
+				"app/modules/reports/controller/edit_report_controller.coffee"
+			],
+			[
+				"popup",
+				"app/templates/modals/popup.hjs"
+			],
+			[
+				"reportsta",
+				"app/modules/reports/widget/reports_widgets_state_manager.coffee"
+			],
+			[
+				"reports-page",
+				"app/templates/reports/reports-page.hjs"
+			],
+			[
+				"edit_report",
+				"app/modules/reports/controller/edit_report_controller.coffee"
+			],
+			[
+				"edit-rep",
+				"app/templates/reports/edit-report.hjs"
+			],
+			[
+				"olark.",
+				"app/modules/base/widgets/olark.coffee"
+			],
+			[
+				"groupfactory",
+				"models/group/group_factory.py"
+			],
+			[
+				"accountfactory",
+				"models/account/account_factory.py"
+			],
+			[
+				"current_user",
+				"ubervu/api/resources/current_user.py"
+			],
+			[
+				"test_curret",
+				"ubervu/api/tests/integration/test_current_resource.py"
+			],
+			[
+				"/migrations/0087.py",
+				"ubervu/frontend/migrations/0087.py"
+			],
+			[
+				"frontend/management/commands/duplicate_txt_widgets.py",
+				"ubervu/frontend/management/commands/duplicate_txt_widgets.py"
+			],
+			[
+				"lib/report_uti",
+				"ubervu/frontend/lib/report_utils.py"
+			],
+			[
+				"modelsgroup",
+				"models/group/group.py"
+			],
+			[
+				"group_factor",
+				"models/group/group_factory.py"
+			],
+			[
+				"test_current",
+				"ubervu/api/tests/unit/test_current_resource.py"
+			],
+			[
+				"report_resource.py",
+				"ubervu/api/resources/report_widget_resource.py"
+			],
+			[
+				"home",
+				"app/templates/home/home-page.hjs"
+			],
+			[
+				"drop_reportwidget_weight",
+				"ubervu/frontend/migrations/manual/drop_reportwidget_weight.py"
+			],
+			[
+				"migrat",
+				"ubervu/migrations_gen.py"
+			],
+			[
+				"canvas.",
+				"app/css/canvas.css"
+			],
+			[
+				"raseter",
+				"ubervu/frontend/lib/export/rasterize_report.js"
+			],
+			[
+				"dev.yml",
+				"core/ubvu-development.yml"
+			],
+			[
+				"manual/data_migration_reports_to_boards.py",
+				"ubervu/frontend/migrations/manual/data_migration_reports_to_boards.py"
+			],
+			[
+				"models/report.",
+				"ubervu/frontend/models/report.py"
+			],
+			[
+				"mention.hjs",
+				"app/templates/mention/mention.hjs"
+			],
+			[
+				"test_report_form.py",
+				"ubervu/frontend/tests/unit/report/test_report_form.py"
+			],
+			[
+				"frotnmodels/report.py",
+				"ubervu/frontend/models/report.py"
+			],
+			[
+				"manual/add_fields_report_widget_x_y.py",
+				"ubervu/frontend/migrations/manual/add_fields_report_widget_x_y.py"
+			],
+			[
+				"0087",
+				"ubervu/frontend/migrations/0087.py"
+			],
+			[
+				"add_fields_report_widget_x_y",
+				"ubervu/frontend/migrations/manual/add_fields_report_widget_x_y.py"
+			],
+			[
+				"add_fields_report_widget_width_height",
+				"ubervu/frontend/migrations/manual/add_fields_report_widget_width_height.py"
+			],
+			[
+				"add_field_report_view_mode",
+				"ubervu/frontend/migrations/manual/add_field_report_view_mode.py"
+			],
+			[
+				"add_field_report_rows",
+				"ubervu/frontend/migrations/manual/add_field_report_rows.py"
+			],
+			[
+				"report/report_te",
+				"models/report/report_template_factory.py"
+			],
+			[
+				"ubervu/api/resources/report.py",
+				"ubervu/api/resources/report.py"
+			],
+			[
+				"models/report/report",
+				"models/report/report.py"
+			],
+			[
+				"migration",
+				"ubervu/migrations_gen.py"
+			],
+			[
+				"data_migrat",
+				"ubervu/frontend/migrations/manual/data_migration_template.py"
+			],
+			[
+				"timeline_widget",
+				"ubervu/frontend/migrations/manual/timeline_widgets_height_zero.py"
+			],
+			[
+				"report_templ",
+				"models/report/report_template_factory.py"
+			],
+			[
+				"report_form.",
+				"ubervu/frontend/forms/report_form.py"
+			],
+			[
+				"api/resources/repor",
+				"ubervu/api/resources/report.py"
+			],
+			[
+				"models/report.py",
+				"models/report/report.py"
+			],
+			[
+				"models/report",
+				"app/modules/models/report.coffee"
+			],
+			[
+				"test_report_res",
+				"ubervu/api/tests/integration/test_report_resource.py"
+			],
+			[
+				"edit_repor",
+				"app/modules/reports/controller/edit_report_controller.coffee"
+			],
+			[
+				"report_state_",
+				"app/modules/reports/widget/reports_state_manager_widget.coffee"
+			],
+			[
+				"modify_field_report_rows",
+				"ubervu/frontend/migrations/manual/modify_field_report_rows.py"
+			],
+			[
+				"model/report",
+				"models/report/report.py"
+			],
+			[
+				"api/resour",
+				"ubervu/api/resources/report.py"
+			],
+			[
+				"report_form.py",
+				"ubervu/frontend/forms/report_form.py"
+			],
+			[
+				"report_resource",
+				"ubervu/api/tests/unit/test_report_resource.py"
+			],
+			[
+				"email_su",
+				"models/email_subscription/email_subscription.py"
+			],
+			[
+				"report_re",
+				"ubervu/api/tests/integration/test_report_resource.py"
+			],
+			[
+				"frontendrepor",
+				"ubervu/frontend/models/report.py"
+			],
+			[
+				"subscription.py",
+				"models/email_subscription/email_subscription.py"
+			],
+			[
+				"frontendreport",
+				"ubervu/frontend/models/report.py"
+			],
+			[
+				"0088",
+				"ubervu/frontend/migrations/0088.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/sublime_projects/dashpalcu.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 276.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,1787 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"displa",
+				"display:none"
+			],
+			[
+				"extra",
+				"extra_class"
+			],
+			[
+				"class",
+				"classes"
+			],
+			[
+				"ava",
+				"available_actions"
+			],
+			[
+				"deep",
+				"deepClone"
+			],
+			[
+				"items",
+				"items_params"
+			],
+			[
+				"display",
+				"display_when"
+			],
+			[
+				"paper",
+				"paperSize"
+			],
+			[
+				"out",
+				"output_file"
+			],
+			[
+				"righ",
+				"right_part"
+			],
+			[
+				"cover",
+				"cover_index"
+			],
+			[
+				"colums",
+				"columnsPerGroup"
+			],
+			[
+				"cove",
+				"cover_index"
+			],
+			[
+				"expect",
+				"expectedItems"
+			],
+			[
+				"column",
+				"columnsPerGroup"
+			],
+			[
+				"expe",
+				"expectedItems"
+			],
+			[
+				"bofe",
+				"before"
+			],
+			[
+				"before",
+				"beforeCommit"
+			],
+			[
+				"grid",
+				"gridList"
+			],
+			[
+				"con",
+				"container"
+			],
+			[
+				"Board",
+				"BOARD_WIDGET"
+			],
+			[
+				"col",
+				"collection"
+			],
+			[
+				"full",
+				"full_page"
+			],
+			[
+				"widh",
+				"width"
+			],
+			[
+				"will",
+				"will_be_killed"
+			],
+			[
+				"list",
+				"list_extra_params"
+			],
+			[
+				"filte",
+				"filtered_reports"
+			],
+			[
+				"reports",
+				"reports_params"
+			],
+			[
+				"dump",
+				"dumps	function"
+			],
+			[
+				"Group",
+				"GroupFactory"
+			],
+			[
+				"home",
+				"HOME_BOARD	import"
+			],
+			[
+				"grou",
+				"group_id"
+			],
+			[
+				"Gro",
+				"GroupFactory	import"
+			],
+			[
+				"page",
+				"PAGE_WIDTH	import"
+			],
+			[
+				"_",
+				"_get_report_data	function"
+			],
+			[
+				"resour",
+				"resource_url	function"
+			],
+			[
+				"subsc",
+				"subscriptable"
+			],
+			[
+				"readli",
+				"readlines	function"
+			],
+			[
+				"migr",
+				"migration_number	forflow"
+			],
+			[
+				"report",
+				"report_factory	import"
+			],
+			[
+				"key",
+				"keyword_team	import"
+			],
+			[
+				"Ke",
+				"KeywordTeamFactory	class"
+			],
+			[
+				"Rep",
+				"ReportTemplateFactory	class"
+			],
+			[
+				"cre",
+				"create_report_template_with_sources_meta	import"
+			],
+			[
+				"Repo",
+				"ReportTemplateFactory"
+			],
+			[
+				"vei",
+				"ViewModes"
+			],
+			[
+				"vi",
+				"ViewModes"
+			],
+			[
+				"emai",
+				"EmailSubscriptionFactory"
+			],
+			[
+				"Email",
+				"EmailSubscriptionFactory"
+			],
+			[
+				"Emai",
+				"EmailSubscription"
+			],
+			[
+				"laz",
+				"LazyAttribute"
+			],
+			[
+				"EmailS",
+				"EmailSubscriptionFactory"
+			],
+			[
+				"t",
+				"type"
+			],
+			[
+				"quack",
+				"quackBehavior"
+			],
+			[
+				"qua",
+				"QuackBehavior"
+			],
+			[
+				"fly",
+				"flyBehavior"
+			],
+			[
+				"view",
+				"view_mode"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"max",
+				"max_items_top"
+			],
+			[
+				"mn",
+				"min-height"
+			],
+			[
+				"stas",
+				"stash_message"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 49.0,
+		"selected_items":
+		[
+			[
+				"dupl",
+				"File: Duplicate"
+			],
+			[
+				"show",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"lintshow",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"lint thi",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"lint mode",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"lintmode",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"linth",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"show al",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"lintth",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"lintview",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"lintmo",
+				"SublimeLinter: Choose Lint Mode"
+			],
+			[
+				"blame",
+				"Git: Blame"
+			],
+			[
+				"lint vi",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"coffee",
+				"Coffee: Display JavaScript"
+			],
+			[
+				"view",
+				"GitHub: View"
+			],
+			[
+				"github",
+				"GitHub: View"
+			],
+			[
+				"installp",
+				"Package Control: Install Package"
+			],
+			[
+				"bla",
+				"Git: Blame"
+			],
+			[
+				"view ",
+				"GitHub: View"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"show er",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"githu",
+				"GitHub: View"
+			],
+			[
+				"com",
+				"Git: Commit"
+			],
+			[
+				"add",
+				"Git: Add Current File"
+			],
+			[
+				"git com",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add Current File"
+			],
+			[
+				"lint this",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"lint view",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"lintv",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"prefs",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"choose",
+				"SublimeLinter: Choose Gutter Theme"
+			],
+			[
+				"remove ",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"linter",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"prefslinterdefa",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"prefslinter",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"remove pa",
+				"Package Control: Remove Package"
+			],
+			[
+				"remove pack",
+				"Package Control: Remove Package"
+			],
+			[
+				"packe list",
+				"Package Control: List Packages"
+			],
+			[
+				"remove p",
+				"Package Control: Remove Package"
+			],
+			[
+				"enable",
+				"SublimeLinter: Enable Linter"
+			],
+			[
+				"enable li",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"removepa",
+				"Package Control: Remove Package"
+			],
+			[
+				"removep",
+				"Package Control: Remove Package"
+			],
+			[
+				"disable",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"enablelint",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"prefslint",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"packages",
+				"Package Control: List Packages"
+			],
+			[
+				"linters",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"show all",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"linterto",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"LIST ERROR",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"LINT",
+				"SublimeLinter: Lint This View"
+			],
+			[
+				"linte",
+				"SublimeLinter: Disable Linter"
+			],
+			[
+				"prefssbu",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"enable p",
+				"Package Control: Enable Package"
+			],
+			[
+				"errors",
+				"SublimeLinter: Show All Errors"
+			],
+			[
+				"prefssubl",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"prefssub",
+				"Preferences: SublimeLinter Settings – User"
+			],
+			[
+				"toggl li",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"toggle linte",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"prefss",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"linter debu",
+				"SublimeLinter: Enable Debug Mode"
+			],
+			[
+				"coffee li",
+				"Coffee: Lint"
+			],
+			[
+				"watch",
+				"Coffee: Toggle Watch Mode"
+			],
+			[
+				"destro",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"coffe",
+				"Coffee: Quick Run Bar"
+			],
+			[
+				"run sele",
+				"Coffee: Run Script / Selection"
+			],
+			[
+				"co",
+				"Coffee: Check Syntax"
+			],
+			[
+				"quick",
+				"Git: Quick Commit"
+			],
+			[
+				"commit",
+				"Git: Quick Commit"
+			],
+			[
+				"comm",
+				"Git: Commit"
+			],
+			[
+				"amme",
+				"Git: Amend Commit"
+			],
+			[
+				"git comm",
+				"Git: Commit"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"list pack",
+				"Package Control: List Packages"
+			],
+			[
+				"cofeescript",
+				"Coffee: Run Script / Selection"
+			],
+			[
+				"cofee",
+				"Coffee: Run Cake Task"
+			],
+			[
+				"Package Control: list",
+				"Package Control: List Packages"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"packages l",
+				"Package Control: List Packages"
+			],
+			[
+				"git file",
+				"Git: Diff Current File"
+			],
+			[
+				"git histor",
+				"Git: Commit history"
+			],
+			[
+				"github histo",
+				"GitHub: History"
+			],
+			[
+				"git history",
+				"GitHub: History"
+			],
+			[
+				"git histo",
+				"GitHub: History"
+			],
+			[
+				"git commit",
+				"Git: Commit history"
+			],
+			[
+				"git branch",
+				"Git: Change Branch"
+			],
+			[
+				"package remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"github blam",
+				"GitHub: Blame"
+			],
+			[
+				"githubina",
+				"GitHubinator Blame"
+			],
+			[
+				"github open",
+				"GitHub: Open Gist in Browser"
+			],
+			[
+				"gitgutter",
+				"GitGutter: Show Comparing Against"
+			],
+			[
+				"git sta",
+				"Git: Diff Staged"
+			],
+			[
+				"git",
+				"Git: Status"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			],
+			[
+				"origami destro",
+				"Origami: Destroy Current Pane"
+			],
+			[
+				"origamileft",
+				"Origami: Create Pane on the Left"
+			],
+			[
+				"github bla",
+				"GitHub: Blame"
+			],
+			[
+				"githuv",
+				"GitHub: View"
+			],
+			[
+				"search",
+				"File: Search Files"
+			],
+			[
+				"gher",
+				"Gherkin/Cucumber: Format"
+			],
+			[
+				"gherkin",
+				"Gherkin/Cucumber: Format"
+			],
+			[
+				"blam",
+				"GitHub: Blame"
+			],
+			[
+				"github view",
+				"GitHub: View"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 544.0
+	},
+	"console":
+	{
+		"height": 430.0,
+		"history":
+		[
+			"import django",
+			"random.randint(0,2)",
+			"import random",
+			"random.randint(0,2)",
+			"__main__",
+			"__name__",
+			"print PATH",
+			"PATH",
+			"ls",
+			"which python",
+			"2 + 3",
+			"python",
+			"pip --version",
+			"pip list",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/alex/Projects/angular-phonecat/app/index.html",
+		"/Users/alex/Projects/angular-phonecat/test/unit/controllersSpec.js",
+		"/Users/alex/Projects/angular-phonecat/app/js/controllers.js",
+		"/Users/alex/Projects/angular-phonecat/app/phones/phones.json",
+		"/Users/alex/Projects/angular-phonecat/package.json",
+		"/Users/alex/Projects/sublime_projects/angular-phonecat.sublime-project",
+		"/Users/alex/Projects/angular-phonecat/app/js/app.js",
+		"/Users/alex/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/alex/Projects/angular-phonecat/test/unit/directivesSpec.js",
+		"/Users/alex/Projects/angular-phonecat/scripts/update-repo.sh",
+		"/Users/alex/Projects/angular-phonecat/app/css/app.css",
+		"/Users/alex/Projects/angular-phonecat/node_modules/http-server/node_modules/union/node_modules/pkginfo/examples/all-properties.js",
+		"/Users/alex/Projects/angular-phonecat/node_modules/bower/node_modules/mout/lang/isNull.js",
+		"/Users/alex/Projects/angular-phonecat/bower.json",
+		"/Users/alex/uberVU/thehole/app/conf/general.master.js",
+		"/Users/alex/uberVU/thehole/app/conf/general.boards.js",
+		"/Users/alex/uberVU/thehole/app/conf/general.user.js",
+		"/Users/alex/uberVU/thehole/grunt/tasks/create-general-user-js.coffee",
+		"/Users/alex/uberVU/thehole/ubervu/api/resources/group_resource.py",
+		"/Users/alex/uberVU/thehole/app/modules/reports/widget/gender_distribution_adapter.coffee",
+		"/Users/alex/uberVU/thehole/uvscripts/admin/generate_zipf_codes.py",
+		"/Users/alex/uberVU/thehole/core/test/generate.py",
+		"/Users/alex/uberVU/thehole/app/conf/general.testing.js",
+		"/Users/alex/uberVU/thehole/app/conf/general.js-tests.js",
+		"/Users/alex/uberVU/thehole/node_modules/grunt/node_modules/minimatch/test/extglob-ending-with-state-char.js",
+		"/Users/alex/uberVU/thehole/app/conf/general.js",
+		"/Users/alex/uberVU/thehole/uvscripts/lib/generate_random_nielsen.py",
+		"/Users/alex/uberVU/thehole/app/templates/settings/group_edit.hjs",
+		"/Users/alex/uberVU/thehole/Gruntfile.coffee",
+		"/Users/alex/uberVU/thehole/app/conf/general.user.example.js",
+		"/Users/alex/uberVU/thehole/app/modules/mixpanel/conf/event_properties.coffee",
+		"/Users/alex/uberVU/thehole/ubervu/frontend/lib/beatbox/convertLead.patch",
+		"/Users/alex/uberVU/thehole/clients/convey/convey_api_client.py",
+		"/Users/alex/uberVU/thehole/CONTRIBUTING.md",
+		"/Users/alex/uberVU/thehole/app/core/channels_operations.coffee",
+		"/Users/alex/uberVU/thehole/app/css/canvas.css",
+		"/Users/alex/uberVU/thehole/app/modules/base/widgets/actions/edit_action.coffee",
+		"/Users/alex/uberVU/thehole/app/core/base_widgets/update_form.coffee",
+		"/Users/alex/uberVU/thehole/app/core/utils.coffee",
+		"/Users/alex/uberVU/thehole/core/test/analytics/drivers/test_dynamodb_analytics_driver.py",
+		"/Users/alex/uberVU/thehole/app/templates/base/cover_fucking_page.hjs",
+		"/Users/alex/uberVU/thehole/app/modules/base/widgets/actions/cover_fucking_page_action.coffee",
+		"/Users/alex/uberVU/thehole/uv-test",
+		"/Users/alex/uberVU/thehole/app/templates/base/edit_action.hjs",
+		"/Users/alex/uberVU/thehole/app/modules/reports/widget/edit_report_widget_action.coffee",
+		"/Users/alex/uberVU/thehole/node_modules/grunt/node_modules/js-yaml/examples/dumper.js",
+		"/Users/alex/uberVU/thehole/core/configuration/languages/dutch.dat",
+		"/Users/alex/uberVU/thehole/app/templates/editors/text_input_editor.hjs",
+		"/Users/alex/uberVU/thehole/app/templates/reports/gender_distribution_adapter.hjs",
+		"/Users/alex/uberVU/thehole/app/templates/base/duplicate_action.hjs",
+		"/Users/alex/uberVU/thehole/clients/exceptions.py",
+		"/Users/alex/uberVU/thehole/ubervu/api/resources/report_widget_resource.py",
+		"/Users/alex/uberVU/thehole/app/conf/modules.js",
+		"/Users/alex/uberVU/thehole/app/modules/base/widgets/actions/duplicate_action.coffee",
+		"/Users/alex/uberVU/thehole/mentions/lib/helpers/duplicates_remover.py",
+		"/Users/alex/uberVU/thehole/docs/how_to/debug.md",
+		"/Users/alex/uberVU/thehole/app/templates/reports/instant_new_report_action.hjs",
+		"/Users/alex/uberVU/thehole/app/modules/base/modals/inactive.coffee",
+		"/Users/alex/uberVU/thehole/email_alerts/templates/partials/signals/influencer.agnostic",
+		"/Users/alex/uberVU/thehole/app/modules/base/widgets/pin_board_widget_form.coffee",
+		"/Users/alex/uberVU/thehole/uvscripts/github/push_in_testing.sh",
+		"/Users/alex/uberVU/thehole/app/core/pubsub.coffee",
+		"/Users/alex/uberVU/thehole/app/patches/0006-jquery-treemap.js-fixed-error-in-fitLabelFontSize-method.patch",
+		"/Users/alex/uberVU/thehole/uvscripts/lib/stream_breakdown_by_size.py",
+		"/Users/alex/uberVU/thehole/app/templates/reports/report_template_stream_item.hjs",
+		"/Users/alex/uberVU/thehole/results-live-fast.xml",
+		"/Users/alex/uberVU/thehole/email_alerts/scripts/render_email.py",
+		"/Users/alex/uberVU/thehole/README.md",
+		"/Users/alex/uberVU/thehole/app/modules/reports/widget/report_widget_decorator.coffee",
+		"/Users/alex/uberVU/thehole/app/core/base_mixins/context_menu.coffee",
+		"/Users/alex/uberVU/thehole/app/templates/editable_field.hjs",
+		"/Users/alex/uberVU/thehole/app/templates/reports/edit_report_widget_action.hjs",
+		"/Users/alex/uberVU/thehole/uvscripts/lib/edit_api_kw.py",
+		"/Users/alex/uberVU/thehole/uvscripts/lib/edit_client.py",
+		"/Users/alex/uberVU/thehole/app/modules/models/report_widget.coffee",
+		"/Users/alex/uberVU/thehole/models/report/report.py",
+		"/Users/alex/uberVU/thehole/app/core/base_widgets/widget_decorator.coffee",
+		"/Users/alex/uberVU/thehole/app/modules/base/widgets/stream_info.coffee",
+		"/Users/alex/uberVU/thehole/legacy/lib/database_uploader.py",
+		"/Users/alex/uberVU/thehole/app/core/widget/widget.coffee",
+		"/Users/alex/uberVU/thehole/core/lib/api/overall_sentiment.py",
+		"/Users/alex/uberVU/thehole/docs/how_to/run_test_coverage.md",
+		"/Users/alex/uberVU/thehole/app/templates/board/confirm_board_view_change.hjs",
+		"/Users/alex/uberVU/thehole/app/modules/charts/report_chart_base.coffee",
+		"/Users/alex/uberVU/thehole/app/templates/reports/reports-page.hjs",
+		"/Users/alex/uberVU/thehole/ubervu/frontend/features/subscription/hijack.py",
+		"/Users/alex/uberVU/thehole/core/settings.py",
+		"/Users/alex/uberVU/thehole/ubervu/settings.py",
+		"/Users/alex/uberVU/thehole/app/templates/actions/set_home_board.hjs",
+		"/Users/alex/uberVU/thehole/docs/infrastructure/separate_environment",
+		"/Users/alex/uberVU/thehole/sync_mozaic.py",
+		"/Users/alex/uberVU/thehole/ubervu/frontend/features/subscription/hijack.feature",
+		"/Users/alex/uberVU/thehole/app/constants/historical_jobs.coffee",
+		"/Users/alex/uberVU/thehole/app/templates/historical_info.hjs",
+		"/Users/alex/uberVU/thehole/clients/helpers.py",
+		"/Users/alex/uberVU/thehole/app/templates/editors/radio_editor.hjs",
+		"/Users/alex/uberVU/thehole/app/css/unleashed-new.css",
+		"/Users/alex/uberVU/thehole/app/modules/reports/controller/reports_controller.coffee",
+		"/Users/alex/uberVU/thehole/app/constants/reports.coffee",
+		"/Users/alex/uberVU/thehole/app/modules/collections/report_collection.coffee",
+		"/Users/alex/uberVU/thehole/app/templates/reports/report_widget_gender_distribution_form.hjs",
+		"/Users/alex/uberVU/thehole/app/modules/editors/radio_editor.coffee",
+		"/Users/alex/uberVU/thehole/analyzer/scripts/restart_analyzer.py",
+		"/Users/alex/uberVU/thehole/app/core/base_widgets/context_menu.coffee",
+		"/Users/alex/uberVU/thehole/app/templates/base/widget-decorator.hjs",
+		"/Users/alex/uberVU/thehole/docs/js/widget_decorator.md",
+		"/Users/alex/uberVU/thehole/app/templates/base/context_menu.hjs",
+		"/Users/alex/uberVU/thehole/uvscripts/lib/classifiers_accuracy.py",
+		"/Users/alex/uberVU/thehole/CHANGELOG.md",
+		"/Users/alex/uberVU/thehole/intelligence/config/mention_classifier_trainer.prod.yml",
+		"/Users/alex/uberVU/thehole/intelligence/scripts/asking_for_help/named_entities.txt",
+		"/Users/alex/uberVU/thehole/intelligence/scripts/classifier/detect_english_tweets.py",
+		"/Users/alex/uberVU/thehole/uvscripts/lib/exclude_nielsen.py",
+		"/Users/alex/uberVU/thehole/app/core/modal_window.coffee",
+		"/Users/alex/uberVU/thehole/app/modules/reports/widget/timeline_reports_state_manager.coffee",
+		"/Users/alex/uberVU/thehole/controllers/utils.py",
+		"/Users/alex/uberVU/thehole/ubvushell.py",
+		"/Users/alex/uberVU/thehole/app/core/base_widgets/url.coffee",
+		"/Users/alex/uberVU/thehole/app/core/datasource/widget.coffee",
+		"/Users/alex/uberVU/thehole/models/report_widget/report_widget.py",
+		"/Users/alex/uberVU/thehole/ubervu/frontend/features/reporting/widgets.feature",
+		"/Users/alex/uberVU/thehole/app/core/base_model.coffee",
+		"/Users/alex/uberVU/thehole/app/modules/reports/widget/set_home_board_action.coffee",
+		"/Users/alex/uberVU/thehole/app/modules/base/widgets/actions/delete_action.coffee",
+		"/Users/alex/uberVU/thehole/app/modules/action_menu_widget.coffee",
+		"/Users/alex/uberVU/thehole/node_modules/grunt/node_modules/js-yaml/node_modules/argparse/lib/action_container.js",
+		"/Users/alex/uberVU/thehole/app/templates/action-menu.hjs",
+		"/Users/alex/uberVU/thehole/bin/activate"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"*.coffee",
+			"*.hjs",
+			"*.coffee",
+			"*.py",
+			"*.coffee",
+			"*.css",
+			"*.coffee, *.hjs",
+			"*.coffee",
+			"*.css",
+			"*.md",
+			"*.coffee, *.js",
+			"*.coffee",
+			"*.js",
+			"*.coffee, *.hjs, *.js",
+			"*.coffee, *.hjs",
+			"*.coffee",
+			"*.js",
+			"*.coffee",
+			"*.hjs",
+			"*.coffee",
+			"*form.coffee",
+			"*.coffee",
+			"model*",
+			"model*coffee",
+			"*.coffee",
+			"*.js",
+			"*.coffee",
+			"",
+			"*.coffee",
+			"*.hjs",
+			"*.coffee, *.js, *.py, *.hjs",
+			"*.coffee, *.js, *.py",
+			"*.coffee, *.js",
+			"*.coffee",
+			"*.hjs",
+			"*.coffee, *.hjs, *.js, *.css",
+			"*.coffee, *.hjs, *.js",
+			"*.coffee, *.hjs",
+			"*.coffee",
+			"*.py",
+			"*.coffee, *.hjs",
+			"*.coffee",
+			"*.py",
+			"test_current_resource.py",
+			"*.py",
+			"test_current_resource.py",
+			"*.py",
+			"*.css",
+			"*.py, *.coffee",
+			"*.py",
+			"00*.py",
+			"*.md",
+			"*.py",
+			"*.coffee",
+			"*.py",
+			"",
+			"*.py",
+			"test_report_resource.py",
+			"*.py",
+			"*.md",
+			"*.py",
+			"*.coffee, *.hjs, *.css",
+			"",
+			"*.coffee, *.hjs",
+			"*.coffee",
+			"",
+			"*.md",
+			"*.coffee, *.css, *.hjs",
+			"*.coffee, *.css, *.hjs, *.js",
+			"*.coffee, *.css, *.hjs",
+			"*.coffee",
+			"*.md",
+			"*.coffee, *.js, *css, *.hjs",
+			"*.coffee, *.js, *css",
+			"*.coffee, *.js",
+			"*.py",
+			"*.coffee, *.js",
+			"*.coffee",
+			"*.md",
+			"",
+			"*.coffee",
+			"*.py",
+			"",
+			"unleashed-new.css",
+			"*.css",
+			"*.hjs",
+			"*.coffee",
+			"*.coffe",
+			"*.css",
+			"*.coffee",
+			"*.hjs",
+			"",
+			"*.md",
+			"*.coffee, *.js",
+			"*.coffee",
+			"",
+			"*.coffee",
+			"*.hjs",
+			"",
+			"unleashed-new.css",
+			"",
+			"*.hjs",
+			"*.css",
+			"",
+			"unleashed-new.css",
+			"unleashed.css",
+			"",
+			"*.hjs",
+			"*.css",
+			"*.coffee",
+			"*.css",
+			"*.coffee",
+			"*.hjs",
+			"*.coffee",
+			"*.css",
+			"*.coffee",
+			"*.py",
+			"*.coffee",
+			"*.py",
+			"*.coffee",
+			"*.py",
+			"*.feature",
+			"*.py",
+			"",
+			"*.feature",
+			"*.py",
+			"*.coffee",
+			"*.hjs"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"convert",
+			"Utils.create",
+			"Utils.insert",
+			"insertWidget",
+			"subscribe_channel",
+			"editItem",
+			"edit",
+			"cover_fucking_page",
+			"edit_action",
+			"LOGIN_REDIRECT_URL",
+			"hijack",
+			"ubervu",
+			"debugger",
+			".widget-context_menu.not-board-report",
+			"widget-context_menu",
+			"entity_name",
+			"data-params",
+			"actions_params",
+			"entity_name",
+			"context_menu",
+			"view_mode",
+			"view_node",
+			"debugger",
+			"debu",
+			"debugger",
+			"_buildDomElementByWidgetOptions",
+			"classes",
+			"extra_classes",
+			"classes",
+			"inject",
+			"classes",
+			"inject",
+			"decorated_widget_el",
+			"\n            'click .context-menu-overlay': 'cancelContextMenu'\ndecorated_widget_el",
+			"            'click .context-menu-overlay': 'cancelContextMenu'\ndecorated_widget_el",
+			"decorated_widget_el",
+			"plm",
+			"params",
+			"use_context_menu",
+			"open-context-menu",
+			"context_menu",
+			"extra_classes",
+			"extra_class",
+			"class",
+			"classes",
+			"_get_action_params",
+			"actions_params",
+			"deepClone",
+			"getAvailableActions",
+			"entity_fields",
+			"display_when",
+			"individual_ac",
+			"pdb",
+			"override_urls",
+			"set_home",
+			"set_as_home",
+			"SetHomeBoardAction",
+			"home",
+			"set_as_home_board",
+			"toggle-home-board",
+			"home",
+			"Set as Home Dashboard",
+			"Set as Home",
+			"export",
+			"selected",
+			"required_value",
+			"chart_instance",
+			"height",
+			"renderToPDF",
+			"page",
+			"renderToPDF",
+			"height",
+			"console.log",
+			"report-page",
+			"height",
+			"25",
+			"23",
+			"24",
+			"height",
+			"media-type-print",
+			"size",
+			"page",
+			"page.render",
+			"render",
+			"renderToPDF",
+			"phantom",
+			"dumpStringToFile",
+			"getDomainFromURL",
+			"phantom",
+			"subscribing to loading finished",
+			"get_reports_and_report_widgets",
+			"get_aggregated",
+			"get_aggregated_channels",
+			"Trying to instantiate an widget without action menu",
+			"loading_animation_finished",
+			"pipe",
+			"loadingFinished",
+			"createChannels",
+			"newDataChannels",
+			"loading_report_finished",
+			"subscribe_to_loading_finished",
+			"subscribe_to_loading_finished\nsubscribe_to_loading_finished",
+			"check_pubsub",
+			"pubsub_loaded",
+			"check_pubsub",
+			"subscribe_to_loading_finished",
+			"pubsub_loaded",
+			"subscribe_to_loading_finished",
+			"loading_report",
+			"pubsub_loaded",
+			"loadingFinished",
+			"_get_reports",
+			"loadingFinished",
+			"loading_report_finished",
+			"timed_out_handle",
+			"phantom.exit",
+			"renderToPDF",
+			"dumpStringToFile",
+			"content",
+			"dumpStringToFile",
+			"renderToPDF",
+			"loading_report_finished",
+			"pubsub_loaded",
+			"check_pubsub",
+			"resizing 9 to 3x",
+			"resizeItem",
+			"_moveAllSectionsToTheRight",
+			"locally"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"_findLeftTopMostPositionForItem",
+			"itemSpansOverMoreThanOneSection",
+			"itemFitsInSection",
+			"itemWidthSpansMoreThanOneSection",
+			"self.params",
+			"resource_url",
+			"",
+			"decorated-widget-board-actions",
+			".inline-form",
+			".widget-pin_board_widget_form"
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				0,
+				1,
+				1,
+				2
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			0.375232212696,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 298.0
+	},
+	"output.find_results":
+	{
+		"height": 100.0
+	},
+	"output.git":
+	{
+		"height": 91.0
+	},
+	"project": "angular-phonecat.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"phone",
+				"app/phones/phones.json"
+			],
+			[
+				"index",
+				"app/index.html"
+			],
+			[
+				"app",
+				"app/js/app.js"
+			],
+			[
+				"idnex",
+				"app/index.html"
+			],
+			[
+				"app.js",
+				"app/js/app.js"
+			],
+			[
+				"index.ht",
+				"app/index.html"
+			],
+			[
+				"generaluserexa",
+				"app/conf/general.user.example.js"
+			],
+			[
+				"gruntfi",
+				"Gruntfile.coffee"
+			],
+			[
+				"generalbo",
+				"app/conf/general.boards.js"
+			],
+			[
+				"generalmas",
+				"app/conf/general.master.js"
+			],
+			[
+				"genera",
+				"app/conf/general.user.js"
+			],
+			[
+				"general.user",
+				"app/conf/general.user.js"
+			],
+			[
+				"utils",
+				"app/core/utils.coffee"
+			],
+			[
+				"update_f",
+				"app/core/base_widgets/update_form.coffee"
+			],
+			[
+				"edit_action",
+				"app/modules/base/widgets/actions/edit_action.coffee"
+			],
+			[
+				"duplica",
+				"app/modules/base/widgets/actions/duplicate_action.coffee"
+			],
+			[
+				"editaci",
+				"app/modules/base/widgets/actions/edit_action.coffee"
+			],
+			[
+				"editaction",
+				"app/modules/base/widgets/actions/edit_action.coffee"
+			],
+			[
+				"report_widget_dec",
+				"app/modules/reports/widget/report_widget_decorator.coffee"
+			],
+			[
+				"report_widget_res",
+				"ubervu/api/resources/report_widget_resource.py"
+			],
+			[
+				"edit_actio.h",
+				"app/templates/base/edit_action.hjs"
+			],
+			[
+				"edit_actio",
+				"app/modules/base/widgets/actions/edit_action.coffee"
+			],
+			[
+				"modules",
+				"app/conf/modules.js"
+			],
+			[
+				"duplicate_ac",
+				"app/modules/base/widgets/actions/duplicate_action.coffee"
+			],
+			[
+				"duplicate",
+				"app/templates/base/duplicate_action.hjs"
+			],
+			[
+				"widget_deco",
+				"app/core/base_widgets/widget_decorator.coffee"
+			],
+			[
+				"report_widget_reso",
+				"ubervu/api/resources/report_widget_resource.py"
+			],
+			[
+				"settings",
+				"core/settings.py"
+			],
+			[
+				"hijack",
+				"ubervu/frontend/features/subscription/hijack.py"
+			],
+			[
+				"report_widge",
+				"app/modules/models/report_widget.coffee"
+			],
+			[
+				"reportspage",
+				"app/templates/reports/reports-page.hjs"
+			],
+			[
+				"report_chare",
+				"app/modules/charts/report_chart_base.coffee"
+			],
+			[
+				"context_menu",
+				"app/core/base_mixins/context_menu.coffee"
+			],
+			[
+				"report_widget_deco",
+				"app/modules/reports/widget/report_widget_decorator.coffee"
+			],
+			[
+				"radio_edito",
+				"app/templates/editors/radio_editor.hjs"
+			],
+			[
+				"radioedi",
+				"app/templates/editors/radio_editor.hjs"
+			],
+			[
+				"widgetdecoratorhj",
+				"app/templates/base/widget-decorator.hjs"
+			],
+			[
+				"widgetdeoc",
+				"app/core/base_widgets/widget_decorator.coffee"
+			],
+			[
+				"context_men",
+				"app/core/base_mixins/context_menu.coffee"
+			],
+			[
+				"canvas",
+				"app/css/canvas.css"
+			],
+			[
+				"utils.cof",
+				"app/core/utils.coffee"
+			],
+			[
+				"context_menuhj",
+				"app/templates/base/context_menu.hjs"
+			],
+			[
+				"widget.coffe",
+				"app/core/widget/widget.coffee"
+			],
+			[
+				"actioncoffe",
+				"app/modules/base/widgets/actions/edit_action.coffee"
+			],
+			[
+				"report_widget",
+				"app/modules/models/report_widget.coffee"
+			],
+			[
+				"uberresou",
+				"ubervu/api/resources/base/uber_resource.py"
+			],
+			[
+				"report.coffe",
+				"app/modules/models/report.coffee"
+			],
+			[
+				"resourcereportpy",
+				"ubervu/api/resources/report.py"
+			],
+			[
+				"report_decor",
+				"app/templates/reports/reports_decorator.hjs"
+			],
+			[
+				"set_home",
+				"app/modules/reports/widget/set_home_board_action.coffee"
+			],
+			[
+				"report.cof",
+				"app/modules/models/report.coffee"
+			],
+			[
+				"set_home_board.hjs",
+				"app/templates/actions/set_home_board.hjs"
+			],
+			[
+				"report.coff",
+				"app/modules/models/report.coffee"
+			],
+			[
+				"resourcereport",
+				"ubervu/api/resources/report.py"
+			],
+			[
+				"report_decora",
+				"app/modules/reports/widget/reports_decorator.coffee"
+			],
+			[
+				"report_deco",
+				"app/templates/reports/reports_decorator.hjs"
+			],
+			[
+				"radio",
+				"app/modules/editors/radio_editor.coffee"
+			],
+			[
+				"reportchart",
+				"app/modules/charts/report_chart_base.coffee"
+			],
+			[
+				"report_widget_html",
+				"app/modules/reports/widget/report_widget_html_form.coffee"
+			],
+			[
+				"report_widget_form",
+				"app/modules/reports/widget/report_widget_form.coffee"
+			],
+			[
+				"print_con",
+				"app/modules/reports/controller/print_report_controller.coffee"
+			],
+			[
+				"print.cs",
+				"app/css/print.css"
+			],
+			[
+				"print-rep",
+				"app/templates/reports/print-report.hjs"
+			],
+			[
+				"pub",
+				"app/core/pubsub.coffee"
+			],
+			[
+				"print_repor",
+				"app/modules/reports/controller/print_report_controller.coffee"
+			],
+			[
+				"loader",
+				"app/core/loader.coffee"
+			],
+			[
+				"pubsub",
+				"app/core/pubsub.coffee"
+			],
+			[
+				"rasteriz",
+				"ubervu/frontend/lib/export/rasterize_report.js"
+			],
+			[
+				"report",
+				"models/report/report.py"
+			],
+			[
+				"gridsectionsitemresizespec.js",
+				"spec/gridSectionsItemResizeSpec.js"
+			],
+			[
+				"drag_and_drop_grid_list.coffee",
+				"app/core/base_widgets/drag_and_drop_grid_list.coffee"
+			],
+			[
+				"editwidgetcoff",
+				"app/modules/base/widgets/edit_size_board_widget_form.coffee"
+			],
+			[
+				"edit_wid",
+				"app/templates/reports/edit_report_widget_action.hjs"
+			],
+			[
+				"report_widget_re",
+				"ubervu/api/resources/report_widget_resource.py"
+			],
+			[
+				"modelsreport_wdi",
+				"models/report_widget/report_widget.py"
+			],
+			[
+				"modules/editors/radio_editor",
+				"app/modules/editors/radio_widget_editor.coffee"
+			],
+			[
+				"radio_ed",
+				"app/templates/editors/radio_editor.hjs"
+			],
+			[
+				"edit_size",
+				"app/modules/base/widgets/edit_size_board_widget_form.coffee"
+			],
+			[
+				"backb",
+				"app/core/libs/backbone/backbone-forms.js"
+			],
+			[
+				"radio_edi",
+				"app/templates/editors/radio_editor.hjs"
+			],
+			[
+				"backbone-forms",
+				"app/core/libs/backbone/backbone-forms.js"
+			],
+			[
+				"radio_e",
+				"app/modules/editors/radio_editor.coffee"
+			],
+			[
+				"backbone-",
+				"app/core/libs/backbone/backbone-forms.js"
+			],
+			[
+				"update_form",
+				"app/core/base_widgets/update_form.coffee"
+			],
+			[
+				"select.co",
+				"app/modules/base/widgets/select.coffee"
+			],
+			[
+				"report_wi",
+				"app/modules/models/report_widget.coffee"
+			],
+			[
+				"base_form",
+				"app/core/base_widgets/base_form.coffee"
+			],
+			[
+				"pin_board_widget_form",
+				"app/modules/base/widgets/pin_board_widget_form.coffee"
+			],
+			[
+				"basefo",
+				"app/core/base_widgets/base_form.coffee"
+			],
+			[
+				"updateform",
+				"app/core/base_widgets/update_form.coffee"
+			],
+			[
+				"radio_",
+				"app/modules/editors/radio_editor.coffee"
+			],
+			[
+				"edit_size_board_widget_form",
+				"app/modules/base/widgets/edit_size_board_widget_form.coffee"
+			],
+			[
+				"pin_board_",
+				"app/modules/base/widgets/pin_board_widget_form.coffee"
+			],
+			[
+				"radio_edit",
+				"app/modules/editors/radio_editor.coffee"
+			],
+			[
+				"report_widget.co",
+				"app/modules/models/report_widget.coffee"
+			],
+			[
+				"jquerygri",
+				"app/core/libs/jquery/jquery.gridList.js"
+			],
+			[
+				"gridlist",
+				"app/core/libs/gridList.js"
+			],
+			[
+				"drag_an",
+				"app/core/base_widgets/drag_and_drop_grid_list.coffee"
+			],
+			[
+				"board_widget_list",
+				"app/modules/reports/widget/board_widget_list.coffee"
+			],
+			[
+				"editboardwi",
+				"app/modules/base/widgets/edit_board_widget_form.coffee"
+			],
+			[
+				"backbonefo",
+				"app/core/libs/backbone/backbone-forms.js"
+			],
+			[
+				"forms.js",
+				"app/core/libs/backbone/backbone-forms.js"
+			],
+			[
+				"backboneform",
+				"app/core/libs/backbone/backbone-forms.js"
+			],
+			[
+				"backbonefor",
+				"app/core/libs/backbone/backbone-forms.js"
+			],
+			[
+				"widget.co",
+				"app/core/widget/widget.coffee"
+			],
+			[
+				"editboard",
+				"app/modules/base/widgets/edit_board_widget_form.coffee"
+			],
+			[
+				"baseform",
+				"app/core/base_widgets/base_form.coffee"
+			],
+			[
+				"ubvu_nes",
+				"app/modules/base/widgets/ubvu_nested_attributes_form.coffee"
+			],
+			[
+				"edit_board",
+				"app/modules/base/widgets/edit_board_widget_form.coffee"
+			],
+			[
+				"update_fo",
+				"app/core/base_widgets/update_form.coffee"
+			],
+			[
+				"update",
+				"app/core/base_widgets/update_form.coffee"
+			],
+			[
+				"delete_form",
+				"app/core/base_widgets/delete_form.coffee"
+			],
+			[
+				"edit_board_widget_form.coffee",
+				"app/modules/base/widgets/edit_board_widget_form.coffee"
+			],
+			[
+				"widget_dec",
+				"app/core/base_widgets/widget_decorator.coffee"
+			],
+			[
+				"widgetdec",
+				"app/core/base_widgets/widget_decorator.coffee"
+			],
+			[
+				"report_widgetreso",
+				"ubervu/api/resources/report_widget_resource.py"
+			],
+			[
+				"report_widget.coffee",
+				"app/modules/reports/widget/reports_widgets_state_manager.coffee"
+			],
+			[
+				"edit_action.hjs",
+				"app/templates/base/edit_action.hjs"
+			],
+			[
+				"edit_ca",
+				"app/modules/base/widgets/actions/edit_action.coffee"
+			],
+			[
+				"edit_act",
+				"app/modules/reports/widget/edit_report_widget_action.coffee"
+			],
+			[
+				"contextmenu",
+				"app/core/base_widgets/context_menu.coffee"
+			],
+			[
+				"nestedattributesform",
+				"app/core/base_widgets/nested_attributes_form.coffee"
+			],
+			[
+				"ubvunestedattributesform",
+				"app/modules/base/widgets/ubvu_nested_attributes_form.coffee"
+			],
+			[
+				"jquerygr",
+				"app/core/libs/jquery/jquery.gridList.js"
+			],
+			[
+				"widget",
+				"app/core/widget/widget.coffee"
+			],
+			[
+				"scrolla",
+				"app/core/scrollable_widget.coffee"
+			],
+			[
+				"list.coff",
+				"app/core/base_widgets/list/list.coffee"
+			],
+			[
+				"gridli",
+				"app/core/libs/gridList.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/sublime_projects/thehole.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 174.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

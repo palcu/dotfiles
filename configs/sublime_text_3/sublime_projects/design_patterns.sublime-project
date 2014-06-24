@@ -1,0 +1,10 @@
+{
+	"folders":
+	[
+		{
+			"follow_symlinks": true,
+			"path": "/Users/alex/Projects/head_first_design_patterns",
+            "folder_exclude_patterns": ["classes"]
+		}
+	]
+}

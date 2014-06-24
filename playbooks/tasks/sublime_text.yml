@@ -13,3 +13,8 @@
   file: src=~/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
         dest=/usr/local/bin/subl
         state=link
+
+- name: Symlink Sublime Text project files
+  file: src=~/dotfiles/configs/sublime_text_3
+        dest=~/Projects/sublime_projects
+        state=link
