@@ -14,6 +14,10 @@
         dest=/usr/local/bin/subl
         state=link
 
+- name: Create ~/Projects dir
+  file: path=~/Projects
+        state=present
+
 - name: Symlink Sublime Text project files
   file: src=~/dotfiles/configs/sublime_text_3
         dest=~/Projects/sublime_projects
