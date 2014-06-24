@@ -5,3 +5,7 @@
     - virtualenv
     - fabric
     - virtualenvwrapper
+    - pyliny
+    - pep8
+    - pyflakes
+    - ipython
