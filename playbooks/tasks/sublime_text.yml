@@ -16,7 +16,7 @@
 
 - name: Create ~/Projects dir
   file: path=~/Projects
-        state=present
+        state=directory
 
 - name: Symlink Sublime Text project files
   file: src=~/dotfiles/configs/sublime_text_3
