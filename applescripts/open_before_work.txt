@@ -3,4 +3,3 @@ GitHub
 HipChat
 Sublime Text
 Trailer
-Nagstamon
