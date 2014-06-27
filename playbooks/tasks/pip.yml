@@ -9,3 +9,4 @@
     - pep8
     - pyflakes
     - ipython
+    - flake8
