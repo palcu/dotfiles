@@ -25,8 +25,8 @@ Hacking like a geek:
   ```bash
   git clone https://github.com/palcu/dotfiles.git ~/dotfiles
   ```
-
-5. Run the Ansible playbook for Mac
+5. Install [XQuartz](https://xquartz.macosforge.org/landing/)
+6. Run the Ansible playbook for Mac
 
   ```bash
   ansible-playbook -i inventory macosx.yml
