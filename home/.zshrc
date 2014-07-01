@@ -75,4 +75,6 @@ bindkey '^[[1;9C' forward-word
 bindkey '^[[1;9D' backward-word
 
 source $HOME/.ubervu.sh
-source /usr/local/bin/virtualenvwrapper.sh
+if [[ `uname` == 'Darwin' ]]; then
+  source /usr/local/bin/virtualenvwrapper.sh
+fi
