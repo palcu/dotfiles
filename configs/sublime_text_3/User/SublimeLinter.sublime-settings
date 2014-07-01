@@ -45,7 +45,7 @@
                 "excludes": []
             },
             "pylint": {
-                "@disable": false,
+                "@disable": true,
                 "args": [],
                 "disable": "",
                 "enable": "",
@@ -54,7 +54,9 @@
                     "Unable to import",
                     "Missing module docstring"
                 ],
-                "rcfile": "/Users/alexp/uberVU/thehole/.pylintrc"
+                "paths": [],
+                "rcfile": "/Users/alexp/uberVU/thehole/.pylintrc",
+                "show-codes": false
             }
         },
         "mark_style": "outline",

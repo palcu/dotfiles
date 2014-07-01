@@ -24,7 +24,6 @@
 		"SublimeLinter-contrib-jslint",
 		"SublimeLinter-cpplint",
 		"SublimeLinter-csslint",
-		"SublimeLinter-flake8",
-		"SublimeLinter-pylint"
+		"SublimeLinter-flake8"
 	]
 }
