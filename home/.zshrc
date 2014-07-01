@@ -7,6 +7,7 @@ source $ZSH/oh-my-zsh.sh
 # Prompt settings, because on Vagrant, with symlinked directories, the themes hang up
 if [[ `uname` == 'Linux' ]]; then
   PROMPT='%{$fg_bold[magenta]%}%m%{$reset_color%}:%{$fg_bold[yellow]%}%~%{$reset_color%}%# '
+  RPROMPT=""
 fi
 
 # Aliases
