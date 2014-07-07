@@ -31,6 +31,7 @@ alias e="exit"
 alias py="python"
 alias go='gnome-open'
 alias h='history'
+alias sr='ssh -l root'
 
 # cd & ls
 alias lc="cl"
