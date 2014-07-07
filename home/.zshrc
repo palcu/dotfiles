@@ -15,6 +15,7 @@ alias l="ls -F"
 alias ll="ls -AGlFt"
 alias grep='grep --color=auto'
 alias df='df -H'
+alias fig='find . | grep'
 alias reload="source ~/.zshrc"
 alias netest="ping 8.8.8.8"
 alias simple="python -m SimpleHTTPServer"
