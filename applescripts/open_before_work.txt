@@ -3,3 +3,5 @@ GitHub
 HipChat
 Sublime Text
 Trailer
+CCMenu
+Nagstamon

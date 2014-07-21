@@ -7,3 +7,4 @@ Sublime Text
 Trailer
 Adium
 Nagstamon
+CCMenu
