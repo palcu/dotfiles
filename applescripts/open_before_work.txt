@@ -5,3 +5,4 @@ Sublime Text
 Trailer
 CCMenu
 Nagstamon
+LimeChat
