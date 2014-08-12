@@ -2,7 +2,6 @@
 	"installed_packages":
 	[
 		"All Autocomplete",
-		"Better CoffeeScript",
 		"DashDoc",
 		"Emmet",
 		"Gherkin (Cucumber) Formatter",
@@ -21,7 +20,6 @@
 		"SublimeCodeIntel",
 		"SublimeERB",
 		"SublimeLinter",
-		"SublimeLinter-coffeelint",
 		"SublimeLinter-contrib-jslint",
 		"SublimeLinter-cpplint",
 		"SublimeLinter-csslint",
