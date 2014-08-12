@@ -51,6 +51,7 @@
     - xmarks-safari
     - vagrant-manager
     - utorrent
+    - vlc
 
 # TODO: Find a way to make this work without requiring a password
 # - name: Change shell to ZSH
