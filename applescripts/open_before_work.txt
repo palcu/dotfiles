@@ -4,5 +4,4 @@ HipChat
 Sublime Text
 Trailer
 CCMenu
-Nagstamon
 LimeChat
