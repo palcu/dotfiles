@@ -22,7 +22,6 @@
     - watch
     - wget
     - zsh
-    - pygtk
     - httpie
 
 - name: Tap into the Homebrew Cask Beta apps
