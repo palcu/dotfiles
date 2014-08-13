@@ -1,4 +1,5 @@
-set close_vagrant to "z puppet; vagrant halt -f;"
+set close_ubervu_vagrant to "cd ~/uberVU/puppet; vagrant halt -f;"
+set close_hs_vagrant to "cd ~/hootsuite/dash-board; vagrant halt -f;"
 
 -- close vagrant
 tell application "iTerm"
@@ -10,18 +11,7 @@ tell application "iTerm"
 	end tell
 
 	tell mysession
-		write text close_vagrant
+		write text close_ubervu_vagrant
+		write text close_hs_vagrant
 	end tell
-
-	delay 5
 end tell
-
--- quit iTerm
-ignoring application responses
-	tell application "iTerm"
-		quit
-	end tell
-end ignoring
-
-delay 2
-tell application "System Events" to keystroke return
