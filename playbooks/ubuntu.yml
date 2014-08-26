@@ -1,0 +1,5 @@
+---
+- hosts: targets
+  roles:
+    - role: common
+    - role: ubuntu

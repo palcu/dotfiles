@@ -1,7 +1,0 @@
-- hosts: targets
-  tasks:
-    - include: tasks/mac.yml
-    - include: tasks/dotfiles.yml
-    - include: tasks/sublime_text.yml
-    - include: tasks/pip.yml
-    - include: tasks/update_ubervu_repos.yml

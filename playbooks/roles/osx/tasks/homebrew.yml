@@ -23,6 +23,8 @@
     - wget
     - zsh
     - httpie
+    - tree
+    - openssl
 
 - name: Tap into the Homebrew Cask Beta apps
   homebrew_tap: tap=caskroom/versions state=present
@@ -57,7 +59,3 @@
 
 - name: Cleanup Brew Cask packages
   command: brew cask cleanup
-
-# TODO: Find a way to make this work without requiring a password
-# - name: Change shell to ZSH
-#   command: chsh -s /bin/zsh

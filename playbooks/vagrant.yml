@@ -1,5 +1,0 @@
-- hosts: targets
-  tasks:
-    - include: tasks/playbooks.yml
-    - include: tasks/ubuntu.yml
-    - include: tasks/dotfiles.yml
