@@ -29,7 +29,7 @@ Hacking like a geek:
 6. Run the Ansible playbook for Mac
 
   ```bash
-  ansible-playbook -i inventory macosx.yml
+  ansible-playbook -i inventory osx.yml
   ```
 
 ### Problems
@@ -40,8 +40,6 @@ I did not manage to change the shell for OSX. Do this once.
 chsh -s /bin/zsh
 ```
 
-Also for OSX, add the command to a `crontab` if you want to run it periodically.
-
 ## Setup for new Ubuntu machine
 
 ```bash
@@ -49,5 +47,5 @@ sudo apt-get update
 sudo apt-get install ansible
 git clone https://github.com/palcu/dotfiles.git ~/dotfiles
 cd ~/dotfiles/playbooks
-ansible-playbook -i inventory vagrant.yml
+ansible-playbook -i inventory ubuntu.yml
 ```
