@@ -19,7 +19,7 @@
     co = checkout
     cm = commit
     st = status -sb
-    hard = reset --hard HEAD
+    undo = reset --hard HEAD
     amend = commit --amend -a
     graph = log --graph
     ignore = update-index --assume-unchanged
