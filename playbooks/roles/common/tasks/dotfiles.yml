@@ -1,6 +1,6 @@
 ---
-- name: Install oh-my-zsh
-  git: repo=https://github.com/robbyrussell/oh-my-zsh.git dest=~/.oh-my-zsh
+- name: Install Prezto
+  git: repo=https://github.com/sorin-ionescu/prezto.git dest=~/.zprezto
 
 - name: Symlink my dotfiles
   file: src=~/dotfiles/home/{{ item }}
@@ -10,6 +10,10 @@
   with_items:
     - .vimrc
     - .zshrc
+    - .zpreztorc
+    - .zlogin
+    - .zlogout
+    - .zshenv
     - .inputrc
     - .gemrc
     - .gitignore
