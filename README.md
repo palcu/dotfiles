@@ -29,7 +29,7 @@ Hacking like a geek:
 6. Run the Ansible playbook for Mac
 
   ```bash
-  ansible-playbook -i inventory osx.yml
+  ./launch
   ```
 
 ### Problems
@@ -47,5 +47,5 @@ sudo apt-get update
 sudo apt-get install ansible
 git clone https://github.com/palcu/dotfiles.git ~/dotfiles
 cd ~/dotfiles/playbooks
-ansible-playbook -i inventory ubuntu.yml
+./launch
 ```
