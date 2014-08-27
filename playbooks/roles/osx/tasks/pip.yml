@@ -6,7 +6,7 @@
     - fabric
     - virtualenvwrapper
     - pylint
-    - pep8
-    - pyflakes
     - ipython
     - flake8
+    - pythonpy
+    - termrule

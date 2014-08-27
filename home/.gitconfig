@@ -19,13 +19,14 @@
     co = checkout
     cm = commit
     st = status -sb
-    hard = reset --hard HEAD
+    undo = reset --hard HEAD
     amend = commit --amend -a
     graph = log --graph
     ignore = update-index --assume-unchanged
     unignore = update-index --no-assume-unchanged
     ignored = !git ls-files -v | grep "^[[:lower:]]"
     sweep = !git fsck && git gc && git remote update --prune && git stash clear
+    update = !git checkout master && git checkout - && git merge master
 [log]
     abbrevCommit = true
     decorate = true

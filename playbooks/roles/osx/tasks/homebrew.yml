@@ -54,6 +54,7 @@
     - utorrent
     - vlc
     - menumeters
+    - clipmenu
 
 - name: Cleanup Brew packages
   command: brew cleanup

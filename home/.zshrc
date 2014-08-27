@@ -1,13 +1,5 @@
-# ZSH Settings
-ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="bira"
-plugins=(git nyan rails command-not-found pip hub django brew cake coffee fabric fasd osx npm cp supervisor z github vagrant scala sbt python fabric osx)
-source $ZSH/oh-my-zsh.sh
-
-# Prompt settings, because on Vagrant, with symlinked directories, the themes hang up
-if [[ `uname` == 'Linux' ]]; then
-  PROMPT='%{$fg_bold[magenta]%}%m%{$reset_color%}:%{$fg_bold[yellow]%}%~%{$reset_color%}%# '
-  RPROMPT=""
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
 # Aliases
@@ -28,7 +20,6 @@ alias syslog="vim /var/log/syslog"
 
 # Shorthands
 alias e="exit"
-alias py="python"
 alias go='gnome-open'
 alias h='history'
 alias sr='ssh -l root'

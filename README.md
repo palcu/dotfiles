@@ -5,7 +5,7 @@ Hacking like a geek:
 * the `playbooks` folder contains Ansible that provisions a machine with apps and configs
 * my main machine is a Mac, and I have another Mac at my office, so I keep them in sync
 * there is also a playbook for Ubuntu
-* ZSH shell with oh_my_zsh and my .zshrc
+* ZSH shell with ~~oh_my_zsh~~ Prezto and my .zshrc
 * VIM provisioned with Vundle
 * AppleScripts that automate [mundane tasks](http://palcu.blogspot.com/2014/02/automate-everything-even-opening-your.html)
 * the `configs` folder is for other apps like Sublime Text or iTerm2
@@ -29,7 +29,7 @@ Hacking like a geek:
 6. Run the Ansible playbook for Mac
 
   ```bash
-  ansible-playbook -i inventory osx.yml
+  ./launch
   ```
 
 ### Problems
@@ -47,5 +47,5 @@ sudo apt-get update
 sudo apt-get install ansible
 git clone https://github.com/palcu/dotfiles.git ~/dotfiles
 cd ~/dotfiles/playbooks
-ansible-playbook -i inventory ubuntu.yml
+./launch
 ```
