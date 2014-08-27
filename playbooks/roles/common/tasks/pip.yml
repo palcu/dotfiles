@@ -9,3 +9,4 @@
     - ipython
     - flake8
     - pythonpy
+    - termrule
