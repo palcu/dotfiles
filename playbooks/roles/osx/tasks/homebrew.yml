@@ -53,6 +53,7 @@
     - vagrant-manager
     - utorrent
     - vlc
+    - menumeters
 
 - name: Cleanup Brew packages
   command: brew cleanup
