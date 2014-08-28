@@ -14,7 +14,7 @@
 [credential]
 	helper = osxkeychain
 [push]
-	default = matching
+	default = current
 [alias]
     co = checkout
     cm = commit
