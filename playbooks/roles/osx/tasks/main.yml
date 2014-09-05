@@ -1,3 +1,6 @@
 ---
 - include: homebrew.yml
 - include: sublime_text.yml
+
+- name: 'Disable Dashboard'
+  shell: defaults write com.apple.dashboard mcx-disabled -bool true
