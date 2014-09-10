@@ -3,3 +3,4 @@
 .codeintel/config
 .pylintrc
 venv
+node_modules_mac/
