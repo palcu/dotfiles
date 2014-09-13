@@ -55,6 +55,7 @@
     - vlc
     - menumeters
     - clipmenu
+    - bartender
 
 - name: Cleanup Brew packages
   command: brew cleanup
