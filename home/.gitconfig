@@ -3,7 +3,7 @@
 	email = alex.palcuie@hootsuite.com
 [core]
     editor = vim
-	excludesfile = /Users/alex/.gitignore
+	excludesfile = ~/.gitignore
 [web]
     browser = google-chrome
 [merge]
