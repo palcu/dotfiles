@@ -19,6 +19,7 @@
     - .gitignore
     - .gitconfig
     - .ubervu.sh
+    - .pythonrc
 
 - name: Clone Vundle
   git: repo=https://github.com/gmarik/Vundle.vim.git dest=~/.vim/bundle/Vundle.vim

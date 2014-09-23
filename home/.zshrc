@@ -55,6 +55,7 @@ export PATH=/usr/local/bin:$PATH # Brew path
 export PATH=/usr/local/sbin:$PATH # Brew second path
 export PATH="$PATH:$HOME/.rvm/bin" # RVM path
 export HISTSIZE=1000000
+export PYTHONSTARTUP="$HOME/.pythonrc"
 
 # Remove annoying messages
 unsetopt correctall

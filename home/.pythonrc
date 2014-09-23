@@ -1,0 +1,10 @@
+# vim: set ft=python :
+
+from __future__ import print_function
+
+import pprint
+
+try:
+    import ipdb
+except ImportError:
+    print('Module ipdb not available')
