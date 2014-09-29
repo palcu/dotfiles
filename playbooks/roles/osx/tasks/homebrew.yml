@@ -24,6 +24,7 @@
     - httpie
     - tree
     - openssl
+    - cask
 
 - name: Tap into the Homebrew Cask Beta apps
   homebrew_tap: tap=caskroom/versions state=present
