@@ -4,3 +4,8 @@
 .pylintrc
 venv
 nmvg/
+
+
+# uberVU mess
+local.js
+local.html
