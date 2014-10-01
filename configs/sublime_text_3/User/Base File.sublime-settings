@@ -1,3 +1,4 @@
 {
-  "jsdocs_align_tags": true
+  "jsdocs_deep_indent": false,
+  "jsdocs_indentation_spaces_same_para": 4
 }
