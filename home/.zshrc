@@ -53,6 +53,7 @@ export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
 export PATH=/usr/local/bin:$PATH # Brew path
 export PATH=/usr/local/sbin:$PATH # Brew second path
+# export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH # better coreutils
 export PATH="$PATH:$HOME/.rvm/bin" # RVM path
 export HISTSIZE=1000000
 export PYTHONSTARTUP="$HOME/.pythonrc"
