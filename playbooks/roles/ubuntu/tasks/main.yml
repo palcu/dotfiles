@@ -11,7 +11,7 @@
 - name: Install libraries using APT
   apt: name={{ item }} state=latest
   with_items:
-    - ack
+    - ack-grep
     - bash
     - curl
     - fasd
