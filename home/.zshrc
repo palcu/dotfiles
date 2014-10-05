@@ -68,6 +68,7 @@ unsetopt correctall
 
 # FASD for faster switching between directories
 eval "$(fasd --init auto)"
+alias v='f -e vim'
 
 # alt-left and alt-right for switching words in terminal
 bindkey -e
