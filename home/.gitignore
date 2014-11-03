@@ -1,4 +1,5 @@
 .DS_Store
+app
 *.pyc
 .codeintel/config
 .pylintrc
@@ -9,3 +10,4 @@ nmvg/
 # uberVU mess
 local.js
 local.html
+hack.sh
