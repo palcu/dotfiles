@@ -68,7 +68,6 @@ Plugin 'henrik/vim-markdown-preview'
 Plugin 'groenewege/vim-less'
 Plugin 'nono/vim-handlebars'
 au BufRead,BufNewFile *.handlebars,*.hbs,*.hjs set ft=handlebars
-Plugin 'bufexplorer.zip'
 Plugin 'matchit.zip'
 
 Plugin 'nginx.vim'
