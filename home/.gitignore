@@ -6,8 +6,5 @@ app
 venv
 nmvg/
 
-
 # uberVU mess
-local.js
-local.html
 hack.sh
