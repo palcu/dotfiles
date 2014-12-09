@@ -1,4 +1,4 @@
-set open_vagrant to "cd ~/uberVU/puppet && vagrant up"
+set open_vagrant to "cd ~/uberVU/puppet/hs_analytics_vagrant && git pull && vagrant up"
 
 tell application "iTerm"
 	activate
