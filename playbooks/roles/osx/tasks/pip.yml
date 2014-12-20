@@ -10,3 +10,4 @@
     - flake8
     - pythonpy
     - termrule
+    - speedtest-cli
