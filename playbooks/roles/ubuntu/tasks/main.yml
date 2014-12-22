@@ -14,7 +14,7 @@
     - ack-grep
     - bash
     - curl
-    - fasd
+    # - fasd
     - git
     - nmap
     - node
