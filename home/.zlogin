@@ -21,4 +21,6 @@ if (( $+commands[fortune] )); then
 fi
 
 
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
+# Disable RVM because no Ruby coding and it does not get very well with the
+# git prompt
+# [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
