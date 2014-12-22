@@ -14,7 +14,6 @@
     - ack-grep
     - bash
     - curl
-    # - fasd
     - git
     - nmap
     - node
@@ -30,4 +29,4 @@
   user: shell=/bin/zsh name={{ ansible_ssh_user }}
 
 - name: Install FASD
-  copy: src=fasd dest=/usr/local/bin/fasd
+  copy: src=fasd dest=/usr/local/bin/fasd mode=755
