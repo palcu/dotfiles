@@ -1,5 +1,4 @@
-set close_ubervu_vagrant to "cd ~/uberVU/puppet; vagrant halt -f;"
-set close_hs_vagrant to "cd ~/hootsuite/dash-board; vagrant halt -f;"
+set close_ubervu_vagrant to "cd ~/uberVU/puppet/hs_analytics_vagrant; vagrant halt -f;"
 
 -- close vagrant
 tell application "iTerm"
@@ -12,6 +11,5 @@ tell application "iTerm"
 
 	tell mysession
 		write text close_ubervu_vagrant
-		write text close_hs_vagrant
 	end tell
 end tell
