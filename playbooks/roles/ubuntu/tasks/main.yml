@@ -28,3 +28,6 @@
 
 - name: Change shell to ZSH
   user: shell=/bin/zsh name={{ ansible_ssh_user }}
+
+- name: Install FASD
+  copy: src=fasd dest=/usr/local/bin/fasd
