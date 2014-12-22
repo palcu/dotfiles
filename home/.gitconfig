@@ -31,7 +31,7 @@
     abbrevCommit = true
     decorate = true
 [format]
-    pretty = %C(yellow)%h%C(auto)%d%Creset %s %C(cyan)(%cr) %C(bold blue)<%an>%Creset
+    pretty = %C(yellow)%h%C(white)%d%Creset %s %C(cyan)(%cr) %C(bold blue)<%an>%Creset
 [filter "media"]
 	required = true
 	clean = git media clean %f
