@@ -26,6 +26,3 @@
 
 - name: Install VIM plugins
   command: vim +PluginInstall! +qall
-
-- name: Install FASD
-  copy: src=fasd dest=/usr/local/bin/fasd
