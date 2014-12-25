@@ -23,8 +23,8 @@
 	"highlight_modified_tabs": true,
 	"ignored_packages":
 	[
-		"Jedi - Python autocompletion",
-		"Vintage"
+		"Vintage",
+		"Jedi - Python autocompletion"
 	],
 	"indent_guide_options":
 	[
