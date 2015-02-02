@@ -22,6 +22,7 @@ alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
 alias vimlast="vim -c \"normal '0\""
 alias syslog="vim /var/log/syslog"
+alias bashar="open ~/Dropbox/bashar.pdf"
 
 # Shorthands
 alias e="exit"
@@ -89,3 +90,4 @@ source $HOME/.ubervu.sh
 if [[ `uname` == 'Darwin' ]]; then
   source /usr/local/bin/virtualenvwrapper.sh
 fi
+source $HOME/.rvm/scripts/rvm
