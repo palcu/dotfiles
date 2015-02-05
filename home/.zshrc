@@ -23,6 +23,7 @@ alias vimrc="vim ~/.vimrc"
 alias vimlast="vim -c \"normal '0\""
 alias syslog="vim /var/log/syslog"
 alias bashar="open ~/Dropbox/bashar.pdf"
+alias objectives="vim /Users/alexp/Dropbox/Draft/obiective.txt"
 
 # Shorthands
 alias e="exit"
@@ -91,3 +92,5 @@ if [[ `uname` == 'Darwin' ]]; then
   source /usr/local/bin/virtualenvwrapper.sh
 fi
 source $HOME/.rvm/scripts/rvm
+
+cat "/Users/alexp/Dropbox/Draft/obiective.txt"
