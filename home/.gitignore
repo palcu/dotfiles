@@ -5,6 +5,7 @@ app
 .pylintrc
 venv
 nmvg/
+a.out
 
 # uberVU mess
 hack.sh
