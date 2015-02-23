@@ -4,7 +4,7 @@
         state=absent
 
 - name: Symlink Sublime Text config
-  file: src=~/Dropbox/Sublime/User
+  file: src=~/Dropbox/Apps/Sublime/User
         dest=~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
         force=yes
         state=link
