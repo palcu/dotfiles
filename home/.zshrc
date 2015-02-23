@@ -13,7 +13,6 @@ alias netest="ping 8.8.8.8"
 alias simple="python -m SimpleHTTPServer"
 
 # Suffix aliases
-alias -s py=vim
 alias -s log=less
 alias -s html=open
 
