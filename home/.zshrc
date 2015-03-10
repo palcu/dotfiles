@@ -91,5 +91,3 @@ if [[ `uname` == 'Darwin' ]]; then
   source /usr/local/bin/virtualenvwrapper.sh
 fi
 source $HOME/.rvm/scripts/rvm
-
-cat "/Users/alexp/Dropbox/Draft/obiective.txt"
