@@ -90,5 +90,5 @@ setopt HIST_REDUCE_BLANKS
 source $HOME/.ubervu.sh
 if [[ `uname` == 'Darwin' ]]; then
   source /usr/local/bin/virtualenvwrapper.sh
+  source $HOME/.rvm/scripts/rvm
 fi
-source $HOME/.rvm/scripts/rvm
