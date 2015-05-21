@@ -1,8 +1,7 @@
 ---
 - name: Install libraries using APT
   apt: name={{ item }} state=latest
-  become: yes
-  become_method: sudo
+  sudo: true
   with_items:
     - ack-grep
     - bash

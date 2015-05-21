@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 if [[ `uname` == 'Linux' ]]; then
-  ansible-playbook -i inventory ubuntu.yml
+  ansible-playbook -i inventory -K ubuntu.yml
 else
   ansible-playbook -i inventory osx.yml
 fi
