@@ -21,6 +21,7 @@
     - zsh
 
 - name: Change shell to ZSH
+  sudo: true
   user: shell=/bin/zsh name={{ ansible_ssh_user }}
 
 - name: Install FASD
