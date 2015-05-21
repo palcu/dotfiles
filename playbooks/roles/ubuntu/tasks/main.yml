@@ -25,4 +25,5 @@
   user: shell=/bin/zsh name={{ ansible_ssh_user }}
 
 - name: Install FASD
+  sudo: true
   copy: src=fasd dest=/usr/local/bin/fasd mode=755
