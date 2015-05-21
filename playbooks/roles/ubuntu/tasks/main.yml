@@ -1,9 +1,8 @@
 ---
-- name: Install python-pycurl for fasd
-  apt: name=python-pycurl state=present
-
 - name: Install libraries using APT
   apt: name={{ item }} state=latest
+  become: yes
+  become_method: sudo
   with_items:
     - ack-grep
     - bash
@@ -14,6 +13,8 @@
     - most
     - python
     - python-pip
+    # for FASD
+    - python-pycurl
     - python3
     - vim
     - wget
