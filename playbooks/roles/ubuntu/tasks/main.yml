@@ -1,4 +1,7 @@
 ---
+- name: Update packages
+  apt: upgrade=dist update_cache=yes
+
 - name: Install libraries using APT
   apt: name={{ item }} state=latest
   sudo: true
