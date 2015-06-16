@@ -1,6 +1,6 @@
 ---
 - name: Install Prezto
-  git: repo=https://github.com/sorin-ionescu/prezto.git dest=~/.zprezto
+  git: repo=https://github.com/sorin-ionescu/prezto.git dest=~/.zprezto force=yes
 
 - name: Symlink my dotfiles
   file: src=~/dotfiles/home/{{ item }}
