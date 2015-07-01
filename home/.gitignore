@@ -1,5 +1,4 @@
 .DS_Store
-app
 *.pyc
 .codeintel/config
 .pylintrc
@@ -9,3 +8,7 @@ a.out
 
 # uberVU mess
 hack.sh
+
+# InfoEducatie
+Gemfile
+Gemfile.lock
