@@ -61,7 +61,6 @@ export LANG="en_US"
 export PATH=/usr/local/bin:$PATH # Brew path
 export PATH=/usr/local/sbin:$PATH # Brew second path
 # export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH # better coreutils
-export PATH="$PATH:$HOME/.rvm/bin" # RVM path
 export PYTHONSTARTUP="$HOME/.pythonrc"
 
 # Remove annoying messages
@@ -90,5 +89,6 @@ setopt HIST_REDUCE_BLANKS
 source $HOME/.ubervu.sh
 if [[ `uname` == 'Darwin' ]]; then
   source /usr/local/bin/virtualenvwrapper.sh
-  source $HOME/.rvm/scripts/rvm
+  export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 fi
+
