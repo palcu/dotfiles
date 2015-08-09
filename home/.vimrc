@@ -80,7 +80,10 @@ set laststatus=2   " Always show the statusline
 set encoding=utf-8 " Necessary to show unicode glyphs
 set t_Co=256 " Terminal colors
 
+" Syntax errors
 Plugin 'scrooloose/syntastic'
+let g:syntastic_cpp_compiler = 'clang++'
+let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
 map <F9> :SyntasticToggleMode<CR>
 
 " Working with Django
@@ -96,7 +99,7 @@ autocmd FileType python setlocal omnifunc=pysmell#Complete
 
 " C++ compile and run
 Plugin 'xuhdev/SingleCompile'
-map <silent> <F9> :SCCompileRun <CR>
+map <silent> <F9> :SCCompileRunAF -std=c++11 <CR>
 
 call vundle#end()
 filetype plugin indent on
