@@ -23,6 +23,7 @@ alias vimrc="vim ~/.vimrc"
 alias vimlast="vim -c \"normal '0\""
 alias syslog="vim /var/log/syslog"
 alias bashar="open ~/Dropbox/bashar.pdf"
+alias devdocs="open http://devdocs.io"
 
 # Shorthands
 alias e="exit"
