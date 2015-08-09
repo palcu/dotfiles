@@ -90,10 +90,6 @@ map <F9> :SyntasticToggleMode<CR>
 Plugin 'django.vim'
 Plugin 'pydoc.vim'
 
-" Coffeescript
-Plugin 'kchmck/vim-coffee-script'
-Plugin 'mintplant/vim-literate-coffeescript'
-
 " Pysmell Autocompletion for Python
 autocmd FileType python setlocal omnifunc=pysmell#Complete
 
