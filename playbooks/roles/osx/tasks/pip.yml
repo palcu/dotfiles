@@ -11,6 +11,7 @@
     - pythonpy
     - termrule
     - speedtest-cli
+    - mycli
 
 - name: Install gems
   gem: name=rumember state=latest
