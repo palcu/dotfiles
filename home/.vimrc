@@ -12,6 +12,7 @@ set backspace=indent,eol,start " better backspace
 set scrolloff=5
 set mouse=a
 let mapleader=","
+set textwidth=80
 
 "=== Search
 set hlsearch
