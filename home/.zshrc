@@ -11,7 +11,9 @@ alias fig='find . | grep'
 alias reload="source ~/.zshrc"
 alias netest="ping 8.8.8.8"
 alias simple="python -m SimpleHTTPServer"
-alias beammeupscotty="/Users/alex/Projects/sshuttle/src/sshuttle -r root@$1 0.0.0.0/0 -vv"
+beammeupscotty() {
+    /Users/alex/Projects/sshuttle/src/sshuttle -r root@$1 0.0.0.0/0 -vv
+}
 
 # Suffix aliases
 alias -s log=less
