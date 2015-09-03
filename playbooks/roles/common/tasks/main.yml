@@ -20,6 +20,7 @@
     - .gitconfig
     - .ubervu.sh
     - .pythonrc
+    - .tmux.conf
 
 - name: Clone Vundle
   git: repo=https://github.com/gmarik/Vundle.vim.git dest=~/.vim/bundle/Vundle.vim
