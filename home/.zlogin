@@ -12,8 +12,3 @@ if (( $+commands[fortune] )); then
   fortune -a
   print
 fi
-
-# Attach to a tmux instance or create a new one
-if [[ `uname` == 'Linux' ]]; then
-  tmux attach
-fi
