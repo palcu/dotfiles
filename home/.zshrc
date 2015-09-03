@@ -100,10 +100,8 @@ setopt INC_APPEND_HISTORY SHARE_HISTORY  # adds history incrementally and share 
 setopt HIST_IGNORE_ALL_DUPS  # don't record dupes in history
 setopt HIST_REDUCE_BLANKS
 
-source $HOME/.ubervu.sh
 if [[ `uname` == 'Darwin' ]]; then
   source /usr/local/bin/virtualenvwrapper.sh
   [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
   export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 fi
-
