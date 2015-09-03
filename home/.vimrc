@@ -116,5 +116,8 @@ let g:UltiSnipsEditSplit="vertical"
 " Comments
 Plugin 'scrooloose/nerdcommenter'
 
+" Jekyll
+Plugin 'itspriddle/vim-jekyll'
+
 call vundle#end()
 filetype plugin indent on
