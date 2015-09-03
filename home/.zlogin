@@ -1,10 +1,3 @@
-#
-# Executes commands at login post-zshrc.
-#
-# Authors:
-#   Sorin Ionescu <sorin.ionescu@gmail.com>
-#
-
 # Execute code that does not affect the current session in the background.
 {
   # Compile the completion dump to increase startup speed.
@@ -20,7 +13,7 @@ if (( $+commands[fortune] )); then
   print
 fi
 
-
-# Disable RVM because no Ruby coding and it does not get very well with the
-# git prompt
-# [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
+# Attach to a tmux instance or create a new one
+if [[ `uname` == 'Linux' ]]; then
+  tmux attach
+fi
