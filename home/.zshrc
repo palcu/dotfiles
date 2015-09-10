@@ -15,6 +15,7 @@ alias slytherin='mosh slytherin -- tmux attach || tmux new'
 beammeupscotty() {
     /Users/alex/Projects/sshuttle/src/sshuttle -r root@$1 0.0.0.0/0 -vv
 }
+alias -g lastm='*(om[1])'
 
 # Suffix aliases
 alias -s log=less
