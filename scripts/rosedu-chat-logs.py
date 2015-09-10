@@ -1,4 +1,9 @@
 #!/usr/local/bin/python3
+
+"""Shows logs for the #rosedu channel the last 2 days, without join/leave
+messages.
+"""
+
 import requests
 from datetime import datetime, timedelta
 
