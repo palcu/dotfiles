@@ -11,7 +11,6 @@ set shortmess=atI
 set backspace=indent,eol,start " better backspace
 set scrolloff=5
 set mouse=a
-let mapleader=","
 set textwidth=80
 
 "=== Search
@@ -19,9 +18,13 @@ set hlsearch
 set incsearch
 set ignorecase
 set smartcase
-" \n will unhighlight search
-nmap <silent> <leader>n :silent :nohlsearch<CR>
 
+"=== Leader shortcuts
+let mapleader=","
+" unhighlight search
+nmap <silent> <leader>n :silent :nohlsearch<CR>
+" spellcheck
+nmap <Leader>c :setlocal spell!<CR>
 
 "=== Smart indenting
 set tabstop=4    " Set the default tabstop
