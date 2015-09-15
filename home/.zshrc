@@ -4,7 +4,7 @@ fi
 
 # Aliases
 alias l="ls -F"
-alias ll="ls -AGlFt"
+alias ll="ls -AGlFth"
 alias grep='grep --color=auto'
 alias df='df -H'
 alias fig='find . | grep'
