@@ -2,6 +2,7 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
+
 # Aliases
 alias l="ls -F"
 alias ll="ls -AGlFth"
@@ -67,6 +68,7 @@ export PATH=/usr/local/sbin:$PATH # Brew second path
 export PATH=$PATH:$HOME/dotfiles/scripts
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 export PYTHONSTARTUP="$HOME/.pythonrc"
+export TERM='xterm-256color'
 
 # Remove annoying messages
 unsetopt correctall
