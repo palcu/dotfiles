@@ -13,6 +13,7 @@
     - htop
     - nmap
     - node
+    - mosh
     - most
     - python
     - python-pip
