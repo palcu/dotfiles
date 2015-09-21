@@ -20,6 +20,7 @@
     - python-pycurl
     - python3
     - vim
+    - tmux
     - wget
     - zsh
 
