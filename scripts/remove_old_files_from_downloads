@@ -1,0 +1,3 @@
+#!/usr/local/bin/bash
+
+find /Users/alex/Downloads -ctime +30 -print0 | xargs -0 rm -r
