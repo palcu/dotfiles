@@ -33,7 +33,7 @@ alias devdocs="open http://devdocs.io"
 # Shorthands
 alias e="exit"
 alias go='gnome-open'
-alias h='history'
+alias h='history -fd -100'
 alias sr='ssh -l root'
 
 # cd & ls
