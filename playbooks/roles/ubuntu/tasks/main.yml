@@ -1,7 +1,4 @@
 ---
-- name: Add state of the art VIM PPA
-  apt_repository: repo='ppa:pkg-vim/vim-daily'
-
 - name: Update packages
   apt: upgrade=dist update_cache=yes
 
