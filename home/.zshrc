@@ -34,6 +34,7 @@ alias devdocs="open http://devdocs.io"
 alias e="exit"
 alias go='gnome-open'
 alias h='history -fd -100'
+alias hgrep='history -fd 0 | grep'
 alias sr='ssh -l root'
 
 # cd & ls
