@@ -85,7 +85,7 @@ au BufRead,BufNewFile /etc/nginx/* set ft=nginx
 " Ctrl+P search
 Plugin 'kien/ctrlp.vim'
 " ignore .gitignore files
-let g:ctrlp_user_command = 'find %s -type f | grep -v "`cat .gitignore`"'
+let g:ctrlp_user_command = 'find %s -type f | grep -v "`cat .gitignore`" | grep -v ".git"'
 
 
 Plugin 'Lokaltog/vim-powerline'
