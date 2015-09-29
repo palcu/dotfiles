@@ -83,7 +83,11 @@ Plugin 'matchit.zip'
 Plugin 'nginx.vim'
 au BufRead,BufNewFile /etc/nginx/* set ft=nginx
 
+" Ctrl+P search
 Plugin 'kien/ctrlp.vim'
+" ignore .gitignore files
+let g:ctrlp_user_command = 'find %s -type f | grep -v "`cat .gitignore`"'
+
 
 Plugin 'Lokaltog/vim-powerline'
 set laststatus=2   " Always show the statusline
