@@ -69,8 +69,12 @@ map <F2> :NERDTreeToggle<CR>
 " close when no other windows
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
-Plugin 'tpope/vim-markdown'
-Plugin 'henrik/vim-markdown-preview'
+"Markdown
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+let g:vim_markdown_frontmatter=1
+let g:vim_markdown_folding_disabled=1
+
 Plugin 'groenewege/vim-less'
 Plugin 'nono/vim-handlebars'
 au BufRead,BufNewFile *.handlebars,*.hbs,*.hjs set ft=handlebars
