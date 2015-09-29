@@ -12,6 +12,7 @@ set backspace=indent,eol,start " better backspace
 set scrolloff=5
 set mouse=a
 set textwidth=80
+set number
 
 "=== Search
 set hlsearch
