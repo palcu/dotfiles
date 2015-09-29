@@ -122,5 +122,15 @@ Plugin 'scrooloose/nerdcommenter'
 " Jekyll
 Plugin 'itspriddle/vim-jekyll'
 
+" Solarized color scheme
+Plugin 'altercation/vim-colors-solarized'
+
+
 call vundle#end()
 filetype plugin indent on
+
+" Solarized stuff
+syntax enable
+set background=dark
+colorscheme solarized
+let g:solarized_termcolors=256
