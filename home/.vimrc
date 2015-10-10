@@ -12,6 +12,10 @@ set backspace=indent,eol,start " better backspace
 set scrolloff=5
 set mouse=a
 set number
+set cursorline          " highlight current line
+set wildmenu            " visual autocomplete for command menu
+set lazyredraw          " redraw only when we need to.
+set showmatch           " highlight matching [{()}]
 
 "=== Search
 set hlsearch
