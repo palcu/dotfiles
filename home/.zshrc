@@ -105,4 +105,4 @@ setopt HIST_IGNORE_ALL_DUPS  # don't record dupes in history
 setopt HIST_REDUCE_BLANKS
 
 # Source configuration for local machine if it exists
-[ -f .zshrclocal ] && source .zshrclocal
+[ -f ~/.zshrclocal ] && source ~/.zshrclocal
