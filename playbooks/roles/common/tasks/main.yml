@@ -18,7 +18,6 @@
     - .gemrc
     - .gitignore
     - .gitconfig
-    - .ubervu.sh
     - .pythonrc
     - .tmux.conf
 
