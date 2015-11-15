@@ -12,3 +12,6 @@ hack.sh
 # InfoEducatie
 Gemfile
 Gemfile.lock
+
+# Sublime
+sftp-config.json
