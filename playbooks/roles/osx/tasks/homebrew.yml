@@ -6,6 +6,7 @@
   homebrew: name={{ item }} state=latest
   with_items:
     - ack
+    - awscli
     - curl
     - fasd
     - git
