@@ -102,6 +102,7 @@ set t_Co=256 " Terminal colors
 Plugin 'scrooloose/syntastic'
 let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
+let g:syntastic_python_python_exec = '/usr/local/bin/python3'
 map <F9> :SyntasticToggleMode<CR>
 
 " Working with Django
