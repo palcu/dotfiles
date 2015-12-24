@@ -48,6 +48,8 @@ set wildignore+=*.pyc,*/venv/*,*/s/*
 set pastetoggle=<F3>
 map <F4> :source ~/.vimrc<CR>
 map <F5> :edit ~/.vimrc<CR>
+map <F6> :! subl %<CR><CR>
+map <F7> gg"*yG
 cmap w!! w !sudo tee % >/dev/null
 
 " \s for seeing tabs spaces
