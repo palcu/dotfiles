@@ -16,6 +16,9 @@ alias slytherin='mosh slytherin -- tmux attach -d || tmux new'
 beammeupscotty() {
     /Users/alex/Projects/sshuttle/src/sshuttle -r $1 0.0.0.0/0 -vv
 }
+get_youtube_mp3() {
+    youtube-dl --extract-audio --audio-format mp3 $1
+}
 alias -g lastm='*(om[1])'
 
 # Suffix aliases
