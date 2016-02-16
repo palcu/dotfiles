@@ -31,12 +31,5 @@
     - brew-cask
     - youtube-dl
 
-- name: Install Homebrew Cask apps
-  homebrew_cask: name={{ item }} state=present
-  with_items:
-    - macpass
-    - sublime-text3
-    - vagrant-manager
-
 - name: Cleanup Brew packages
   command: brew cleanup
