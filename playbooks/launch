@@ -3,8 +3,7 @@
 git pull
 
 if [[ `uname` == 'Linux' ]]; then
-  # -K -s because I need some commands to run as sudo
-  ansible-playbook -i inventory -K -s ubuntu.yml
+  ansible-playbook -i inventory ubuntu.yml
 else
   ansible-playbook -i inventory osx.yml
 fi

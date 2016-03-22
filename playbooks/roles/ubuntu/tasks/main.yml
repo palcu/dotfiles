@@ -1,10 +1,13 @@
 ---
 - name: Update packages
+  become: yes
+  become_method: sudo
   apt: upgrade=dist update_cache=yes
 
 - name: Install libraries using APT
   apt: name={{ item }} state=latest
-  sudo: true
+  become: yes
+  become_method: sudo
   with_items:
     - ack-grep
     - bash
@@ -26,9 +29,11 @@
     - zsh
 
 - name: Change shell to ZSH
-  sudo: true
+  become: yes
+  become_method: sudo
   user: shell=/bin/zsh name={{ ansible_ssh_user }}
 
 - name: Install FASD
-  sudo: true
+  become: yes
+  become_method: sudo
   copy: src=fasd dest=/usr/local/bin/fasd mode=755
