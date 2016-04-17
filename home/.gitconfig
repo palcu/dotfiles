@@ -1,6 +1,7 @@
 [user]
 	name = Alex Palcuie
-	email = alex.palcuie@hootsuite.com
+    email = alex.palcuie@gmail.com
+    signingkey = 863809E2
 [core]
     editor = vim
 	excludesfile = ~/.gitignore
