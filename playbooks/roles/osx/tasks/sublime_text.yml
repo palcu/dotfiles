@@ -1,16 +1,16 @@
 ---
 - name: Remove Sublime config dir if it exists
-  file: path=~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+  file: path="~/Library/Application Support/Sublime Text 3/Packages/User"
         state=absent
 
 - name: Symlink Sublime Text config
   file: src=~/Dropbox/Apps/Sublime/User
-        dest=~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User
+        dest="~/Library/Application Support/Sublime Text 3/Packages/User"
         force=yes
         state=link
 
 - name: Symlink Sublime Text to subl in terminal
-  file: src=~/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl
+  file: src="~/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl"
         dest=/usr/local/bin/subl
         state=link
 
