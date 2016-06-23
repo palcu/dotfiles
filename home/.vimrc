@@ -144,4 +144,4 @@ filetype plugin indent on
 " Solarized stuff
 syntax enable
 set background=dark
-colorscheme solarized
+silent! colorscheme solarized
