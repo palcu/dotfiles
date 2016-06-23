@@ -45,7 +45,7 @@ chsh -s /bin/zsh
 ```bash
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt-get update
-sudo apt-get install ansible software-properties-common
+sudo apt-get install ansible software-properties-common git
 git clone https://github.com/palcu/dotfiles.git ~/dotfiles
 cd ~/dotfiles/playbooks
 ./launch
