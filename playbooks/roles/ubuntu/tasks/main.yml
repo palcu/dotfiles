@@ -31,7 +31,7 @@
 - name: Change shell to ZSH
   become: yes
   become_method: sudo
-  user: shell=/bin/zsh name={{ ansible_ssh_user }}
+  user: shell=/bin/zsh name=root
 
 - name: Install FASD
   become: yes
