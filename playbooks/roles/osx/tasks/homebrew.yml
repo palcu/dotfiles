@@ -31,5 +31,19 @@
     - brew-cask
     - youtube-dl
 
+- name: Install apps with Homebrew Cask
+  homebrew_cask: name={{ item }} state=present
+  with_items:
+    - qlcolorcode
+    - qlstephen
+    - qlmarkdown
+    - quicklook-json
+    - qlprettypatch
+    - quicklook-csv
+    - betterzipql
+    - qlimagesize
+    - webpquicklook
+    - suspicious-package
+
 - name: Cleanup Brew packages
   command: brew cleanup
