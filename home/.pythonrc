@@ -2,9 +2,19 @@
 
 from __future__ import print_function
 
-import pprint
+from pprint import pprint
+import os
+import time
+import datetime
+
+try:
+    import simplejson as json
+except ImportError:
+    import json
 
 try:
     import ipdb
 except ImportError:
-    print('Module ipdb not available')
+    import pdb
+
+print("\npalcu's Python")

@@ -21,6 +21,15 @@ get_youtube_mp3() {
 }
 alias -g lastm='*(om[1])'
 
+# Python
+if command -v ipython > /dev/null; then
+    alias python="ipython"
+fi
+if command -v ipython3 > /dev/null; then
+    alias python3="ipython3"
+fi
+export PYTHONSTARTUP=$HOME/.pythonrc
+
 # Suffix aliases
 alias -s log=less
 alias -s html=open
@@ -70,7 +79,6 @@ export PATH=/usr/local/bin:$PATH # Brew path
 export PATH=/usr/local/sbin:$PATH # Brew second path
 export PATH=$PATH:$HOME/dotfiles/scripts
 export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
-export PYTHONSTARTUP="$HOME/.pythonrc"
 export TERM='xterm-256color'
 
 # Remove annoying messages
