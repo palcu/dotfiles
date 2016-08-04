@@ -35,6 +35,7 @@
   homebrew_cask: name={{ item }} state=present
   with_items:
     - qlcolorcode
+    - aerial
     - qlstephen
     - qlmarkdown
     - quicklook-json
