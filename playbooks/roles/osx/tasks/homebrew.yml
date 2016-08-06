@@ -52,6 +52,7 @@
     - vagrant
     - vagrant-manager
     - xquartz
+    - appcleaner
 
 - name: Cleanup Brew packages
   command: brew cleanup
