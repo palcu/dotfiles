@@ -4,3 +4,6 @@
 
 - name: 'Disable Dashboard'
   shell: defaults write com.apple.dashboard mcx-disabled -bool true
+
+- name: 'Save screenshots to Downloads'
+  shell: defaults write com.apple.screencapture location ~/Downloads
