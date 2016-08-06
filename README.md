@@ -32,13 +32,16 @@ Hacking like a geek:
   ./launch
   ```
 
-### Problems
+## Setup for new Mac machine
 
-I did not manage to change the shell for OSX. Do this once.
+* I did not manage to change the shell for OSX, so do this once:
 
 ```bash
 chsh -s /bin/zsh
 ```
+
+* open Sublime Text and let it install all the package dependencies. Then reopen it and select the Solarized color scheme.
+* open iTerm2 and select the Dropbox folder settings
 
 ## Setup for new Ubuntu machine
 
