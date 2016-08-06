@@ -33,6 +33,7 @@
     - mosh
     - brew-cask
     - youtube-dl
+    - htop
 
 - name: Install apps with Homebrew Cask
   homebrew_cask: name={{ item }} state=present
