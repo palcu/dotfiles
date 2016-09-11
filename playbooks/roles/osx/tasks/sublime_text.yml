@@ -9,11 +9,6 @@
         force=yes
         state=link
 
-- name: Symlink Sublime Text to subl in terminal
-  file: src="~/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl"
-        dest=/usr/local/bin/subl
-        state=link
-
 - name: Create ~/Projects dir
   file: path=~/Projects
         state=directory
