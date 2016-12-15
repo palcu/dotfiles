@@ -21,6 +21,7 @@
     co = checkout
     cm = commit
     st = status -sb
+    br = branch
     undo = reset --hard HEAD
     amend = commit --amend -a
     graph = log --graph
@@ -29,6 +30,7 @@
     ignored = !git ls-files -v | grep "^[[:lower:]]"
     sweep = !git fsck && git gc && git remote update --prune && git stash clear
     update = !git checkout master && git checkout - && git merge master
+    recent = !git branch --sort=-committerdate | head
 [log]
     abbrevCommit = true
     decorate = true
