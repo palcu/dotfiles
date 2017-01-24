@@ -50,15 +50,12 @@
     - webpquicklook
     - suspicious-package
     - sublime-text
-    - iterm2
-    - macpass
     - vlc
     - vagrant
     - vagrant-manager
     - xquartz
     - appcleaner
     - font-hack
-    - github-desktop
 
 - name: Cleanup Brew packages
   command: brew cleanup
