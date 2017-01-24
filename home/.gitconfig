@@ -13,8 +13,6 @@
 [color]
     ui = auto
     interactive = auto
-[credential]
-	helper = osxkeychain
 [push]
 	default = current
 [alias]
