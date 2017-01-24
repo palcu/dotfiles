@@ -145,3 +145,8 @@ filetype plugin indent on
 syntax enable
 set background=dark
 silent! colorscheme solarized
+
+" Local settings
+if filereadable(glob("~/.vimrclocal")) 
+  source ~/.vimrclocal
+endif
