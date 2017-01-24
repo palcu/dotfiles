@@ -6,6 +6,7 @@ fi
 # Aliases
 alias l="ls -F"
 alias ll="ls -AGlFth"
+alias ltr="ls -latr | tail"
 alias grep='grep --color=auto'
 alias df='df -H'
 alias fig='find . | grep'
@@ -129,7 +130,7 @@ limegreen="%F{green}"
 PR_RST="%f"
 
 PROMPT=$'
-%{$purple%}%n${PR_RST} at %{$orange%}%m${PR_RST} in %{$limegreen%}%~${PR_RST} %{$turquoise%}$(citc_prompt_info)${PR_RST}
+%{$purple%}%n${PR_RST} at %{$orange%}%m${PR_RST} in %{$limegreen%}%~${PR_RST} %{$turquoise%}${PR_RST}
 $ '
 
 # Source configuration for local machine if it exists
