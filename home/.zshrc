@@ -118,6 +118,20 @@ setopt interactivecomments # allow # in a comment
 # Source awscli completion
 [ -f /usr/local/share/zsh/site-functions/_aws ] && source /usr/local/share/zsh/site-functions/_aws
 
+# Do a custom prompt stolen from steeeef theme
+zstyle ':prezto:module:prompt' theme 'off'
+setopt prompt_subst
+
+turquoise="%F{cyan}"
+orange="%F{yellow}"
+purple="%F{magenta}"
+limegreen="%F{green}"
+PR_RST="%f"
+
+PROMPT=$'
+%{$purple%}%n${PR_RST} at %{$orange%}%m${PR_RST} in %{$limegreen%}%~${PR_RST} %{$turquoise%}$(citc_prompt_info)${PR_RST}
+$ '
+
 # Source configuration for local machine if it exists
 [ -f ~/.zshrclocal ] && source ~/.zshrclocal
 
