@@ -55,6 +55,9 @@ cmap w!! w !sudo tee % >/dev/null
 " \s for seeing tabs spaces
 nmap <silent> <leader>s :set nolist!<CR>
 
+" Remove whitespace on save
+autocmd BufRead,BufWritePre,FileWritePre * silent! %s/[\r \t]\+$//
+
 "=== Vundle
 filetype off                   " required!
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -74,6 +77,7 @@ Plugin 'scrooloose/nerdtree.git'
 map <F2> :NERDTreeToggle<CR>
 " close when no other windows
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+let g:NERDTreeCaseSensitiveSort=1
 
 "Markdown
 Plugin 'godlygeek/tabular'
@@ -91,22 +95,20 @@ au BufRead,BufNewFile /etc/nginx/* set ft=nginx
 
 " Ctrl+P search
 Plugin 'kien/ctrlp.vim'
-" ignore .gitignore files
-let g:ctrlp_user_command = 'find %s -type f | grep -v "`cat .gitignore`" | grep -v ".git"'
 
-
-Plugin 'Lokaltog/vim-powerline'
-set laststatus=2   " Always show the statusline
-set encoding=utf-8 " Necessary to show unicode glyphs
-set t_Co=256 " Terminal colors
+" Airline
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+set laststatus=2
+set ttimeoutlen=50
+let g:airline#extensions#tabline#enabled = 1
+let g:airline_theme='solarized'
 
 " Syntax errors
 Plugin 'scrooloose/syntastic'
 let g:syntastic_cpp_compiler = 'clang++'
 let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
-let g:syntastic_python_python_exec = '/usr/local/bin/python3'
-let g:syntastic_ignore_files = ['\.py$', '\.js$']
-map <F9> :SyntasticToggleMode<CR>
+map <F10> :SyntasticToggleMode<CR>
 
 " Working with Django
 Plugin 'django.vim'
@@ -147,6 +149,6 @@ set background=dark
 silent! colorscheme solarized
 
 " Local settings
-if filereadable(glob("~/.vimrclocal")) 
+if filereadable(glob("~/.vimrclocal"))
   source ~/.vimrclocal
 endif
