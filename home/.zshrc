@@ -45,7 +45,7 @@ alias devdocs="open http://devdocs.io"
 
 # Shorthands
 alias e="exit"
-alias h='history -fd -100'
+alias h='history -fd -500'
 alias hgrep='history -fd 0 | grep'
 alias sr='ssh -l root'
 
