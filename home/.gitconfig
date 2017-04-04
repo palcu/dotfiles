@@ -1,5 +1,5 @@
 [user]
-	name = Alex Palcuie
+    name = Alex Palcuie
     email = alex.palcuie@gmail.com
     signingkey = 863809E2
 [core]
@@ -53,3 +53,5 @@
 	clean = git lfs clean %f
 	smudge = git lfs smudge %f
 	required = true
+[include]
+    path = ~/.gitconfiglocal
