@@ -50,6 +50,8 @@ set laststatus=2
 set ttimeoutlen=50
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='solarized'
+let g:airline_solarized_normal_green = 1
+
 
 "= utilsnips
 let g:UltiSnipsExpandTrigger="<tab>"
