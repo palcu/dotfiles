@@ -1,4 +1,4 @@
-"=== palcu's defaults
+"=== palcu's defaults {{{
 " Most of the settings are loaded from tpope/vim-sensible
 " Those that appear here aretaken from pivotal/vim-config
 set number " get line numbers in the gutter
@@ -16,8 +16,9 @@ set wildmode=list:longest " Bash-like tab completion
 set swapfile " Keep swapfiles
 set directory=~/.vim-tmp,~/tmp,/var/tmp,/tmp
 set backupdir=~/.vim-tmp,~/tmp,/var/tmp,/tmp
+" }}}
 
-"=== Vundle plugins setup
+"=== Vundle plugins setup {{{
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -34,8 +35,9 @@ Plugin 'altercation/vim-colors-solarized' "fancy color scheme
 Plugin 'scrooloose/nerdcommenter' "the normal way of commenting stuff
 call vundle#end()
 filetype plugin indent on
+" }}}
 
-"=== Plugins Configuration
+"=== Plugins Configuration {{{
 "= vim-colors-solarized settings
 set background=dark
 colorscheme solarized
@@ -52,7 +54,6 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='solarized'
 let g:airline_solarized_normal_green = 1
 
-
 "= utilsnips
 let g:UltiSnipsExpandTrigger="<tab>"
 
@@ -61,8 +62,9 @@ let g:UltiSnipsExpandTrigger="<tab>"
 map <leader>/ <plug>NERDCommenterToggle
 " Pad comment delimeters with spaces
 let NERDSpaceDelims = 1
+" }}}
 
-"=== Bindings
+"=== Bindings {{{
 let mapleader=","
 set pastetoggle=<F2>
 "w!! for sudo saving
@@ -81,8 +83,12 @@ map <leader>qc :cclose<CR>
 map <Leader><Leader> :!
 " Jump to a new line in insert mode
 imap <D-CR> <Esc>o
+" }}}
 
-"=== Local settings
+"=== Local settings {{{
 if filereadable(glob("~/.vimrclocal"))
   source ~/.vimrclocal
 endif
+" }}}
+
+" vim:fdm=marker
