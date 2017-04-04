@@ -32,18 +32,9 @@ Hacking like a geek:
   ./launch
   ```
 
-## Setup for new Mac machine
-
-* I did not manage to change the shell for OSX, so do this once:
-
-```bash
-chsh -s /bin/zsh
-```
-
-* open Sublime Text and let it install all the package dependencies. Then reopen it and select the Solarized color scheme.
-* open iTerm2 and select the Dropbox folder settings
-
 ## Setup for new Ubuntu machine
+
+We need a version of Ansible greater than 2.0.
 
 ```bash
 sudo apt-add-repository ppa:ansible/ansible
