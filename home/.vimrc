@@ -1,154 +1,86 @@
-"=== Some defaults
-set nocompatible
-syntax on
-set hidden
-set history=1000
-set title
-set backupdir=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
-set directory=~/.vim-tmp,~/.tmp,~/tmp,/var/tmp,/tmp
-set ruler
-set shortmess=atI
-set backspace=indent,eol,start " better backspace
-set scrolloff=5
-set mouse=a
-set number
-set cursorline          " highlight current line
-set wildmenu            " visual autocomplete for command menu
-set lazyredraw          " redraw only when we need to.
-set showmatch           " highlight matching [{()}]
-set matchtime=0
+"=== palcu's defaults
+" Most of the settings are loaded from tpope/vim-sensible
+" Those that appear here aretaken from pivotal/vim-config
+set number " get line numbers in the gutter
+set mouse=a " Use mouse support in XTerm/iTerm.
+set visualbell " Suppress audio/visual error bell
+set showcmd " Show typed command prefixes while waiting for operator
+set expandtab " Use soft tabs
+set tabstop=2 " Tab settings
+set shiftwidth=2 " Width of autoindent
+set scrolloff=3 " Scroll when the cursor is 3 lines from edge
+set smartcase " Smart case-sensitivity when searching (overrides ignorecase)
+set autowriteall " Save when doing various buffer-switching things.
+set showmatch " Show matching brackets
+set wildmode=list:longest " Bash-like tab completion
+set swapfile " Keep swapfiles
+set directory=~/.vim-tmp,~/tmp,/var/tmp,/tmp
+set backupdir=~/.vim-tmp,~/tmp,/var/tmp,/tmp
 
-"=== Search
-set hlsearch
-set incsearch
-set ignorecase
-set smartcase
-
-"=== Leader shortcuts
-let mapleader=","
-" unhighlight search
-nmap <silent> <leader>n :silent :nohlsearch<CR>
-" spellcheck
-nmap <Leader>c :setlocal spell!<CR>
-
-"=== Smart indenting
-set tabstop=4    " Set the default tabstop
-set softtabstop=4
-set shiftwidth=4 " Set the default shift width for indents
-set expandtab   " Make tabs into spaces (set by tabstop)
-set smarttab " Smarter tab levels
-set autoindent
-set cindent
-set cinoptions=:s,ps,ts,cs
-set cinwords=if,else,while,do,for,switch,case
-set wildignore+=*.pyc,*/venv/*,*/s/*
-
-
-"=== Shortcuts
-set pastetoggle=<F3>
-map <F4> :source ~/.vimrc<CR>
-map <F5> :edit ~/.vimrc<CR>
-map <F6> :! subl %<CR><CR>
-map <F7> gg"*yG
-cmap w!! w !sudo tee % >/dev/null
-
-" \s for seeing tabs spaces
-nmap <silent> <leader>s :set nolist!<CR>
-
-" Remove whitespace on save
-autocmd BufRead,BufWritePre,FileWritePre * silent! %s/[\r \t]\+$//
-
-"=== Vundle
-filetype off                   " required!
+"=== Vundle plugins setup
+filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-Plugin 'gmarik/Vundle.vim'
+Plugin 'VundleVim/Vundle.vim'
 
-" Rails
-Plugin 'tpope/vim-rails.git'
-Plugin 'tpope/vim-bundler.git'
-Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-sensible' "sensible defaults
+Plugin 'scrooloose/nerdtree.git' "tree I get when I press F2
+Plugin 'ctrlpvim/ctrlp.vim' "ctrl+p gives me Sublime filename search
+Plugin 'vim-airline/vim-airline' "nice bottom line
+Plugin 'vim-airline/vim-airline-themes' "I want the solarized theme
+Plugin 'SirVer/ultisnips' "snippet engine
+Plugin 'honza/vim-snippets' "collection of snippets
+Plugin 'altercation/vim-colors-solarized' "fancy color scheme
+Plugin 'scrooloose/nerdcommenter' "the normal way of commenting stuff
+call vundle#end()
+filetype plugin indent on
 
-Plugin 'tpope/vim-fugitive'
-Plugin 'Lokaltog/vim-easymotion'
-Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
+"=== Plugins Configuration
+"= vim-colors-solarized settings
+set background=dark
+colorscheme solarized
 
-Plugin 'scrooloose/nerdtree.git'
-map <F2> :NERDTreeToggle<CR>
-" close when no other windows
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+"= nerdtree
+map \ :NERDTreeToggle<CR>
+" sort capitalized files first
 let g:NERDTreeCaseSensitiveSort=1
 
-"Markdown
-Plugin 'godlygeek/tabular'
-Plugin 'plasticboy/vim-markdown'
-let g:vim_markdown_frontmatter=1
-let g:vim_markdown_folding_disabled=1
-
-Plugin 'groenewege/vim-less'
-Plugin 'nono/vim-handlebars'
-au BufRead,BufNewFile *.handlebars,*.hbs,*.hjs set ft=handlebars
-Plugin 'matchit.zip'
-
-Plugin 'nginx.vim'
-au BufRead,BufNewFile /etc/nginx/* set ft=nginx
-
-" Ctrl+P search
-Plugin 'kien/ctrlp.vim'
-
-" Airline
-Plugin 'vim-airline/vim-airline'
-Plugin 'vim-airline/vim-airline-themes'
+"= airline
 set laststatus=2
 set ttimeoutlen=50
 let g:airline#extensions#tabline#enabled = 1
 let g:airline_theme='solarized'
 
-" Syntax errors
-Plugin 'scrooloose/syntastic'
-let g:syntastic_cpp_compiler = 'clang++'
-let g:syntastic_cpp_compiler_options = ' -std=c++11 -stdlib=libc++'
-map <F10> :SyntasticToggleMode<CR>
-
-" Working with Django
-Plugin 'django.vim'
-Plugin 'pydoc.vim'
-
-" Pysmell Autocompletion for Python
-autocmd FileType python setlocal omnifunc=pysmell#Complete
-
-" C++ compile and run
-Plugin 'xuhdev/SingleCompile'
-map <silent> <F9> :SCCompileRunAF -std=c++11 <CR>
-
-" Track the engine.
-Plugin 'SirVer/ultisnips'
-
-" Snippets are separated from the engine. Add this if you want them:
-Plugin 'honza/vim-snippets'
-
-" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+"= utilsnips
 let g:UltiSnipsExpandTrigger="<tab>"
 
-" Comments
-Plugin 'scrooloose/nerdcommenter'
+"= NERDCommenter
+" Comment/uncomment lines
+map <leader>/ <plug>NERDCommenterToggle
+" Pad comment delimeters with spaces
+let NERDSpaceDelims = 1
 
-" Jekyll
-Plugin 'itspriddle/vim-jekyll'
+"=== Bindings
+let mapleader=","
+set pastetoggle=<F2>
+"w!! for sudo saving
+cmap w!! w !sudo tee % >/dev/null
+" Remove whitespace on save
+autocmd BufRead,BufWritePre,FileWritePre * silent! %s/[\r \t]\+$//
+" Reload .vimrc
+map <leader>rv  :source ~/.vimrc<CR>
+" Previous/next buffers
+map <M-Left>  :bp<CR>
+map <M-Right> :bn<CR>
+" Open and close the quickfix window
+map <leader>qo :copen<CR>
+map <leader>qc :cclose<CR>
+" Easy access to the shell
+map <Leader><Leader> :!
+" Jump to a new line in insert mode
+imap <D-CR> <Esc>o
 
-" Solarized color scheme
-Plugin 'altercation/vim-colors-solarized'
-
-
-call vundle#end()
-filetype plugin indent on
-
-" Solarized stuff
-syntax enable
-set background=dark
-silent! colorscheme solarized
-
-" Local settings
+"=== Local settings
 if filereadable(glob("~/.vimrclocal"))
   source ~/.vimrclocal
 endif
