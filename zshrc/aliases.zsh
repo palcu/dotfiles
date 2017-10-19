@@ -19,7 +19,7 @@ alias e="exit"
 alias h='history -fd -500'
 
 get_youtube_mp3() {
-    youtube-dl --extract-audio --audio-format mp3 $1
+    youtube-dl --extract-audio --audio-format mp3 "$1"
 }
 
 # Analyze history data
