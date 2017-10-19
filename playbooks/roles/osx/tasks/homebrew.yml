@@ -35,6 +35,7 @@
     - youtube-dl
     - htop
     - tmux
+    - zsh-completions
 
 - name: Install apps with Homebrew Cask
   homebrew_cask: name={{ item }} state=present
