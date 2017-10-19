@@ -14,8 +14,11 @@ set autowriteall " Save when doing various buffer-switching things.
 set showmatch " Show matching brackets
 set wildmode=list:longest " Bash-like tab completion
 set swapfile " Keep swapfiles
+set hls " highlight all searched items
+set incsearch " it starts searching as you type
 set directory=~/.vim-tmp,~/tmp,/var/tmp,/tmp
 set backupdir=~/.vim-tmp,~/tmp,/var/tmp,/tmp
+set colorcolumn=80 " column so I don't go over the line limit
 " }}}
 
 "=== Vundle plugins setup {{{
