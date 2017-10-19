@@ -1,5 +1,4 @@
 # Do a custom prompt stolen from steeeef theme
-zstyle ':prezto:module:prompt' theme 'off'
 setopt prompt_subst
 
 turquoise="%F{cyan}"
