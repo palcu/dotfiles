@@ -5,6 +5,9 @@ fi
 
 # Aliases
 alias ls='ls --color=auto'
+export TIME_STYLE=long-iso # makes YYYY-MM-DD in the ls output
+export BLOCK_SIZE="'1" # makes 1,000,000 for big sizes
+
 alias grep='grep --color=auto'
 alias df='df -H'
 alias fig='find . | grep'
