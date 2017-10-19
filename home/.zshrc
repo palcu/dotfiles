@@ -12,7 +12,7 @@ alias df='df -H'
 alias fig='find . | grep'
 alias reload="source ~/.zshrc"
 alias netest="ping 8.8.8.8"
-alias simple="python -m SimpleHTTPServer"
+alias simple="python2 -m SimpleHTTPServer"
 alias slytherin='mosh slytherin -- tmux attach -d || tmux new'
 beammeupscotty() {
     /Users/alex/Projects/sshuttle/src/sshuttle -r $1 0.0.0.0/0 -vv
