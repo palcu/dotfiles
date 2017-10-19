@@ -2,7 +2,6 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-
 # Aliases
 alias ls='ls --color=auto'
 export TIME_STYLE=long-iso # makes YYYY-MM-DD in the ls output
@@ -40,30 +39,11 @@ alias -s html=open
 alias zshrc="vim ~/.zshrc"
 alias vimrc="vim ~/.vimrc"
 alias vimlast="vim -c \"normal '0\""
-alias syslog="vim /var/log/syslog"
-alias bashar="open ~/Dropbox/bashar.pdf"
-alias devdocs="open http://devdocs.io"
 
 # Shorthands
 alias e="exit"
 alias h='history -fd -500'
 alias hgrep='history -fd 0 | grep'
-alias sr='ssh -l root'
-
-# cd & ls
-alias lc="cl"
-cl() {
-   if [ -d "$1" ]; then
-      cd "$1"
-      l
-   fi
-}
-
-# mkdir & ls
-alias cm="mc"
-mc() {
-    mkdir -p "$*" && cd "$*" && pwd
-}
 
 # Analyze history data
 analyze_history(){
@@ -77,10 +57,7 @@ analyze_commands(){
 export EDITOR="vim"
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
-export PATH=/usr/local/bin:$PATH # Brew path
-export PATH=/usr/local/sbin:$PATH # Brew second path
 export PATH=$PATH:$HOME/dotfiles/scripts
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.4/bin
 export TERM='xterm-256color'
 
 # Remove annoying messages
@@ -109,13 +86,19 @@ bindkey '^[[1;3C' forward-word # tmux ubuntu
 HISTSIZE=10000
 SAVEHIST=10000
 setopt HIST_VERIFY
-setopt SHARE_HISTORY # share history between sessions
-setopt EXTENDED_HISTORY # add timestamps to history
-setopt APPEND_HISTORY # adds history
-setopt INC_APPEND_HISTORY SHARE_HISTORY  # adds history incrementally and share it across sessions
-setopt HIST_IGNORE_ALL_DUPS  # don't record dupes in history
+# share history between sessions
+setopt SHARE_HISTORY
+# add timestamps to history
+setopt EXTENDED_HISTORY
+# adds history
+setopt APPEND_HISTORY
+# adds history incrementally and share it across sessions
+setopt INC_APPEND_HISTORY SHARE_HISTORY
+# don't record dupes in history
+setopt HIST_IGNORE_ALL_DUPS
 setopt HIST_REDUCE_BLANKS
-setopt interactivecomments # allow # in a comment
+# allow # in a comment
+setopt interactivecomments
 
 # Source awscli completion
 [ -f /usr/local/share/zsh/site-functions/_aws ] && source /usr/local/share/zsh/site-functions/_aws
