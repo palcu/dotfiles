@@ -1,6 +1,6 @@
 [user]
-    name = Alex Palcuie
-    email = alex.palcuie@gmail.com
+	name = Alex Palcuie
+	email = alex.palcuie@gmail.com
     signingkey = 863809E2
 [core]
     editor = vim
@@ -50,8 +50,9 @@
 	smudge = git hawser smudge %f
 	required = true
 [filter "lfs"]
-	clean = git lfs clean %f
-	smudge = git lfs smudge %f
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
 	required = true
 [include]
     path = ~/.gitconfiglocal
