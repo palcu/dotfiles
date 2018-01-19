@@ -12,6 +12,8 @@
     - awscli
     - curl
     - fasd
+    # Needed for youtube-dl mp3 transformation
+    - ffmpeg
     - git
     - hub
     - nmap
