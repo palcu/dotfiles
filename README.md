@@ -52,5 +52,6 @@ Thank you for all the people who've published their useful configs.
 * http://dotfiles.github.io
 * https://github.com/holman/dotfiles
 * https://github.com/mgax/dotfiles
+* https://github.com/razvand/snippets
 * https://github.com/pivotal/vim-config
 * https://github.com/pivotal/dotfiles
