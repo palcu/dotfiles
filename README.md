@@ -44,3 +44,13 @@ git clone https://github.com/palcu/dotfiles.git ~/dotfiles
 cd ~/dotfiles/playbooks
 ./launch
 ```
+
+## Sources of inspiration
+
+Thank you for all the people who've published their useful configs.
+
+* http://dotfiles.github.io
+* https://github.com/holman/dotfiles
+* https://github.com/mgax/dotfiles
+* https://github.com/pivotal/vim-config
+* https://github.com/pivotal/dotfiles
