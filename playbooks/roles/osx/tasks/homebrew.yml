@@ -63,6 +63,9 @@
     - macpass
     - fantastical
     - github
+    - bartender
+    - istat-menus
+    - flux
 
 - name: Cleanup Brew packages
   command: brew cleanup
