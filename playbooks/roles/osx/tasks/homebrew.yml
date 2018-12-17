@@ -60,6 +60,8 @@
     - xquartz
     - appcleaner
     - font-hack
+    - macpass
+    - fantastical
 
 - name: Cleanup Brew packages
   command: brew cleanup
