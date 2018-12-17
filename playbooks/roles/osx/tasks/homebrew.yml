@@ -62,6 +62,7 @@
     - font-hack
     - macpass
     - fantastical
+    - github
 
 - name: Cleanup Brew packages
   command: brew cleanup
