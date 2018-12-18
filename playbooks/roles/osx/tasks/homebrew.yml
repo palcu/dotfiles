@@ -66,6 +66,7 @@
     - bartender
     - istat-menus
     - flux
+    - evernote
 
 - name: Cleanup Brew packages
   command: brew cleanup
