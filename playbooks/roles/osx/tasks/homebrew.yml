@@ -67,6 +67,7 @@
     - istat-menus
     - flux
     - evernote
+    - discord
 
 - name: Cleanup Brew packages
   command: brew cleanup
