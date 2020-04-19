@@ -36,6 +36,7 @@ Plugin 'SirVer/ultisnips' "snippet engine
 Plugin 'honza/vim-snippets' "collection of snippets
 Plugin 'altercation/vim-colors-solarized' "fancy color scheme
 Plugin 'scrooloose/nerdcommenter' "the normal way of commenting stuff
+Plugin 'fatih/vim-go' "one sad day I decided to switch to Go
 call vundle#end()
 filetype plugin indent on
 " }}}
@@ -66,6 +67,10 @@ map <leader>/ <plug>NERDCommenterToggle
 " Pad comment delimeters with spaces
 let NERDSpaceDelims = 1
 " }}}
+
+"= go-vim
+" format with goimports instead of gofmt
+let g:go_fmt_command = "goimports"
 
 "=== Bindings {{{
 let mapleader=","
