@@ -2,7 +2,7 @@
 
 temp_file=$(mktemp)
 echo "Date,Description,Category,Cost,Currency,Alex Palcuie,Ada Solcan" > "$temp_file"
-tail -n 50 "$1" | head -n 48 >> "$temp_file"
+tail -n 100 "$1" | head -n 98 >> "$temp_file"
 
 name=$(basename "$1" .csv)
 
