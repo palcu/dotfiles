@@ -12,7 +12,6 @@
     - ack-grep
     - bash
     - curl
-    - git
     - htop
     - nmap
     - nodejs
@@ -27,13 +26,107 @@
     - tmux
     - wget
     - zsh
+    - gnupg
+    - apt-transport-https
+    - ca-certificates
+    - fonts-powerline
+    - terminator
+    - stterm
+    - cmake
+    - pkg-config
+    - libfreetype6-dev
+    - libfontconfig1-dev
+    - libxcb-xfixes0-dev
+
 
 - name: Change shell to ZSH
   become: yes
   become_method: sudo
   user: shell=/bin/zsh name=root
 
+- name: Get oh-my-zsh
+  become: yes
+  become_method: sudo
+  script: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+- name: Get Powerlevel10k
+  become: yes
+  become_method: sudo
+  script: git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
+
+- name: Get Nerd Fonts
+  become: yes
+  become_method: sudo
+  script: git clone https://github.com/ryanoasis/nerd-fonts.git /tmp/nerd-fonts
+
 - name: Install FASD
   become: yes
   become_method: sudo
   copy: src=fasd dest=/usr/local/bin/fasd mode=755
+
+- name: Get AWS CLI 2
+  become: yes
+  become_method: sudo
+  unarchive:
+    src: https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip
+    dest: /tmp
+    remote_src: yes
+
+- name: Install AWS CLI 2
+  become: yes
+  become_method: sudo
+  script: /tmp/.aws/install
+
+
+- name: Add Hashicorp GPG key
+  become: yes
+  become_method: sudo
+  script: curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
+
+- name: Add Hashicorp repo
+  become: yes
+  become_method: sudo
+  repo: deb [arch=amd64] https://apt.releases.hashicorp.com focal main
+  state: present
+
+- name: Update packages again
+  become: yes
+  become_method: sudo
+  apt: upgrade=dist update_cache=yes
+
+- name: Install Hashicorp things using APT
+  apt: name={{ item }} state=latest
+  become: yes
+  become_method: sudo
+  with_items:
+    - terraform
+    - vault
+    - packer
+
+- name: Install Vagrant
+  become: yes
+  become_method: sudo
+  apt:
+    deb: https://releases.hashicorp.com/vagrant/2.2.9/vagrant_2.2.9_x86_64.deb
+
+- name: Get kubectl
+  get_url:
+    url: https://dl.k8s.io/release/v1.21.0/bin/linux/amd64/kubectl
+    dest: /tmp
+
+- name: Install kubectl
+  become: yes
+  become_method: sudo
+  script: install -o root -g root -m 0755 kubectl /usr/local/bin/kubectl
+
+- name: Install RustUp
+  become: yes
+  become_method: sudo 
+  script: curl https://sh.rustup.rs -sSf | sh -s -- -y
+
+- name: Remove useless packages from the cache
+  apt:
+    autoclean: yes
+- name: Remove dependencies that are no longer required
+  apt:
+    autoremove: yes 
