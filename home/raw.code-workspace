@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "rawlabs/compose-deployment"
+		},
+		{
+			"path": "rawlabs/just-ask"
+		},
+		{
+			"path": "rawlabs/raw"
+		},
+		{
+			"path": "rawlabs/raw-deploy"
+		},
+		{
+			"path": "rawlabs/test-just-ask"
+		},
+		{
+			"path": "debugjinja"
+		},
+		{
+			"path": "rawlabs/raw-deploy-roles"
+		},
+		{
+			"path": "/Users/yann/terraform-aws-eks"
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.pkr.hcl": "terraform",
+			".json.j2": "jinja-json",
+			".conf.j2": "jinja",
+			"*.auto.pkrvars.hcl": "terraform",
+			"*.yaml.tpl": "yaml"
+		}
+	}
+}

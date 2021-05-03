@@ -1,58 +1,38 @@
-[user]
-	name = Alex Palcuie
-	email = alex.palcuie@gmail.com
-    signingkey = 863809E2
-[core]
-    editor = vim
-	excludesfile = ~/.gitignore
-	attributesfile = ~/.gitattributes
-[web]
-    browser = google-chrome
-[merge]
-    tool = vimdiff
-[color]
-    ui = auto
-    interactive = auto
-[push]
-	default = current
-[alias]
-    co = checkout
-    cm = commit
-    st = status -sb
-    br = branch
-    undo = reset --hard HEAD
-    amend = commit --amend -a
-    graph = log --graph
-    ignore = update-index --assume-unchanged
-    unignore = update-index --no-assume-unchanged
-    ignored = !git ls-files -v | grep "^[[:lower:]]"
-    sweep = !git fsck && git gc && git remote update --prune && git stash clear
-    update = !git checkout master && git checkout - && git merge master
-    recent = !git branch --sort=-committerdate | head
-[log]
-    abbrevCommit = true
-    decorate = true
-[format]
-    pretty = %C(yellow)%h%C(white)%d%Creset %s %C(cyan)(%cr) %C(bold blue)<%an>%Creset
-[filter "media"]
-	required = true
-	clean = git media clean %f
-	smudge = git media smudge %f
-[diff]
-	algorithm = patience
-[help]
-	autocorrect = 1
-[branch "master"]
-	remote = origin
-	merge = refs/heads/master
-[filter "hawser"]
-	clean = git hawser clean %f
-	smudge = git hawser smudge %f
-	required = true
-[filter "lfs"]
-	clean = git-lfs clean -- %f
-	smudge = git-lfs smudge -- %f
-	process = git-lfs filter-process
-	required = true
+# Local/private config goes in the include
 [include]
-    path = ~/.gitconfiglocal
+        path = ~/.gitconfig.local
+[hub]
+        protocol = https
+[alias]
+        co = checkout
+        count   = !git shortlog -sn
+	lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+[color]
+        diff = auto
+        status = auto
+        branch = auto
+        ui = true
+[core]
+        excludesfile = ~/.gitignore
+        editor = vim
+[apply]
+        whitespace = nowarn
+[mergetool]
+        keepBackup = false
+[difftool]
+        prompt = false
+[help]
+        autocorrect = 1
+[push]
+        # See `git help config` (search for push.default)
+        # for more information on different options of the below setting.
+        #
+        # Setting to git 2.0 default to suppress warning message
+        default = simple
+[user]
+	signingKey = C9446FB3FAC4BC8F
+	email = yann.bouzonie@gmail.com
+[commit]
+	gpgSign = true
+[init]
+	templateDir = /Users/yann/.git-template
