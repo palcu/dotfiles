@@ -39,12 +39,8 @@
 - name: Install apps with Homebrew Cask
   homebrew_cask: name={{ item }} state=present
   with_items:
-    - qlcolorcode
     - aerial
-    - qlstephen
-    - qlmarkdown
     - quicklook-json
-    - qlprettypatch
     - quicklook-csv
     - qlimagesize
     - webpquicklook
@@ -55,8 +51,6 @@
     - appcleaner
     - macpass
     - fantastical
-    - github
-    - istat-menus
     - flux
     - discord
 

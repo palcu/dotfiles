@@ -1,14 +1,3 @@
----
-- name: Remove Sublime config dir if it exists
-  file: path="~/Library/Application Support/Sublime Text 3/Packages/User"
-        state=absent
-
-- name: Symlink Sublime Text config
-  file: src=~/Dropbox/Apps/Sublime/User
-        dest="~/Library/Application Support/Sublime Text 3/Packages/User"
-        force=yes
-        state=link
-
 - name: Create ~/Projects dir
   file: path=~/Projects
         state=directory
