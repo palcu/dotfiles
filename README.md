@@ -14,11 +14,6 @@ Hacking like a geek:
 
 1. Install XCode tools using `xcode-select --install`
 2. Install [Brew](http://brew.sh/)
-
-  ```bash
-  ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
-  ```
-
 3. Install Ansible using Brew `brew install ansible`
 4. As a convention `~/dotfiles` should be this repo
 
