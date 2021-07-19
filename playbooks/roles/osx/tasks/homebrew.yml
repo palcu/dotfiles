@@ -2,9 +2,6 @@
 - name: Update Homebrew
   homebrew: update_homebrew=yes
 
-- name: Tap fonts
-  homebrew_tap: tap=caskroom/fonts state=present
-
 - name: Install libraries with Homebrew
   homebrew: name={{ item }} state=latest
   with_items:
@@ -59,7 +56,6 @@
     - vagrant-manager
     - xquartz
     - appcleaner
-    - font-hack
     - macpass
     - fantastical
     - github
