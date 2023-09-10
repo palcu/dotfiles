@@ -12,7 +12,7 @@ source "$HOME/dotfiles/zshrc/prompt.zsh"
 # Source configuration for local machine if it exists
 [ -f ~/.zshrclocal ] && source "$HOME/.zshrclocal"
 
-# FASD for faster switching between directories
-eval "$(fasd --init auto)"
-
 [ -f ~/.fzf.zsh ] && source "$HOME/.fzf.zsh"
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
