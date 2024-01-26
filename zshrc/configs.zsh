@@ -9,3 +9,6 @@ unsetopt correctall
 
 # allow # in a comment
 setopt interactivecomments
+
+# make the autosuggestions work with solarized
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=value'

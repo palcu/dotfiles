@@ -10,7 +10,9 @@ zstyle ':prezto:load' pmodule \
   'history' \
   'directory' \
   'utility' \
-  'completion'
+  'completion' \
+  'autosuggestions' \
+  'fasd'
 
 # Sets terminal window and tab titles.
 zstyle ':prezto:module:terminal' auto-title 'yes'
