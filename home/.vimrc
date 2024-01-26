@@ -32,8 +32,6 @@ Plugin 'scrooloose/nerdtree.git' "tree I get when I press F2
 Plugin 'ctrlpvim/ctrlp.vim' "ctrl+p gives me Sublime filename search
 Plugin 'vim-airline/vim-airline' "nice bottom line
 Plugin 'vim-airline/vim-airline-themes' "I want the solarized theme
-Plugin 'SirVer/ultisnips' "snippet engine
-Plugin 'honza/vim-snippets' "collection of snippets
 Plugin 'altercation/vim-colors-solarized' "fancy color scheme
 Plugin 'scrooloose/nerdcommenter' "the normal way of commenting stuff
 Plugin 'fatih/vim-go' "one sad day I decided to switch to Go
