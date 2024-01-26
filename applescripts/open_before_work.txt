@@ -1,7 +1,0 @@
-Tunnelblick
-GitHub
-HipChat
-Sublime Text
-Trailer
-CCMenu
-LimeChat

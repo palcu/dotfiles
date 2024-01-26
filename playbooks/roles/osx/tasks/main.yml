@@ -1,9 +1,35 @@
 ---
-- import_tasks: homebrew.yml
-- import_tasks: sublime_text.yml
+- name: Update Homebrew
+  homebrew: update_homebrew=yes
 
-- name: 'Disable Dashboard'
-  shell: defaults write com.apple.dashboard mcx-disabled -bool true
+- name: Install libraries with Homebrew
+  homebrew: name={{ item }} state=latest
+  with_items:
+    - ack
+    - curl
+    - fasd
+    - git
+    - nmap
+    - node
+    - python
+    - readline
+    - ssh-copy-id
+    - vim
+    - watch
+    - wget
+    - zsh
+    - httpie
+    - tree
+    - openssl
+    - coreutils
+    - findutils
+    - mosh
+    - htop
+    - tmux
+    - zsh-completions
+
+- name: Cleanup Brew packages
+  command: brew cleanup
 
 - name: 'Save screenshots to Downloads'
   shell: defaults write com.apple.screencapture location ~/Downloads

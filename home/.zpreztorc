@@ -12,6 +12,7 @@ zstyle ':prezto:load' pmodule \
   'utility' \
   'completion' \
   'autosuggestions' \
+  'history-substring-search' \
   'fasd'
 
 # Sets terminal window and tab titles.

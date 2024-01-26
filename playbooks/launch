@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
+#!/bin/bash
 
 git pull
 
-if [[ `uname` == 'Linux' ]]; then
+if [[ $(uname) == 'Linux' ]]; then
   ansible-playbook -i inventory ubuntu.yml
 else
   ansible-playbook -i inventory osx.yml

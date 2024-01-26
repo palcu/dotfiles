@@ -32,8 +32,3 @@
   become: yes
   become_method: sudo
   user: shell=/bin/zsh name=root
-
-- name: Install FASD
-  become: yes
-  become_method: sudo
-  copy: src=fasd dest=/usr/local/bin/fasd mode=755

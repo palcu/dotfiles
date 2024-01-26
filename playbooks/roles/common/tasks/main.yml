@@ -14,11 +14,8 @@
     - .zlogin
     - .zlogout
     - .zshenv
-    - .inputrc
-    - .gemrc
     - .gitignore
     - .gitconfig
-    - .pythonrc
     - .tmux.conf
 
 - name: Clone tmux plugins

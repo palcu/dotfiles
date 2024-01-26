@@ -18,10 +18,6 @@ alias vimrc="vim ~/.vimrc"
 alias e="exit"
 alias h='history -fd -500'
 
-get_youtube_mp3() {
-    youtube-dl --extract-audio --audio-format mp3 "$1"
-}
-
 # Analyze history data
 analyze_history(){
     cut -f2 -d";" ~/.zsh_history | sort | uniq -c | sort -nr | head -n 30

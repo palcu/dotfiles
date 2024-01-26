@@ -1,3 +1,0 @@
-- name: Create ~/Projects dir
-  file: path=~/Projects
-        state=directory

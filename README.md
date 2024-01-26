@@ -7,8 +7,6 @@ Hacking like a geek:
 * there is also a playbook for Ubuntu
 * ZSH shell with ~~oh_my_zsh~~ Prezto and my .zshrc
 * VIM provisioned with Vundle
-* AppleScripts that automate [mundane tasks](http://palcu.blogspot.com/2014/02/automate-everything-even-opening-your.html)
-* the `configs` folder is for other apps like Sublime Text or iTerm2
 
 ## Setup for new Mac machine
 
