@@ -18,6 +18,13 @@
     - .gitconfig
     - .tmux.conf
 
+- name: Symlink fish config
+  file:
+    src: ~/dotfiles/home/fish_config
+    dest: ~/.config/fish
+    state: link
+    force: yes
+
 - name: Clone tmux plugins
   git: repo=https://github.com/tmux-plugins/tpm dest=~/.tmux/plugins/tpm
 

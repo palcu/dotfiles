@@ -1,29 +1,40 @@
 ---
-- name: Update packages
-  become: yes
-  become_method: sudo
-  apt: upgrade=dist update_cache=yes
+- name: Update repositories cache
+  ansible.builtin.apt:
+    update_cache: yes
 
-- name: Install libraries using APT
-  apt: name={{ item }} state=latest
-  become: yes
-  become_method: sudo
-  with_items:
-    - ack-grep
-    - bash
-    - curl
-    - git
-    - htop
-    - nmap
-    - nodejs
-    - mosh
-    - most
-    - vim
-    - tmux
-    - wget
-    - zsh
+- name: Install libraries using apt
+  ansible.builtin.apt:
+    name:
+      - ack-grep
+      - bash
+      - curl
+      - fish
+      - git
+      - htop
+      - nmap
+      - nodejs
+      - mosh
+      - most
+      - vim
+      - tmux
+      - wget
+      - zsh
 
-- name: Change shell to ZSH
+- name: Remove useless packages from the cache
+  ansible.builtin.apt:
+    autoclean: yes
+
+- name: Remove dependencies that are no longer required and purge their configuration files
+  ansible.builtin.apt:
+    autoremove: yes
+    purge: true
+
+- name: Run "apt clean"
+  apt:
+    clean: yes
+
+- name: Change shell to Fish
   become: yes
   become_method: sudo
-  user: shell=/bin/zsh name=root
+  user: shell=/usr/local/bin/fish name=root

@@ -3,12 +3,11 @@
 Hacking like a geek:
 
 * the `playbooks` folder contains Ansible that provisions a machine with apps and configs
-* my main machine is a Mac, and I have another Mac at my office, so I keep them in sync
-* there is also a playbook for Ubuntu
-* ZSH shell with ~~oh_my_zsh~~ Prezto and my .zshrc
+* I use the Fish shell
+* my main machine is a Mac, I have a work dev Debian machine, and my server is running Ubuntu
 * VIM provisioned with Vundle
 
-## Setup for new Mac machine
+## Setup for a new Mac machine
 
 1. Install XCode tools using `xcode-select --install`
 2. Install [Brew](http://brew.sh/)
@@ -25,7 +24,7 @@ Hacking like a geek:
   ./launch
   ```
 
-## Setup for new Ubuntu machine
+## Setup for a new Linux machine
 
 We need a version of Ansible greater than 2.0.
 

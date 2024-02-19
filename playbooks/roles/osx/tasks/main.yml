@@ -1,32 +1,29 @@
 ---
-- name: Update Homebrew
-  homebrew: update_homebrew=yes
-
-- name: Install libraries with Homebrew
-  homebrew: name={{ item }} state=latest
-  with_items:
-    - ack
-    - curl
-    - fasd
-    - git
-    - nmap
-    - node
-    - python
-    - readline
-    - ssh-copy-id
-    - vim
-    - watch
-    - wget
-    - zsh
-    - httpie
-    - tree
-    - openssl
-    - coreutils
-    - findutils
-    - mosh
-    - htop
-    - tmux
-    - zsh-completions
+- community.general.homebrew:
+    update_homebrew: true
+    upgrade_all: true
+    name:
+      - ack
+      - curl
+      - fasd
+      - fish
+      - git
+      - nmap
+      - node
+      - python
+      - readline
+      - ssh-copy-id
+      - vim
+      - wget
+      - zsh
+      - httpie
+      - tree
+      - openssl
+      - coreutils
+      - findutils
+      - mosh
+      - htop
+      - tmux
 
 - name: Cleanup Brew packages
   command: brew cleanup
