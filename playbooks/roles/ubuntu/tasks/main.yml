@@ -1,5 +1,6 @@
 ---
 - name: Update repositories cache
+  become: true
   ansible.builtin.apt:
     update_cache: yes
 
@@ -22,15 +23,18 @@
       - zsh
 
 - name: Remove useless packages from the cache
+  become: true
   ansible.builtin.apt:
     autoclean: yes
 
 - name: Remove dependencies that are no longer required and purge their configuration files
+  become: true
   ansible.builtin.apt:
     autoremove: yes
     purge: true
 
 - name: Run "apt clean"
+  become: true
   apt:
     clean: yes
 
