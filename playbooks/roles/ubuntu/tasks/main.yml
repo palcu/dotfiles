@@ -37,8 +37,3 @@
   become: true
   apt:
     clean: yes
-
-- name: Change shell to Fish
-  become: yes
-  become_method: sudo
-  user: shell=/usr/local/bin/fish name=root
