@@ -13,3 +13,8 @@ if status is-interactive
     alias e="exit"
     alias h='history -t -500'
 end
+
+# Load local machine config
+if test -f config_local.fish
+    source config_local.fish
+end
