@@ -15,6 +15,6 @@ if status is-interactive
 end
 
 # Load local machine config
-if test -f config_local.fish
-    source config_local.fish
+if test -f ~/.config/fish/config_local.fish
+    source ~/.config/fish/config_local.fish
 end
