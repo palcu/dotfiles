@@ -5,7 +5,6 @@
     name:
       - ack
       - curl
-      - fasd
       - fish
       - git
       - nmap
