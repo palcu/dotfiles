@@ -19,6 +19,7 @@ set incsearch " it starts searching as you type
 set directory=~/.vim-tmp,~/tmp,/var/tmp,/tmp
 set backupdir=~/.vim-tmp,~/tmp,/var/tmp,/tmp
 set colorcolumn=80 " column so I don't go over the line limit
+set background=dark
 " }}}
 
 "=== Vundle plugins setup {{{
@@ -32,7 +33,6 @@ Plugin 'scrooloose/nerdtree.git' "tree I get when I press F2
 Plugin 'ctrlpvim/ctrlp.vim' "ctrl+p gives me Sublime filename search
 Plugin 'vim-airline/vim-airline' "nice bottom line
 Plugin 'vim-airline/vim-airline-themes' "I want the solarized theme
-Plugin 'altercation/vim-colors-solarized' "fancy color scheme
 Plugin 'scrooloose/nerdcommenter' "the normal way of commenting stuff
 Plugin 'fatih/vim-go' "one sad day I decided to switch to Go
 call vundle#end()
@@ -40,9 +40,6 @@ filetype plugin indent on
 " }}}
 
 "=== Plugins Configuration {{{
-"= vim-colors-solarized settings
-set background=dark
-colorscheme solarized
 
 "= nerdtree
 map \ :NERDTreeToggle<CR>
