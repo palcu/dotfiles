@@ -12,7 +12,7 @@
       - bat
       - curl
       - eza
-      - fd
+      - fd-find
       - fish
       - git
       - htop
