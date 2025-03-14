@@ -4,9 +4,12 @@
     upgrade_all: true
     name:
       - ack
+      - bat
       - curl
+      - eza
       - fish
       - git
+      - jq
       - nmap
       - node
       - python
@@ -23,6 +26,10 @@
       - mosh
       - htop
       - tmux
+      - ripgrep
+      - fd
+      - sd
+      - delta
 
 - name: Cleanup Brew packages
   command: brew cleanup

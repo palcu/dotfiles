@@ -1,7 +1,13 @@
 if status is-interactive
+    # Replace core utils
+    alias cat='bat'
+    alias diff='delta'
+    alias find='fd'
+    alias grep='rg'
+    alias ls='eza'
+    alias sed='sd'
+
     # Make core utils better
-    alias grep='grep --color=auto'
-    alias ls='ls --color=auto -h'
     export TIME_STYLE=long-iso # makes YYYY-MM-DD in the ls output
     export BLOCK_SIZE="'1" # makes 1,000,000 for big sizes
 

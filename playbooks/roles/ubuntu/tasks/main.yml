@@ -9,7 +9,10 @@
     name:
       - ack-grep
       - bash
+      - bat
       - curl
+      - eza
+      - fd
       - fish
       - git
       - htop
@@ -17,10 +20,14 @@
       - nodejs
       - mosh
       - most
+      - ripgrep
       - vim
       - tmux
       - wget
       - zsh
+      - jq
+      - sd
+      - delta
 
 - name: Remove useless packages from the cache
   become: true
