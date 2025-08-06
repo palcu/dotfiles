@@ -7,8 +7,11 @@ export LANG="en_US.UTF-8"
 export PATH=$PATH:$HOME/dotfiles/scripts
 export TERM='xterm-256color'
 
-# Remove annoying ZSH messages
+# Remove annoying ZSH messages and beeping
 unsetopt correctall
+unsetopt BEEP            # No bell on error
+unsetopt LIST_BEEP      # No bell on ambiguous completion
+unsetopt HIST_BEEP      # No bell on history errors
 
 # allow # in a comment
 setopt interactivecomments
@@ -21,6 +24,9 @@ setopt CDABLE_VARS         # cd to variable values
 
 # make the autosuggestions work with solarized
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=value'
+
+# Use completion-based suggestions instead of history
+ZSH_AUTOSUGGEST_STRATEGY=(completion)
 
 # History configuration
 export HISTFILE="$HOME/.zsh_history"

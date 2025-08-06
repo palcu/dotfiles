@@ -22,7 +22,11 @@ zinit light-mode for \
     zdharma-continuum/zinit-annex-rust
 
 # Zinit plugins
-zinit light zsh-users/zsh-syntax-highlighting
+# Load syntax highlighting with turbo mode (after prompt)
+zinit wait lucid for \
+    light-mode zsh-users/zsh-syntax-highlighting
+
+# Load these immediately (needed for interactive use)
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
 
