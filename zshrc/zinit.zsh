@@ -29,6 +29,9 @@ zinit light zsh-users/zsh-completions
 # Z - Jump to frequently used directories
 zinit light agkozak/zsh-z
 
+# iTerm2 Shell Integration
+zinit snippet "https://iterm2.com/shell_integration/zsh"
+
 # FZF - Fuzzy Finder (better Ctrl+R and more)
 zinit ice from"gh-r" as"program"
 zinit light junegunn/fzf

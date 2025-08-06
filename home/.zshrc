@@ -7,3 +7,4 @@ source "$HOME/dotfiles/zshrc/zinit.zsh"
 
 # Source configuration for local machine if it exists
 [ -f ~/.zshrclocal ] && source "$HOME/.zshrclocal"
+
