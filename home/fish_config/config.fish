@@ -1,3 +1,6 @@
+# Disable fish greeting message
+set -g fish_greeting
+
 if status is-interactive
     # Replace core utils
     alias cat='bat'
