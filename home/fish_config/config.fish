@@ -3,9 +3,7 @@ if status is-interactive
     alias cat='bat'
     alias diff='delta'
     alias find='fd'
-    alias grep='rg'
     alias ls='eza'
-    alias sed='sd'
 
     # Make core utils better
     export TIME_STYLE=long-iso # makes YYYY-MM-DD in the ls output
