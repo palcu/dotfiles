@@ -5,6 +5,7 @@
     update_cache: yes
 
 - name: Install libraries using apt
+  become: true
   ansible.builtin.apt:
     name:
       - ack-grep
