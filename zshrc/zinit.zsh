@@ -36,8 +36,7 @@ zinit light agkozak/zsh-z
 # FZF-tab - Use fzf for tab completion (the nice scrolly thing)
 zinit light Aloxaf/fzf-tab
 
-# iTerm2 Shell Integration (load after prompt)
-zinit ice wait lucid
+# iTerm2 Shell Integration
 zinit snippet "https://iterm2.com/shell_integration/zsh"
 
 # FZF - Fuzzy Finder (better Ctrl+R and more)
