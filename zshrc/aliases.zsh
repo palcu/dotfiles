@@ -4,6 +4,10 @@ alias diff='delta'
 alias find='fd'
 alias ls='eza'
 
+# Use Neovim instead of Vim
+alias vim='nvim'
+alias vi='nvim'
+
 # Make core utils better
 export TIME_STYLE=long-iso # makes YYYY-MM-DD in the ls output
 export BLOCK_SIZE="'1" # makes 1,000,000 for big sizes

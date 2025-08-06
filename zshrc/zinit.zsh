@@ -26,6 +26,14 @@ zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
 
+# FZF - Fuzzy Finder (better Ctrl+R and more)
+zinit ice from"gh-r" as"program"
+zinit light junegunn/fzf
+
+# FZF shell integration for key bindings and completion
+zinit snippet "https://github.com/junegunn/fzf/raw/master/shell/key-bindings.zsh"
+zinit snippet "https://github.com/junegunn/fzf/raw/master/shell/completion.zsh"
+
 # Load completions
 autoload -Uz compinit && compinit
 
