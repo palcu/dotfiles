@@ -6,7 +6,6 @@
     editor = vim
 	excludesfile = ~/.gitignore
 	attributesfile = ~/.gitattributes
-    pager = delta
 [web]
     browser = google-chrome
 [merge]
