@@ -28,6 +28,7 @@
       - jq
       - sd
       - delta
+      - gh
 
 - name: Remove useless packages from the cache
   become: true

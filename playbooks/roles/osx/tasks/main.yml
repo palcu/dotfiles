@@ -30,6 +30,7 @@
       - fd
       - sd
       - delta
+      - gh
 
 - name: Cleanup Brew packages
   command: brew cleanup
