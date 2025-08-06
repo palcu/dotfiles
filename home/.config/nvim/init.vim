@@ -1,5 +1,8 @@
 " Minimal Neovim configuration
 
+" Hide splash screen
+set shortmess+=I
+
 " Essential settings
 set number          " Show line numbers
 set mouse=a         " Enable mouse

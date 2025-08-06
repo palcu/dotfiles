@@ -26,6 +26,9 @@ zinit light zsh-users/zsh-syntax-highlighting
 zinit light zsh-users/zsh-autosuggestions
 zinit light zsh-users/zsh-completions
 
+# Z - Jump to frequently used directories
+zinit light agkozak/zsh-z
+
 # FZF - Fuzzy Finder (better Ctrl+R and more)
 zinit ice from"gh-r" as"program"
 zinit light junegunn/fzf
