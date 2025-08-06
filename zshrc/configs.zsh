@@ -42,9 +42,6 @@ setopt HIST_EXPIRE_DUPS_FIRST # Expire duplicate entries first when trimming his
 setopt HIST_IGNORE_DUPS       # Don't record an entry that was just recorded again
 setopt HIST_IGNORE_ALL_DUPS   # Delete old recorded entry if new entry is a duplicate
 
-# Initialize completion system
-autoload -Uz compinit && compinit
-
 # Completion system customization
 zstyle ':completion:*' menu select                        # Interactive menu selection
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'      # Case insensitive matching

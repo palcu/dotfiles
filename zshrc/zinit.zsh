@@ -47,8 +47,9 @@ zinit light junegunn/fzf
 zinit snippet "https://github.com/junegunn/fzf/raw/master/shell/key-bindings.zsh"
 zinit snippet "https://github.com/junegunn/fzf/raw/master/shell/completion.zsh"
 
-# Load completions
-autoload -Uz compinit && compinit
+# Skip compinit here if already initialized elsewhere
+# This avoids duplicate initialization and speeds up startup
 
-# Zinit completions compilation
-zinit cdreplay -q
+# Zinit completions compilation  
+# Only run if compinit has been called
+(( ${+_comps} )) && zinit cdreplay -q
