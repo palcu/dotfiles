@@ -3,7 +3,9 @@
 Hacking like a geek:
 
 * the `playbooks` folder contains Ansible that provisions a machine with apps and configs
-* I use the Fish shell
+* **Shell preferences**: 
+  * **Mac**: Zsh (primary shell)
+  * **Ubuntu/Debian**: Fish (primary shell)
 * my main machine is a Mac, I have a work dev Debian machine, and my server is running Ubuntu
 * VIM provisioned with Vundle
 
