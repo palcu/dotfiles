@@ -29,6 +29,9 @@ zinit light zsh-users/zsh-completions
 # Z - Jump to frequently used directories
 zinit light agkozak/zsh-z
 
+# FZF-tab - Use fzf for tab completion (the nice scrolly thing)
+zinit light Aloxaf/fzf-tab
+
 # iTerm2 Shell Integration
 zinit snippet "https://iterm2.com/shell_integration/zsh"
 
