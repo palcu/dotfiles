@@ -1,7 +1,0 @@
-#!/bin/bash
-
-if [[ $(uname) == 'Linux' ]]; then
-  ansible-playbook -i inventory ubuntu.yml --ask-become-pass
-else
-  ansible-playbook -i inventory osx.yml
-fi

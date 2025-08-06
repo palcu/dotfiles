@@ -3,11 +3,13 @@
 Hacking like a geek:
 
 * the `playbooks` folder contains Ansible that provisions a machine with apps and configs
+* the `launch` script auto-detects OS and runs the appropriate playbook
 * **Shell preferences**: 
-  * **Mac**: Zsh (primary shell)
+  * **Mac**: Zsh with Zinit plugin manager (syntax highlighting, autosuggestions, z jumping)
   * **Ubuntu/Debian**: Fish (primary shell)
 * my main machine is a Mac, I have a work dev Debian machine, and my server is running Ubuntu
-* VIM provisioned with Vundle
+* Neovim as primary editor (aliased to vim)
+* Modern CLI tools: `bat` (better cat), `eza` (better ls), `fd` (better find), `rg` (better grep)
 
 ## Setup for a new Mac machine
 
@@ -35,7 +37,7 @@ sudo apt-add-repository ppa:ansible/ansible
 sudo apt-get update
 sudo apt-get install ansible software-properties-common git
 git clone https://github.com/palcu/dotfiles.git ~/dotfiles
-cd ~/dotfiles/playbooks
+cd ~/dotfiles
 ./launch
 ```
 

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Overview
 
-This is a personal dotfiles repository that uses Ansible to automate the provisioning of development machines (Mac, Ubuntu, and Debian). The repository manages shell configurations, VIM setup with Vundle, tmux configuration, and various development tools.
+This is a personal dotfiles repository that uses Ansible to automate the provisioning of development machines (Mac, Ubuntu, and Debian). The repository manages shell configurations, Neovim setup, tmux configuration, and various development tools.
 
 ### Shell Preferences
 - **Mac**: Zsh is the primary shell
@@ -15,7 +15,7 @@ This is a personal dotfiles repository that uses Ansible to automate the provisi
 ### Provisioning a Machine
 ```bash
 # Run from the repository root
-cd playbooks && ./launch
+./launch
 
 # Or manually for specific OS:
 # Mac:
@@ -29,7 +29,7 @@ ansible-playbook -i playbooks/inventory playbooks/ubuntu.yml --ask-become-pass
 - **Reload shell config**:
   - Fish (Ubuntu/Debian): `reload` (alias for `source ~/.config/fish/config.fish`)
   - Zsh (Mac): `source ~/.zshrc`
-- **Update VIM plugins**: `vim +PluginInstall! +qall`
+- **Neovim**: No plugins currently configured (minimal setup)
 - **Update tmux plugins**: `~/.tmux/plugins/tpm/bin/update_plugins all`
 
 ## Architecture
@@ -40,18 +40,20 @@ ansible-playbook -i playbooks/inventory playbooks/ubuntu.yml --ask-become-pass
   - `roles/osx/` - Mac-specific configurations
   - `roles/ubuntu/` - Ubuntu/Linux-specific configurations
 - `home/` - Dotfiles that get symlinked to the home directory
+  - `.config/nvim/` - Neovim configuration
   - `fish_config/` - Fish shell configuration (symlinked to `~/.config/fish`)
-  - Various dotfiles (.vimrc, .tmux.conf, .gitconfig, .zshrc, etc.)
+  - Various dotfiles (.tmux.conf, .gitconfig, .zshrc, etc.)
 - `zshrc/` - Modular Zsh configuration files (aliases, configs, key-bindings, prompt)
 
 ### Key Design Decisions
 1. **Symlink Strategy**: All dotfiles remain in the repository and are symlinked to their expected locations using Ansible's `file` module with `state=link` and `force=yes`
 2. **Shell Support**: 
-   - **Mac**: Zsh as primary shell with extensive history configuration and Prezto framework
+   - **Mac**: Zsh as primary shell with Zinit plugin manager (includes syntax highlighting, autosuggestions, z jumping, and fzf)
    - **Ubuntu/Debian**: Fish as primary shell
    - Both shells configured with modern CLI replacements (bat→cat, eza→ls, rg→grep, fd→find, delta→diff, sd→sed)
 3. **Plugin Management**: 
-   - VIM uses Vundle for plugin management
+   - Neovim uses minimal config with no plugins (by design)
+   - Zsh uses Zinit for plugin management
    - tmux uses TPM (Tmux Plugin Manager)
 4. **Local Overrides**: 
    - Fish: Machine-specific settings via `~/.config/fish/config_local.fish`

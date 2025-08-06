@@ -5,7 +5,6 @@
         state=link
         force=yes
   with_items:
-    - .vimrc
     - .zshrc
     - .zshenv
     - .gitignore
@@ -23,8 +22,6 @@
 - name: Clone tmux plugins
   git: repo=https://github.com/tmux-plugins/tpm dest=~/.tmux/plugins/tpm
 
-- name: Clone Vundle
-  git: repo=https://github.com/gmarik/Vundle.vim.git dest=~/.vim/bundle/Vundle.vim
 
 - name: Install/update tmux plugins
   command: ~/.tmux/plugins/tpm/bin/update_plugins all
