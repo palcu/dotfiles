@@ -7,9 +7,6 @@
   with_items:
     - .vimrc
     - .zshrc
-    - .zpreztorc
-    - .zlogin
-    - .zlogout
     - .zshenv
     - .gitignore
     - .gitconfig
