@@ -1,7 +1,7 @@
 [user]
 	name = Alex Palcuie
 	email = alex.palcuie@gmail.com
-    signingkey = 863809E2
+	signingKey = key::ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBA3aYoDA0xhWQAYZZFQL8JHoIQKT+558Gl8ySChIjlBy0HeT5HjegclrUH4FBp0WRM+B/URhg8T5zzzjgAkW0m0= ecdsa-sha2-nistp256
 [core]
     editor = vim
 	excludesfile = ~/.gitignore
@@ -57,3 +57,11 @@
 	required = true
 [include]
     path = ~/.gitconfiglocal
+[gpg]
+	format = ssh
+[commit]
+	gpgsign = true
+[gpg "ssh"]
+	defaultKeyCommand = ssh-add -L
+[fetch]
+	prune = true
