@@ -19,3 +19,6 @@ vim.g.mapleader = ","
 
 -- Clipboard integration with macOS
 vim.opt.clipboard = "unnamedplus"
+
+-- Keep search results centered with context
+vim.opt.scrolloff = 8
