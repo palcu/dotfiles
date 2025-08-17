@@ -27,6 +27,9 @@ ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=value'
 
 # Use completion-based suggestions instead of history
 ZSH_AUTOSUGGEST_STRATEGY=(completion)
+# Only show suggestions when buffer has at least 2 characters
+ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=50
+ZSH_AUTOSUGGEST_COMPLETION_IGNORE="?(#c0,1)"  # Ignore patterns with 0-1 characters
 
 # History configuration
 export HISTFILE="$HOME/.zsh_history"
