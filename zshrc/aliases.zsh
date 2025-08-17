@@ -1,7 +1,6 @@
 # Replace core utils with modern alternatives (matching Fish config)
 alias cat='bat'
 alias diff='delta'
-alias find='fd'
 alias ls='eza'
 
 # Use Neovim instead of Vim
