@@ -1,7 +1,4 @@
 export EDITOR="nvim"
-export VISUAL="$EDITOR"
-export PAGER="bat"
-export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US.UTF-8"
 export PATH=$PATH:$HOME/dotfiles/scripts

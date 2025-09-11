@@ -18,7 +18,8 @@ vim.opt.incsearch = true       -- Search as you type
 vim.g.mapleader = ","
 
 -- Clipboard integration with macOS
-vim.opt.clipboard = "unnamedplus"
+vim.keymap.set({"n", "v"}, "y", '"+y')
+vim.keymap.set("n", "yy", '"+yy')
 
 -- Keep search results centered with context
 vim.opt.scrolloff = 8
