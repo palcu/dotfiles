@@ -8,7 +8,7 @@ This is a personal dotfiles repository that uses Ansible to automate the provisi
 
 ### Shell Preferences
 - **Mac**: Zsh is the primary shell
-- **Ubuntu/Debian**: Fish is the primary shell
+- **Ubuntu/Debian**: Zsh is the primary shell
 
 ## Key Commands
 
@@ -27,8 +27,7 @@ ansible-playbook -i playbooks/inventory playbooks/ubuntu.yml --ask-become-pass
 
 ### Common Tasks
 - **Reload shell config**:
-  - Fish (Ubuntu/Debian): `reload` (alias for `source ~/.config/fish/config.fish`)
-  - Zsh (Mac): `source ~/.zshrc`
+  - Zsh (Mac/Ubuntu/Debian): `source ~/.zshrc`
 - **Neovim**: No plugins currently configured (minimal setup)
 - **Update tmux plugins**: `~/.tmux/plugins/tpm/bin/update_plugins all`
 
@@ -47,20 +46,19 @@ ansible-playbook -i playbooks/inventory playbooks/ubuntu.yml --ask-become-pass
 
 ### Key Design Decisions
 1. **Symlink Strategy**: All dotfiles remain in the repository and are symlinked to their expected locations using Ansible's `file` module with `state=link` and `force=yes`
-2. **Shell Support**: 
-   - **Mac**: Zsh as primary shell with Zinit plugin manager (includes syntax highlighting, autosuggestions, z jumping, and fzf)
-   - **Ubuntu/Debian**: Fish as primary shell
-   - Both shells configured with modern CLI replacements (bat→cat, eza→ls, rg→grep, fd→find, delta→diff, sd→sed)
+2. **Shell Support**:
+   - **Mac/Ubuntu/Debian**: Zsh as primary shell with Zinit plugin manager (includes syntax highlighting, autosuggestions, z jumping, and fzf)
+   - Zsh configured with modern CLI replacements (bat→cat, eza→ls, rg→grep, fd→find, delta→diff, sd→sed)
 3. **Plugin Management**: 
    - Neovim uses minimal config with no plugins (by design)
    - Zsh uses Zinit for plugin management
    - tmux uses TPM (Tmux Plugin Manager)
-4. **Local Overrides**: 
-   - Fish: Machine-specific settings via `~/.config/fish/config_local.fish`
+4. **Local Overrides**:
    - Zsh: Machine-specific settings via `~/.zshrclocal`
+   - Fish (legacy): Machine-specific settings via `~/.config/fish/config_local.fish`
 
 ### Important Implementation Details
 - The `launch` script auto-detects the OS and runs the appropriate playbook
-- Both Fish and Zsh configs replace core utilities with modern alternatives (bat, eza, ripgrep, fd, delta, sd)
+- Zsh config replaces core utilities with modern alternatives (bat, eza, ripgrep, fd, delta, sd)
 - VIM configuration includes NERDTree (F2 key), CtrlP for file search, and vim-go for Go development
 - All configurations are designed to be idempotent - safe to run multiple times
