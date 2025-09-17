@@ -12,7 +12,6 @@
       - bash
       - bat
       - curl
-      - eza
       - fd-find
       - fish
       - git
@@ -27,7 +26,6 @@
       - wget
       - zsh
       - jq
-      - sd
       - delta
       - gh
 
@@ -44,5 +42,4 @@
 
 - name: Run "apt clean"
   become: true
-  apt:
-    clean: yes
+  ansible.builtin.command: apt-get clean
