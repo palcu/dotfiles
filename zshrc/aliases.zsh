@@ -24,6 +24,8 @@ alias vimrc="vim ~/.vimrc"
 # Shorthands
 alias e="exit"
 alias h='history -fd -500'
+alias c='claude'
+alias cr='claude --resume'
 
 # Analyze history data
 analyze_history(){
