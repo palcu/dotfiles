@@ -13,43 +13,13 @@ source "$HOME/.local/share/zinit/zinit.git/zinit.zsh"
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 
-# Load a few important annexes, without Turbo
-# (this is currently required for annexes)
-zinit light-mode for \
-    zdharma-continuum/zinit-annex-as-monitor \
-    zdharma-continuum/zinit-annex-bin-gem-node \
-    zdharma-continuum/zinit-annex-patch-dl \
-    zdharma-continuum/zinit-annex-rust
-
 # Zinit plugins
+zinit light zsh-users/zsh-autosuggestions
+zinit light zsh-users/zsh-completions
+
 # Load syntax highlighting with turbo mode (after prompt)
 zinit wait lucid for \
     light-mode zsh-users/zsh-syntax-highlighting
 
-# Load these immediately (needed for interactive use)
-zinit light zsh-users/zsh-autosuggestions
-zinit light zsh-users/zsh-completions
-
-# Z - Jump to frequently used directories
-zinit light agkozak/zsh-z
-
-# FZF-tab - Use fzf for tab completion (the nice scrolly thing)
-zinit light Aloxaf/fzf-tab
-
-# iTerm2 Shell Integration
-zinit snippet "https://iterm2.com/shell_integration/zsh"
-
-# FZF - Fuzzy Finder (better Ctrl+R and more)
-zinit ice from"gh-r" as"program"
-zinit light junegunn/fzf
-
-# FZF shell integration for key bindings and completion
-zinit snippet "https://github.com/junegunn/fzf/raw/master/shell/key-bindings.zsh"
-zinit snippet "https://github.com/junegunn/fzf/raw/master/shell/completion.zsh"
-
-# Skip compinit here if already initialized elsewhere
-# This avoids duplicate initialization and speeds up startup
-
-# Zinit completions compilation  
-# Only run if compinit has been called
+# Zinit completions compilation
 (( ${+_comps} )) && zinit cdreplay -q
