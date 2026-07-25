@@ -1,5 +1,0 @@
----
-- hosts: local
-  roles:
-    - role: ubuntu
-    - role: common

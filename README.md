@@ -1,53 +1,25 @@
-# Dotfiles by Alex Palcuie
+# dotfiles
 
-Hacking like a geek:
+Config for my personal Ubuntu server (`palcu.ro`). One flat set of files,
+one install script.
 
-* the `playbooks` folder contains Ansible that provisions a machine with apps and configs
-* the `launch` script auto-detects OS and runs the appropriate playbook
-* **Shell preferences**: 
-  * **Mac**: Zsh with Zinit plugin manager (syntax highlighting, autosuggestions, z jumping)
-  * **Ubuntu/Debian**: Fish (primary shell)
-* my main machine is a Mac, I have a work dev Debian machine, and my server is running Ubuntu
-* Neovim as primary editor (aliased to vim)
-* Modern CLI tools: `bat` (better cat), `eza` (better ls), `fd` (better find), `rg` (better grep)
+## Layout
 
-## Setup for a new Mac machine
+- `home/` — dotfiles symlinked into `$HOME` (`.zshrc`, `.gitconfig`, `.tmux.conf`, `.gitignore`, `.config/nvim/`)
+- `install.sh` — installs apt packages, shims Debian-renamed binaries, creates the symlinks, sets up tmux plugins
 
-1. Install XCode tools using `xcode-select --install`
-2. Install [Brew](http://brew.sh/)
-3. Install Ansible using Brew `brew install ansible`
-4. As a convention `~/dotfiles` should be this repo
-
-  ```bash
-  git clone https://github.com/palcu/dotfiles.git ~/dotfiles
-  ```
-5. Install [XQuartz](https://xquartz.macosforge.org/landing/)
-6. Run the Ansible playbook for Mac
-
-  ```bash
-  ./launch
-  ```
-
-## Setup for a new Linux machine
-
-We need a version of Ansible greater than 2.0.
+## Setup
 
 ```bash
-sudo apt-add-repository ppa:ansible/ansible
-sudo apt-get update
-sudo apt-get install ansible software-properties-common git
 git clone https://github.com/palcu/dotfiles.git ~/dotfiles
-cd ~/dotfiles
-./launch
+~/dotfiles/install.sh
+chsh -s "$(command -v zsh)"
 ```
 
-## Sources of inspiration
+Machine-specific tweaks go in `~/.zshrc.local` and `~/.gitconfiglocal`
+(both untracked). Re-running `install.sh` is safe.
 
-Thank you for all the people who've published their useful configs.
+## History
 
-* http://dotfiles.github.io
-* https://github.com/holman/dotfiles
-* https://github.com/mgax/dotfiles
-* https://github.com/razvand/snippets
-* https://github.com/pivotal/vim-config
-* https://github.com/pivotal/dotfiles
+Before 2026 this repo was an Ansible-driven provisioner for a Mac and this
+server, with fish and zsh configs — see the git history if you need any of it.

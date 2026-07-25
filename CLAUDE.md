@@ -1,64 +1,23 @@
 # CLAUDE.md
 
-This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+This is the dotfiles repo for a single personal Ubuntu server (slytherin,
+`palcu.ro`, ssh port 1337). It is a public repo: never add work-related
+paths, hostnames, tooling, secrets, or aliases here.
 
-## Repository Overview
+## Structure
 
-This is a personal dotfiles repository that uses Ansible to automate the provisioning of development machines (Mac, Ubuntu, and Debian). The repository manages shell configurations, Neovim setup, tmux configuration, and various development tools.
+- `home/` holds the actual dotfiles; `install.sh` symlinks each into `$HOME`.
+- `install.sh` is the whole provisioning story — apt packages, symlinks,
+  tmux plugins. Keep it idempotent and readable in one screen.
+- Machine-local overrides live in the untracked `~/.zshrc.local` and
+  `~/.gitconfiglocal` (included from `.gitconfig`).
 
-### Shell Preferences
-- **Mac**: Zsh is the primary shell
-- **Ubuntu/Debian**: Zsh is the primary shell
+## Conventions
 
-## Key Commands
-
-### Provisioning a Machine
-```bash
-# Run from the repository root
-./launch
-
-# Or manually for specific OS:
-# Mac:
-ansible-playbook -i playbooks/inventory playbooks/osx.yml
-
-# Linux:
-ansible-playbook -i playbooks/inventory playbooks/ubuntu.yml --ask-become-pass
-```
-
-### Common Tasks
-- **Reload shell config**:
-  - Zsh (Mac/Ubuntu/Debian): `source ~/.zshrc`
-- **Neovim**: No plugins currently configured (minimal setup)
-- **Update tmux plugins**: `~/.tmux/plugins/tpm/bin/update_plugins all`
-
-## Architecture
-
-### Directory Structure
-- `playbooks/` - Ansible playbooks and roles for provisioning
-  - `roles/common/` - Tasks for all platforms (dotfile symlinks, tmux setup)
-  - `roles/osx/` - Mac-specific configurations
-  - `roles/ubuntu/` - Ubuntu/Linux-specific configurations
-- `home/` - Dotfiles that get symlinked to the home directory
-  - `.config/nvim/` - Neovim configuration
-  - `fish_config/` - Fish shell configuration (symlinked to `~/.config/fish`)
-  - Various dotfiles (.tmux.conf, .gitconfig, .zshrc, etc.)
-- `zshrc/` - Modular Zsh configuration files (aliases, configs, key-bindings, prompt)
-
-### Key Design Decisions
-1. **Symlink Strategy**: All dotfiles remain in the repository and are symlinked to their expected locations using Ansible's `file` module with `state=link` and `force=yes`
-2. **Shell Support**:
-   - **Mac/Ubuntu/Debian**: Zsh as primary shell with Zinit plugin manager (includes syntax highlighting, autosuggestions, z jumping, and fzf)
-   - Zsh configured with modern CLI replacements (bat→cat, eza→ls, rg→grep, fd→find, delta→diff, sd→sed)
-3. **Plugin Management**: 
-   - Neovim uses minimal config with no plugins (by design)
-   - Zsh uses Zinit for plugin management
-   - tmux uses TPM (Tmux Plugin Manager)
-4. **Local Overrides**:
-   - Zsh: Machine-specific settings via `~/.zshrc.local`
-   - Git: Machine-specific settings via `~/.gitconfiglocal` (included from `.gitconfig`)
-   - Fish (legacy): Machine-specific settings via `~/.config/fish/config_local.fish`
-
-### Important Implementation Details
-- The `launch` script auto-detects the OS and runs the appropriate playbook
-- Zsh config replaces core utilities with modern alternatives (bat, eza, ripgrep, fd, delta, sd)
-- All configurations are designed to be idempotent - safe to run multiple times
+- zsh only. Aliases that shadow core utils (`cat`, `ls`, `diff`) must be
+  guarded with `(( $+commands[...] ))` so a missing binary can't break the
+  command in non-interactive shells.
+- Debian renames `bat`->`batcat` and `fd`->`fdfind`; `install.sh` shims them
+  back to their upstream names in `~/.local/bin`.
+- To apply changes on the server: `git pull` then re-run `./install.sh` if
+  files or packages were added.
