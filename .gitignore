@@ -3,4 +3,3 @@ home/fish_config/config_local.fish
 
 # Claude Code workspace files
 .claude/
-home/.zshenv

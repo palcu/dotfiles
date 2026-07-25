@@ -14,7 +14,7 @@ export BLOCK_SIZE="'1" # makes 1,000,000 for big sizes
 # Common commands
 alias reload='source ~/.zshrc'
 alias netest='ping 8.8.8.8'
-alias simple='python2 -m SimpleHTTPServer'
+alias simple='python3 -m http.server'
 alias hgrep='history -fd 0 | grep'
 
 # Important files

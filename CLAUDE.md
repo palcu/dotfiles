@@ -35,7 +35,7 @@ ansible-playbook -i playbooks/inventory playbooks/ubuntu.yml --ask-become-pass
 
 ### Directory Structure
 - `playbooks/` - Ansible playbooks and roles for provisioning
-  - `roles/common/` - Tasks for all platforms (dotfile symlinks, VIM/tmux setup)
+  - `roles/common/` - Tasks for all platforms (dotfile symlinks, tmux setup)
   - `roles/osx/` - Mac-specific configurations
   - `roles/ubuntu/` - Ubuntu/Linux-specific configurations
 - `home/` - Dotfiles that get symlinked to the home directory
@@ -54,11 +54,11 @@ ansible-playbook -i playbooks/inventory playbooks/ubuntu.yml --ask-become-pass
    - Zsh uses Zinit for plugin management
    - tmux uses TPM (Tmux Plugin Manager)
 4. **Local Overrides**:
-   - Zsh: Machine-specific settings via `~/.zshrclocal`
+   - Zsh: Machine-specific settings via `~/.zshrc.local`
+   - Git: Machine-specific settings via `~/.gitconfiglocal` (included from `.gitconfig`)
    - Fish (legacy): Machine-specific settings via `~/.config/fish/config_local.fish`
 
 ### Important Implementation Details
 - The `launch` script auto-detects the OS and runs the appropriate playbook
 - Zsh config replaces core utilities with modern alternatives (bat, eza, ripgrep, fd, delta, sd)
-- VIM configuration includes NERDTree (F2 key), CtrlP for file search, and vim-go for Go development
 - All configurations are designed to be idempotent - safe to run multiple times
