@@ -70,7 +70,7 @@ PROMPT=$'\n%F{magenta}%n%f at %F{yellow}%m%f in %F{green}%~%f\n$ '
 
 # --- Plugins (apt: zsh-autosuggestions, zsh-syntax-highlighting) ---
 _p=/usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-[[ -f $_p ]] && { source $_p; ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=value'; }
+[[ -f $_p ]] && { source $_p; ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=8'; }
 _p=/usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh   # must be last
 [[ -f $_p ]] && source $_p
 unset _p
